@@ -9,4 +9,6 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
 
-adding some `content here`
+adding some `code formatted text`
+
+[Check-out the blogs!](./blog.html).
