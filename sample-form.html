@@ -23,12 +23,12 @@ title: Weekly Review Form
 
     <script type='text/javascript'>
       window.onload = function() {
-        Formio.createForm(document.getElementById('formio'), 'https://xzhifytxfimaapz.form.io/athleteweeklyreflection').then((form) => {
+        Formio.createForm(document.getElementById('formio'), 'https://xzhifytxfimaapz.form.io/athleteweeklyreflection').then(function(form) {
           // Default the submission.
           form.submission = {
             data: {
-              firstName: 'Tyler',
-              lastName: 'Smith'
+              firstName: getQueryVariable('firstName');,
+              lastName: getQueryVariable('lastName');
             }
         };
       });
@@ -37,6 +37,6 @@ title: Weekly Review Form
   </head>
   <body>
     <div id='formio'></div>
-    <p>getQueryVariable('x') t00 </p>
+    <p>getQueryVariable('x') t03 </p>
   </body>
 </html>
