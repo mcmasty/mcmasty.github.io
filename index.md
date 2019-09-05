@@ -13,4 +13,4 @@ adding some `code formatted text`
 
 [Check-out the blogs!](./blog.html).
 
-[Form Testing](./sample-form.html).
+[Form Testing](./sample-form.html?firstName=Dummy&lastName=Bar).
