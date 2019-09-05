@@ -8,11 +8,6 @@ title: Weekly Review Form
     <link rel='stylesheet' href='https://unpkg.com/formiojs@latest/dist/formio.full.min.css'>
     <script src='https://unpkg.com/formiojs@latest/dist/formio.full.min.js'></script>
     <script type='text/javascript'>
-      window.onload = function() {
-        Formio.createForm(document.getElementById('formio'), 'https://xzhifytxfimaapz.form.io/athleteweeklyreflection');
-      };
-    </script>
-    <script type='text/javascript'>
       function getQueryVariable(variable) {
         var query = window.location.search.substring(1);
         var vars = query.split('&');
@@ -24,12 +19,24 @@ title: Weekly Review Form
         }
         console.log('Query variable %s not found', variable);
       }
-    </script type="text/javascript">
+    </script>
 
-</script>
+    <script type='text/javascript'>
+      window.onload = function() {
+        Formio.createForm(document.getElementById('formio'), 'https://xzhifytxfimaapz.form.io/athleteweeklyreflection').then((form) => {
+          // Default the submission.
+          form.submission = {
+            data: {
+              firstName: getQueryVariable('firstName'),
+              lastName: getQueryVariable('lastName')
+            }
+        });
+      };
+    </script>
+
   </head>
   <body>
     <div id='formio'></div>
-    <p>getQueryVariable('x')</p>
+    <p>getQueryVariable('x') t00 </p>
   </body>
 </html>
