@@ -32,6 +32,10 @@ title: Weekly Review Form
               dateTime: Date(getQueryVariable('dateTime'))
             }
           };
+
+          form.on('submitDone', function(submission) {
+                window.location = '/thank-you.html';
+              });
         });
       };
     </script>
@@ -39,6 +43,6 @@ title: Weekly Review Form
   </head>
   <body>
     <div id='formio'></div>
-    <p>getQueryVariable('x') t09 </p>
+    <p>getQueryVariable('x') t10 </p>
   </body>
 </html>
