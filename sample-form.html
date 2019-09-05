@@ -29,7 +29,7 @@ title: Weekly Review Form
             data: {
               firstName: getQueryVariable('firstName'),
               lastName: getQueryVariable('lastName'),
-              weekStarting: getQueryVariable('weekStarting')
+              weekStarting: Date(getQueryVariable('weekStarting'))
             }
           };
         });
@@ -39,6 +39,6 @@ title: Weekly Review Form
   </head>
   <body>
     <div id='formio'></div>
-    <p>getQueryVariable('x') t06 </p>
+    <p>getQueryVariable('x') t07 </p>
   </body>
 </html>
