@@ -30,7 +30,7 @@ title: Weekly Review Form
               firstName: getQueryVariable('firstName'),
               lastName: getQueryVariable('lastName'),
               submitToken:  getQueryVariable('submitToken'),
-              dateTime: '09-Sep-2019'
+              weekStarting: Date.parse(getQueryVariable('weekStarting'))
             }
           };
 
@@ -44,6 +44,6 @@ title: Weekly Review Form
   </head>
   <body>
     <div id='formio'></div>
-    <p>getQueryVariable('x') t12 </p>
+    <p>getQueryVariable('x') t14 </p>
   </body>
 </html>
