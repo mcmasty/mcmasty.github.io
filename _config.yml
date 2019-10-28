@@ -15,3 +15,5 @@ defaults:
     image: true
 theme: jekyll-theme-architect
 description: An extension of arbatrarium
+repository: mcmasty/mcmasty.github.io 
+
