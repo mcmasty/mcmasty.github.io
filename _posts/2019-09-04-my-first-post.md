@@ -1,7 +1,8 @@
 ---
-layout:  post
-title: "My First post"
-author: Tyler  
+title: My First post
+date: 2019-09-04 00:00:00 Z
+layout: post
+author: Tyler
 ---
 
 # Welcome

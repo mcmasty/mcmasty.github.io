@@ -1,9 +1,17 @@
-theme: jekyll-theme-architect
+---
 title: Welcome to Tyler's Project Space
-description: An extension of arbatrarium
-
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 defaults:
-  - scope:
-      path: "assets/img"
-    values:
-      image: true
+- scope:
+    path: assets/img
+  values:
+    image: true
+theme: jekyll-theme-architect
+description: An extension of arbatrarium
