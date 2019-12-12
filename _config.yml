@@ -13,6 +13,7 @@ defaults:
     path: assets/img
   values:
     image: true
-theme: jekyll-theme-architect
+# theme: jekyll-theme-architect
+remote_theme: daviddarnes/alembic  
 description: An extension of arbatrarium
 repository: mcmasty/mcmasty.github.io
