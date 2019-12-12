@@ -13,6 +13,6 @@ defaults:
     path: assets/img
   values:
     image: true
-remote_theme: daviddarnes/alembic
+remote_theme: mmistakes/minimal-mistakes@4.17.2
 description: An extension of arbatrarium
 repository: mcmasty/mcmasty.github.io
