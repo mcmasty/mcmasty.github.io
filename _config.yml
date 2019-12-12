@@ -18,3 +18,5 @@ plugins:
 remote_theme: mmistakes/minimal-mistakes@4.17.2
 description: An extension of arbatrarium
 repository: mcmasty/mcmasty.github.io
+
+theme: jekyll-theme-dinky
