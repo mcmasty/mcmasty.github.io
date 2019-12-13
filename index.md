@@ -14,11 +14,11 @@ excerpt: 'Following my curiosity, learning along the way, hopefully creating use
 intro:
   - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
 feature_row:
-  - image_path: https://cdn.filestackcontent.com/lqyKNYxJQbiPREXv5uKl {: height="220px"}
+  - image_path: https://cdn.filestackcontent.com/lqyKNYxJQbiPREXv5uKl
     alt: Outcast Systems Logo
     title: Outcast Systems Coach App
     excerpt: "A small and scrappy project to partner with endurance sports coaches to help them with their craft"
-  - image_path: /assets/images/hitesh-choudhary-D9Zow2REm8U-unsplash.jpg {: height="220px"}
+  - image_path: /assets/images/hitesh-choudhary-D9Zow2REm8U-unsplash.jpg
     image_caption: "Photo by Hitesh Choudhary on [Unsplash](https://unsplash.com/)"
     alt: Data Science and Python Projects
     title: Data Science and Python Projects
@@ -26,8 +26,8 @@ feature_row:
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/kelly-sikkema-mdADGzyXCVE-unsplash.jpg {: height="220px"}
-    title: "Placeholder 3"
+  - image_path: /assets/images/kelly-sikkema-mdADGzyXCVE-unsplash.jpg  {:height="220px"}
+    title: "Placeholder 3a"
     image_caption: "Photo by Kelly Sikkema on [Unsplash](https://unsplash.com/)"    
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
 
