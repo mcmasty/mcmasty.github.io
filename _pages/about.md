@@ -12,3 +12,6 @@ This is a long story.  I'll fill in the details with my posts in the future. I'l
 You cannot choose the cards you are dealt, but you can choose how to play those cards. I hope to play my cards in a way that results in flourishing for as many people as possible; or at least in a way that doesn't make things harder or more painful than they need to be.  
 
 This website is a collection of the project and activities I am involved in. They are opportunities to practice a more _phronetic_ decision making process. Sometimes there are no options but to take an unwise action, in life, in work, even in driving to the grocery store. In the aftermath, usually the question is "So now what?" To me, that is the search for phronesis... so now what?
+
+
+mindful about your decisions ...
