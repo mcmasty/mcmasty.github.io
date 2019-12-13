@@ -7,8 +7,3 @@ main:
     url: /tags/
   - title: "About"
     url: /about/
- - name: Home
-    link: /
-- name: Blog
-    link: /blog.html
- 
