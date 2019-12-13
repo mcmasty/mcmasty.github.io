@@ -20,14 +20,15 @@ feature_row:
     excerpt: "A small and scrappy project to partner with endurance sports coaches to help them with their craft"
   - image_path: /assets/images/hitesh-choudhary-D9Zow2REm8U-unsplash.jpg
     image_caption: "Photo by Hitesh Choudhary on [Unsplash](https://unsplash.com/)"
-    alt: Data Science Capstone Project
-    title: Data Science Capstone project
-    excerpt: "Analyze the food options for the Away Games"
+    alt: Data Science and Python Projects
+    title: Data Science and Python Projects
+    excerpt: "Data Science and Python Projects"
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
+  - image_path: /assets/images/kelly-sikkema-mdADGzyXCVE-unsplash.jpg
     title: "Placeholder 3"
+    image_caption: "Photo by Kelly Sikkema on [Unsplash](https://unsplash.com/)"    
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
 
 ---
