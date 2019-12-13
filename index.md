@@ -15,14 +15,14 @@ intro:
   - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
 feature_row:
   - image_path: https://cdn.filestackcontent.com/lqyKNYxJQbiPREXv5uKl
-    alt: "placeholder image 1"
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    alt: Outcast Systems Logo
+    title: Outcast Systems Coach App
+    excerpt: "A small and scrappy project to partner with endurance sports coaches to help them with their craft"
   - image_path: /assets/images/hitesh-choudhary-D9Zow2REm8U-unsplash.jpg
     image_caption: "Photo by Hitesh Choudhary on [Unsplash](https://unsplash.com/)"
-    alt: "placeholder image 2"
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    alt: Data Science Capstone Project
+    title: Data Science Capstone project
+    excerpt: "Analyze the food options for the Away Games"
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
