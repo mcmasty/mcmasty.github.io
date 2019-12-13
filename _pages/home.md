@@ -1,4 +1,5 @@
 ---
+title: Tyler's Projects 
 layout: splash
 permalink: /
   overlay_color: "#5e616c"
