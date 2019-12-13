@@ -11,7 +11,7 @@ markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 permalink: "/:categories/:title/"
 paginate: 5
-paginate_path: "/page:num/"
+paginate_path: /blog/page:num/
 breadcrumbs: true  # disabled by default
 
 include:
@@ -42,7 +42,7 @@ author:
     icon: fab fa-fw fa-instagram
     url: https://instagram.com/
 
-    
+
 footer:
   links:
   - label: Twitter
