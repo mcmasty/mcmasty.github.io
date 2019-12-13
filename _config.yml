@@ -9,7 +9,7 @@ url                      : https://projects.outcastsystems.com
 
 twitter_username: username
 github_username: mcmasty
-minimal_mistakes_skin: dirt
+minimal_mistakes_skin: default
 search: true
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
