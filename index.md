@@ -15,7 +15,7 @@ excerpt: 'Following my curiosity, learning along the way, hopefully creating use
 intro:
   - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
 feature_row:
-  - image_path: https://cdn.filestackcontent.com/resize=height:220/lqyKNYxJQbiPREXv5uKl
+  - image_path: https://cdn.filestackcontent.com/resize=height:250,fit:crop/lqyKNYxJQbiPREXv5uKl
     alt: Outcast Systems Logo
     title: Outcast Systems Coach App
     excerpt: "A small and scrappy project to partner with endurance sports coaches to help them with their craft"
