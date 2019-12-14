@@ -6,15 +6,16 @@ author_profile: false
 permalink: /
 date: 2016-03-23T11:48:41-04:00
 header:
-  overlay_color: "#5e616c"
   overlay_image: /assets/images/kelly-sikkema-cXkrqY2wFyc-unsplash.jpg
+  overlay_color: "#5e616c"
+  overlay_filter: 0.5  
   caption: Photo by Kelly Sikkema on Unsplash
 excerpt: 'Following my curiosity, learning along the way, hopefully creating useful stuff.'
 
 intro:
   - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
 feature_row:
-  - image_path: https://cdn.filestackcontent.com/lqyKNYxJQbiPREXv5uKl{: style="height: 220px"}
+  - image_path: https://cdn.filestackcontent.com/resize=height:220/lqyKNYxJQbiPREXv5uKl
     alt: Outcast Systems Logo
     title: Outcast Systems Coach App
     excerpt: "A small and scrappy project to partner with endurance sports coaches to help them with their craft"
@@ -26,8 +27,8 @@ feature_row:
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/kelly-sikkema-mdADGzyXCVE-unsplash.jpg  {:height="220px"}
-    title: "Placeholder 3b"
+  - image_path: /assets/images/kelly-sikkema-mdADGzyXCVE-unsplash.jpg  
+    title: "Placeholder 3c"
     image_caption: "Photo by Kelly Sikkema on [Unsplash](https://unsplash.com/)"    
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
 
