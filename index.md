@@ -28,7 +28,7 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/kelly-sikkema-mdADGzyXCVE-unsplash.jpg  
-    title: "Placeholder 3c"
+    title: "Placeholder 3"
     image_caption: "Photo by Kelly Sikkema on [Unsplash](https://unsplash.com/)"    
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
 
