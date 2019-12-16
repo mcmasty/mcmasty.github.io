@@ -2,7 +2,6 @@
 title: Tyler
 layout: splash
 permalink: /tyler/
-
 ---
 
 # Hello 4
