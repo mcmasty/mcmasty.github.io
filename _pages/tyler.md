@@ -14,4 +14,4 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 Take 2
 
-{% include contact-us %}  
+{% include contact-us.html %}  
