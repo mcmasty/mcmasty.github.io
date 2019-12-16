@@ -5,7 +5,6 @@ published: true
 layout: splash
 categories:
   - SIBT
-author: Tyler McMaster  
 preheader: A basic definition of what we mean by Coach-Athlete Alliance
 excerpt_separator: "<!--more-->"  
 ---  
