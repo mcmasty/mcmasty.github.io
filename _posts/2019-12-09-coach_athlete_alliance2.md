@@ -2,9 +2,9 @@
 title: Coach-Athlete Alliance
 date: 2019-12-09 00:00:00 Z
 published: true
-layout: splash
 categories:
   - SIBT
+author: Tyler McMaster  
 preheader: A basic definition of what we mean by Coach-Athlete Alliance
 excerpt_separator: "<!--more-->"  
 ---  
