@@ -4,9 +4,9 @@ layout: splash
 permalink: /contact-us/
 ---
 
-<!-- <link rel='stylesheet' href='https://cdn.filestackcontent.com/L9RSMigjTv2yI2cMaEgm'> -->
+<link rel='stylesheet' href='https://cdn.filestackcontent.com/L9RSMigjTv2yI2cMaEgm'>  
 
-
+<h2>Get In Touch</h2>
 <div class="contact-form">
 
 <form method="post" action="https://formspree.io/mledzooa" id="contact-form">
