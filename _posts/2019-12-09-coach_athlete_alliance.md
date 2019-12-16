@@ -4,7 +4,7 @@ date: 2019-12-09 00:00:00 Z
 published: true
 categories:
   - SIBT
-author: Tyler McMaster  
+author: Billy Rick  
 preheader: A basic definition of what we mean by Coach-Athlete Alliance
 excerpt_separator: "<!--more-->"  
 sidebar:
