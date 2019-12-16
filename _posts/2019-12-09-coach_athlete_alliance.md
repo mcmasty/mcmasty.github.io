@@ -9,7 +9,7 @@ author : Billy Rick
 preheader: A basic definition of what we mean by Coach-Athlete Alliance
 excerpt_separator: "<!--more-->"  
 sidebar:
-  - title: So..._I've Been Thinking_...
+  - title: So...I've Been Thinking...
     image: https://cdn.filestackcontent.com/resize=w:350,h:250/vTftUkeHRQG6tXwm4yti
     image_alt: "Thinking cap illustration"
     text: "Occasional Outcast System Publication"
