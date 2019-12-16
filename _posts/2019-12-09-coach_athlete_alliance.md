@@ -2,15 +2,18 @@
 title: Coach-Athlete Alliance
 date: 2019-12-09 00:00:00 Z
 published: true
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: https://cdn.filestackcontent.com/resize=h:300/vTftUkeHRQG6tXwm4yti
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+excerpt: A basic definition of what we mean by Coach-Athlete Alliance
 categories:
   - SIBT
 author_profile: false
 author : Billy Rick  
 preheader: A basic definition of what we mean by Coach-Athlete Alliance
 excerpt_separator: "<!--more-->"  
-header:
-  overlay_image: https://cdn.filestackcontent.com/resize=h:300/vTftUkeHRQG6tXwm4yti
-  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 sidebar:
   - title: So...I've Been Thinking...
     image: https://cdn.filestackcontent.com/resize=w:350,h:250/vTftUkeHRQG6tXwm4yti
