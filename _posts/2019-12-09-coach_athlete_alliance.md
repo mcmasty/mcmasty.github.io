@@ -8,6 +8,9 @@ author_profile: false
 author : Billy Rick  
 preheader: A basic definition of what we mean by Coach-Athlete Alliance
 excerpt_separator: "<!--more-->"  
+header:
+  overlay_image: https://cdn.filestackcontent.com/vTftUkeHRQG6tXwm4yti
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 sidebar:
   - title: So...I've Been Thinking...
     image: https://cdn.filestackcontent.com/resize=w:350,h:250/vTftUkeHRQG6tXwm4yti
