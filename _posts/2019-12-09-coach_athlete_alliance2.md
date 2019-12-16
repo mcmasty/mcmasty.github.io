@@ -2,7 +2,7 @@
 title: Coach-Athlete Alliance
 date: 2019-12-09 00:00:00 Z
 published: true
-layout: sibt
+layout: splash
 categories:
   - SIBT
 author: Tyler McMaster  
