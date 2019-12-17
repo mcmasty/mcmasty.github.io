@@ -5,7 +5,7 @@ published: true
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: https://cdn.filestackcontent.com/resize=w:1200,h:300,fit:crop/xvYkdavfQtSjprMtCbvG
+  overlay_image: https://cdn.filestackcontent.com/resize=w:1200,h:300,fit:crop/zzrbihvYS5eQSMl9gsNf
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 excerpt: A basic definition of what we mean by Coach-Athlete Alliance
 categories:
