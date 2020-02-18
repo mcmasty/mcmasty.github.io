@@ -6,7 +6,9 @@ author_profile: false
 permalink: /
 date: 2016-03-23T11:48:41-04:00
 header:
-  overlay_image: /assets/images/kelly-sikkema-cXkrqY2wFyc-unsplash.jpg
+  overlay_image: /assets/images/kelly-sikkema-JRVxgAkzIsM-unsplash.jpg
+  # kelly-sikkema-cXkrqY2wFyc-unsplash
+  # kelly-sikkema-JRVxgAkzIsM-unsplash  
   overlay_color: "#5e616c"
   overlay_filter: 0.5  
   caption: Photo by Kelly Sikkema on Unsplash
