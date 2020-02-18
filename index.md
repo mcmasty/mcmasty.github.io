@@ -1,5 +1,5 @@
 ---
-title: 
+title: Main Page Title
 layout: splash
 author_profile: false
 
