@@ -1,5 +1,5 @@
 ---
-title: In Search of Phronesis
+title: 
 layout: splash
 author_profile: false
 
