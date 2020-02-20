@@ -1,12 +1,10 @@
 ---
 title: ""
-layout: header image
+layout: single
+classes: wide
 permalink: /thank-you/
 header:
-  overlay_image: /assets/images/morvanic-lee-GiUJ02Yj_io-unsplash.jpg
-  overlay_color: "#5e616c"
-  overlay_filter: 0.5  
-  caption: Photo by Morvanic Lee on Unsplash
+  image: /assets/images/morvanic-lee-GiUJ02Yj_io-unsplash.jpg
 excerpt:
 ---
 
