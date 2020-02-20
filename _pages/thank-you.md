@@ -1,6 +1,6 @@
 ---
-title: 
-layout: splash
+title: ""
+layout: single
 permalink: /thank-you/
 header:
   overlay_image: /assets/images/morvanic-lee-GiUJ02Yj_io-unsplash.jpg
