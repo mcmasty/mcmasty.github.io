@@ -21,12 +21,16 @@ I have always had a nagging feeling that LendingClub was underperforming for me.
 
 This post is an exploration my own personal portfolio performance.
 
+I have changed LendingClub investment strategies over the years.  In the early years, only traded notes from the secondary market, then automated invested with a suggested portfolio, then automated investing with my own blend, and now back to only traded notes, but with a specific strategy.
+
 
 ## Lending Club, feels like lots of charge offs
 
-My initial thought was my portfolio performance was being dragged by a large number charge-offs.  
+My initial thought was my portfolio performance was being dragged by a large number charge-offs.
 
-**Note** In the early years, automated investing was not allowed in my state. As a result from 2012 to 2015 I purchased notes on the secondary market without a specific strategy. I also had varying degrees to discipline to diversification, so I might have invested larger position in individual notes than was prudent.
+
+
+**Note:** In the early years, automated investing was not allowed in my state. As a result from 2012 to 2015 I purchased notes on the secondary market without a specific strategy. I also had varying degrees of discipline to diversification, so my impatience might have led to larger investments in individual notes than was prudent.
 {: .notice--info}  
 
 
@@ -41,6 +45,11 @@ My portfolio is roughly 1,000 loans.  There are a lot of ways to draw 1,000 loan
 Given the size of LendingClub
 
 
+- [ ] add pie charge of status (of completed notes)
+- [ ] add graph of failures by (by quarter of completed notes)
+- [ ] add last payment by (by quarter)
 
 
-State laws prohibited automated ivnesting
+- [ ] add percentage of term at time of order to vintages  
+
+- [ ] add link to code 
