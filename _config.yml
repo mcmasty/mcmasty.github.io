@@ -4,7 +4,7 @@ email:
 description: Likes thinking and learning, and dealing with the magic layer between goals and action plans.
 
 
-url                      : https://projects.outcastsystems.com
+url: https://projects.outcastsystems.com
 
 twitter_username: username
 github_username: mcmasty
@@ -16,6 +16,8 @@ permalink: "/:categories/:title/"
 paginate: 5
 paginate_path: /blog/page:num/
 breadcrumbs: true  # disabled by default
+timezone: "America/New_York"
+
 
 include:
 - _pages
@@ -27,6 +29,8 @@ plugins:
 - jekyll-feed
 - jemoji
 - jekyll-include-cache
+
+
 author:
   name: Tyler McMaster
   avatar: "/assets/images/bio-photo.jpg"
