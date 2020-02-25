@@ -31,7 +31,7 @@ feature_row:
     btn_class: "btn--primary"
   - image_path: /assets/images/2020-Chain-Ornaments.png  
     title: "DIY Christmas Ornaments"
-    image_caption: "2020 Edition"    
+    image_caption: "2019 Edition"    
     excerpt: "Star Ornaments from old bike chains."
 
 ---
