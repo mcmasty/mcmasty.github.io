@@ -26,17 +26,10 @@ This post is an exploration my own personal portfolio performance.
 
 My initial thought was my portfolio performance was being dragged by a large number charge-offs.  
 
-**Note** In the early years, automated investing was not allowed in my state.
-{: .notice}  
-
-
-what about info.{: .notice--info}    
-
-
-oore this
+**Note** In the early years, automated investing was not allowed in my state. As a result from 2012 to 2015 I purchased notes on the secondary market without a specific strategy. I also had varying degrees to discipline to diversification, so I might have invested larger position in individual notes than was prudent.
 {: .notice--info}  
 
-Just to be really sure.
+
 
 My portfolio is just a sampling of the total market, which for 2019 was over 4 million loans issued ([as published on the LC stats page](https://www.lendingclub.com/info/statistics.action)).
 
