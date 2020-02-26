@@ -12,10 +12,10 @@ last_modified_at: 2020-02-20 21:20:02 Z
 
 ## Background
 
-I was intrigued by the Peer-to-Peer lending company [LendingClub](https://www.lendingclub.com). I was an early adopter, setting my investor account in October of 2012. This post is neither sponsored nor an advertisement for LendingClub, it is only an analysis of the performance of my portfolio.
+I was intrigued by the Peer-to-Peer lending company [LendingClub](https://www.lendingclub.com){:target="_blank"}. I was an early adopter, setting my investor account in October of 2012. This post is neither sponsored nor an advertisement for LendingClub, it is only an analysis of the performance of my portfolio.
 
 
-Putting some money in LendingClub however, was largely inspired by the mission of peer-to-peer lending - I was also a relatively early participant of [Kiva](kiva.org) with giving money to fund my [first loan in November 2006](https://www.kiva.org/lend/1147). Having learned of peer-to-peer platform in the US, I was eager to support it, and hoped it would be successful.
+Putting some money in LendingClub however, was largely inspired by the mission of peer-to-peer lending - I was also a relatively early participant of [Kiva](kiva.org) with giving money to fund my [first loan in November 2006](https://www.kiva.org/lend/1147){:target="_blank"}. Having learned of peer-to-peer platform in the US, I was eager to support it, and hoped it would be successful.
 
 I have always had a nagging feeling that LendingClub was underperforming for me. My portfolio has a positive return, so that is a positive note, and it has out-performed my savings account rates, yet my expectations were for a higher return.
 
@@ -35,7 +35,7 @@ My initial thought was my portfolio performance was being dragged by a large num
 
 
 
-My portfolio is just a sampling of the total market, which for 2019 was over 4 million loans issued ([as published on the LC stats page](https://www.lendingclub.com/info/statistics.action)).
+My portfolio is just a sampling of the total market, which for 2019 was over 4 million loans issued ([as published on the LC stats page](https://www.lendingclub.com/info/statistics.action){:target="_blank"}).
 
 
 My portfolio is roughly 1,000 loans.  There are a lot of ways to draw 1,000 loans from a pool of millions.
@@ -45,11 +45,11 @@ My portfolio is roughly 1,000 loans.  There are a lot of ways to draw 1,000 loan
 Given the size of LendingClub
 
 
-- [ ] add pie charge of status (of completed notes)
+- [ ] add pie or donut chart by status (of completed notes)
 - [ ] add graph of failures by (by quarter of completed notes)
 - [ ] add last payment by (by quarter)
 
 
 - [ ] add percentage of term at time of order to vintages  
 
-- [ ] add link to code 
+- [ ] add link to code
