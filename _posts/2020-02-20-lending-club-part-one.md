@@ -10,12 +10,14 @@ tags:
 last_modified_at: 2020-02-20 21:20:02 Z
 ---  
 
+Analysis of my personal portfolio performance on LendingClub.
+
 ## Background
 
 I was intrigued by the Peer-to-Peer lending company [LendingClub](https://www.lendingclub.com){:target="_blank"}. I was an early adopter, setting my investor account in October of 2012. This post is neither sponsored nor an advertisement for LendingClub, it is only an analysis of the performance of my portfolio.
 
 
-Putting some money in LendingClub however, was largely inspired by the mission of peer-to-peer lending - I was also a relatively early participant of [Kiva](kiva.org) with giving money to fund my [first loan in November 2006](https://www.kiva.org/lend/1147){:target="_blank"}. Having learned of peer-to-peer platform in the US, I was eager to support it, and hoped it would be successful.
+Putting some money in LendingClub however, was largely inspired by the mission of peer-to-peer lending - I was also a relatively early participant of [Kiva](https://www.kiva.org){:target="_blank"} with giving money to fund my [first loan in November 2006](https://www.kiva.org/lend/1147){:target="_blank"}. Having learned of peer-to-peer platform in the US, I was eager to support it, and hoped it would be successful.
 
 I have always had a nagging feeling that LendingClub was underperforming for me. My portfolio has a positive return, so that is a positive note, and it has out-performed my savings account rates, yet my expectations were for a higher return.
 
