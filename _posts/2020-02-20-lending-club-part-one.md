@@ -93,11 +93,13 @@ The approach for this analysis will be from broad strokes and refine based on wh
 
 ### Loan Vintage Mixture 
 
-{% include figure image_path="/assets/images/lc/my_portfolio_ovintage_histogram.png" alt="portfolio pie chart" caption="My Portfolio by O-Vintage (aka order date year)." %}
+{% include figure image_path="/assets/images/lc/my_portfolio_ovintage_histogram.png" alt="portfolio histogram" caption="My Portfolio by O-Vintage (aka order date year)." %}
 
-~~When automated investing became available my volume of notes purchased increased dramatically.~~
+~~When automated investing became available my volume of notes purchased increased dramatically.~~  
 
-{% include figure image_path="/assets/images/lc/my_portfolio_ivintage_histogram.png" alt="portfolio pie chart" caption="My Portfolio by I-Vintage (aka issue date year)." %}
+
+
+{% include figure image_path="/assets/images/lc/my_portfolio_ivintage_histogram.png" alt="portfolio histogram" caption="My Portfolio by I-Vintage (aka issue date year)." %}
 
 
 
@@ -111,6 +113,11 @@ The approach for this analysis will be from broad strokes and refine based on wh
 
 {% include figure image_path="/assets/images/lc/lc_all_notes_by_status_pie_count.png" alt="portfolio pie chart" caption="Lending Club 2012-2016 Notes by Loan Status (count)." %}
 
+
+
+##  Mixing loan status to histograms 
+
+{% include figure image_path="/assets/images/lc/my_portfolio_ovintage_stacked_bar.png" alt="portfolio stacked bar" caption="My Portfolio by O-Vintage (aka order date year and status)." %}
 
 
 [Here is summary]({% link _projects/lending-club-summary.md %}) of the data analysis project supporting this post.
