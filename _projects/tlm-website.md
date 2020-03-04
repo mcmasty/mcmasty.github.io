@@ -12,6 +12,7 @@ categories:
 tags:
 - Jekyll
 - Content
+last_modified_at:  2020-03-04 10:10:00 -0500
 ---  
 
 This website is definitely a recent project of mine.  My personal website (this one) as well as another project I am working didn't require an immediate web presence, but I knew it would soon.  After poking around many, many options, and all of them are pretty good, I wasn't ready to put down any money so I started looking at free options.  
@@ -37,6 +38,11 @@ On a few projects, which I can't yet discuss, use markdown, and Jinja templates 
 - GoDaddy (Domain Registry)
 - Formspree  (Forms)
 - Filestack (CDN)  
+
+## Imagery
+- [Unsplash](https://unsplash.com)  
+- [iStock](https://www.istockphoto.com)
+- My own work  
 
 ## Other Gear
 - iPhone X  (photos)
