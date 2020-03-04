@@ -17,19 +17,22 @@ excerpt: 'Following my curiosity, learning along the way, hopefully creating use
 intro:
   - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
 feature_row:
-  - image_path: https://cdn.filestackcontent.com/resize=width:600,height:400,fit:crop/lqyKNYxJQbiPREXv5uKl
-    alt: Outcast Systems Logo
-    title: Outcast Systems Coach App
-    excerpt: "A small and scrappy project to partner with endurance sports coaches to help them with their craft"
-  - image_path: /assets/images/hitesh-choudhary-D9Zow2REm8U-unsplash.jpg
+  - image_path:   "https://cdn.filestackcontent.com/resize=w:500,h:300,fit:crop/compress/3vLHQUvRxyMfKDpkJD8N"
+    alt: Piggy Bank
+    title: Investing in Peer-to-Peer Notes
+    excerpt: "Analysis of my investment performance on Lending Club"
+    url: /post/lending-club-part-one/
+    btn_label: "Read More"  
+    btn_class: "btn--primary"
+  - image_path:  https://cdn.filestackcontent.com/resize=w:500,h:300,fit:crop/compress/2lRnaBCVRRmnvYby4tsk
     image_caption: "Photo by Hitesh Choudhary on [Unsplash](https://unsplash.com/)"
-    alt: Data Science and Python Projects
-    title: Data Science and Python Projects
-    excerpt: "Data Science and Python Projects"
-    url: "#test-link"
+    alt: Technical Projects
+    title: "Data, Python, and other technical projects"
+    excerpt: Summary of a few of the recent projects I've worked on
+    url: "/projects/"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/2020-Chain-Ornaments.png  
+  - image_path: /assets/images/2020-Chain-Ornaments500x300.png  
     title: "DIY Christmas Ornaments"
     image_caption: "2019 Edition"    
     excerpt: "Star Ornaments from old bike chains."

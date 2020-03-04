@@ -32,7 +32,7 @@ plugins:
 
 author:
   name: Tyler McMaster
-  avatar: "/assets/images/bio-photo.jpg"
+  avatar: https://cdn.filestackcontent.com/4nqKY0PSF62ZHEgNZEQ8
   bio: My awesome biography constrained to a sentence or two goes here.
   links:
   - label: Website
@@ -65,6 +65,11 @@ footer:
     icon: fab fa-fw fa-linkedin
     url: https://www.linkedin.com/in/mcmasty/
 
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path    
+
 defaults:
   # _posts
   - scope:
@@ -84,6 +89,17 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      share: true
+      related: true
 
 category_archive:
   type: liquid
