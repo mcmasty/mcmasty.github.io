@@ -113,8 +113,14 @@ The approach for this analysis will be from broad strokes and refine based on wh
 
 
 
+[Here is summary]({% link _projects/lending-club-summary.md %}) of the data analysis project supporting this post.
+
+***  
+## Scratch Pad below 
 
 - [ ] Compare value of loans if each loan status:  my portfolio vs Lending Club historical data 
+
+- [ ] Build a benchmark portfolio with same mixture by issue date vintage (and possibly grade...think about how much effort this would be ) 
 
 ### Charge-Offs 
 
