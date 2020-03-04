@@ -1,10 +1,10 @@
 ---
 title: Lending Club Investing Performance, Part 1
-date: 2020-02-17 19:34:30 Z
-excerpt: This is the first in a series of posts analyzing my investing performance in peer-to-peer lending notes. 
+date: 2020-03-01 19:34:30 Z
+excerpt: This is the first in a series of posts analyzing my investing performance in peer-to-peer lending notes.
 header:
   overlay_image: "https://cdn.filestackcontent.com/resize=w:1280,h:380,fit:crop/compress/3vLHQUvRxyMfKDpkJD8N"   
-  overlay_filter: 0.5 
+  overlay_filter: 0.5
   caption: "Photo by Fabian Blank on Unsplash"  
 categories:
 - Post
@@ -12,13 +12,13 @@ tags:
 - Data
 - Python
 - Finance
-last_modified_at: 2020-02-20 21:20:02 Z 
+last_modified_at: 2020-03-04 21:20:02 Z 
 project_id: lc_analysis_2020  
 ---
 
 
 
-## Introduction 
+## Introduction
 This is the first in a series of posts analyzing my investing performance in peer-to-peer lending notes. I aim to do two things:  
 
   1. Analyze my portfolio performance, and where possible place my performance in context of the broader peer-to-peer market where I invest.  
@@ -27,17 +27,17 @@ This is the first in a series of posts analyzing my investing performance in pee
 
 This series will not be a critique of any peer-to-peer platforms or services. The series is an exploration of my historical use of these financial instruments; did I utilize these instruments well, and if a suitable strategy can be found for future investing.
 
-I don't have a set plan of attack for this analysis. I will start with broad exploratory analysis, and drill down if and when I find something interesting. 
+I don't have a set plan of attack for this analysis. I will start with broad exploratory analysis, and drill down if and when I find something interesting.
 
 > I write to find out what I am thinking...   
 >  
-> <cite>Joan Didion </cite> 
+> <cite>Joan Didion </cite>
 
 
 I am starting with broad strokes as that increases the likelihood of having some shared perspectives with you, and then as I layer on my assumptions and goals, you will have a map to see if anything is applicable to you. If we start on common ground and I explain the path I am taking, you can see where your path might diverge. Hopefully this approach increases the chances you will find something useful or interesting in this endeavor.
 
 
-First I will explain how I got into the retail peer-to-peer lending market in the first place. 
+First I will explain how I got into the retail peer-to-peer lending market in the first place.
 
 
 ### Why Peer-to-Peer Lending, Part 1 - Search for Yield  
@@ -45,9 +45,9 @@ First I will explain how I got into the retail peer-to-peer lending market in th
 In general, I tend towards cash-flow generating investment strategies; as such, I frequently search for high yield investments.  I was not old enough to invest in 1980, when you could buy [10% 10-year Treasury](https://www.multpl.com/10-year-treasury-rate/table/by-year){: target="_blank"}  However, I was old enough in the early oughts to jump on the Internet Banking savings rate, my first foray was with ING Savings, which with promotions, etc had [interest rates from 5%  to 7% ](https://forums.whirlpool.net.au/archive/2039928)  
 
 
-In today's low-yield environment, it seems like anything higher than 3%  requires significant additional risk over an FDIC insured savings account. 
+In today's low-yield environment, it seems like anything higher than 3%  requires significant additional risk over an FDIC insured savings account.
 
-The first search question was: What Fixed-Income / Bond like products exists that might produce a high-yield ? 
+The first search question was: What Fixed-Income / Bond like products exists that might produce a high-yield ?
 
 How much effort will it take to find a strategy to produce a yield better than a bond fund ETF, say [BND](https://finance.yahoo.com/quote/BND?p=BND&.tsrc=fin-srch){: target="_blank"}, which as a current yield of 2.67%.  
 
@@ -73,7 +73,7 @@ My account's combined, adjusted [NAR](https://www.lendingclub.com/public/about-n
 
 I have changed LendingClub investment strategies over the years.  In the early years, only traded notes from the secondary market, then automated invested with a suggested portfolio, then automated investing with my own blend, and now back to only traded notes, but with a specific strategy.
 
-I have done two things in response to having lower than expected returns; the first, I revised my investing strategy in recent months, and the second, is this series of post taking a closer look at my investing performance. 
+I have done two things in response to having lower than expected returns; the first, I revised my investing strategy in recent months, and the second, is this series of post taking a closer look at my investing performance.
 
 
 The early sign for the revised strategy are positive as in recent weeks my combined, adjusted NAR has been creeping up towards 2.5%. I plan to explore strategy performance in future posts.
@@ -91,7 +91,7 @@ The first research question:  Is my nagging feeling justified ?
 The approach for this analysis will be from broad strokes and refine based on what is discovered.
 
 
-### Loan Vintage Mixture 
+### Loan Vintage Mixture
 
 When automated investing became available my volume of notes purchased increased dramatically.
 
@@ -112,13 +112,13 @@ When automated investing became available my volume of notes purchased increased
 
 
 
-- [ ] Compare value of loans if each loan status:  my portfolio vs Lending Club historical data 
+- [ ] Compare value of loans if each loan status:  my portfolio vs Lending Club historical data
 
-### Charge-Offs 
+### Charge-Offs
 
 - [ ] Compare total Charge percent of loans:  my portfolio vs LC Historical data  
 
-- [ ] Compare charge off value:  my portfolio vs LC Historical Data 
+- [ ] Compare charge off value:  my portfolio vs LC Historical Data
 
 
 
