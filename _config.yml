@@ -33,7 +33,7 @@ plugins:
 author:
   name: Tyler McMaster
   avatar: https://cdn.filestackcontent.com/4nqKY0PSF62ZHEgNZEQ8
-  bio: My awesome biography constrained to a sentence or two goes here.
+  bio: My biography constrained to a sentence or two goes here.
   links:
   - label: Website
     icon: fas fa-fw fa-link
@@ -68,7 +68,7 @@ footer:
 collections:
   projects:
     output: true
-    permalink: /:collection/:path    
+    permalink: /:collection/:path
 
 defaults:
   # _posts
