@@ -12,16 +12,33 @@ categories:
 tags:
 - Jekyll
 - Content
+- github
+- Jekyll
 last_modified_at:  2020-03-04 10:10:00 -0500
 ---  
 
-I decided having an online presence would be useful as I move forward, however I am not 100% clear what kind of website would best suit my needs. I have some Drupal experience from a previous project and I did a quick inspection of all the popular options today - Wix, Squarespace, WordPress, and others. They each seemed great in isolation, but intuitively I didn't feel like they were ideal fits for me. This project summary will outline how I ended up with a Jekyll based website.
+This project summary will outline how I decided upon a Jekyll based website.
 
+
+## Website vs Blog - What ballpark to play in  
+
+The first consideration was if a website is actually the best choice.  Perhaps a blogging solution, either Medium, or micro.blog, or even LinkedIn might better suit my needs if all I want to do is write posts.
+
+Two main considerations:  
+ - I am thinking about sharing content which is quite broad thematically, topical summaries, essays, project summaries, formal reports, sharing code, as well as some DIY projects. Publishing all these different subject matters into single blog, seems forced to me. Creating multiple blogs, one per theme, seemed to lack an overarching cohesive structure.  
+
+   Additionally, I am not sure I specifically know how best to group related content at this point. Throwing all content into a single pool with no structure, seems a high burden to potential readers, and creating structures that need to be replaced every few months is time-consuming, and usually arduous.
+
+
+ - At this point in the process, I want to keep the focus on what I am trying to communicate and not how to format it to conform with any specific tool or platform. I don't know what I don't know. I have a conceptual idea of what I am trying to demonstrate, but no concrete examples. Being able to iterate with different approaches, to find what works best for me, with the least amount of re-work is very important.  
+
+
+If the content were homogeneous, it would be an easier selection. For example, if I knew I would only be writing a collection of opinion pieces, an blog-site like Medium would be an ideal choice, however the content is not homogeneous. Additionally, supporting experimentation of different structures for different content types, has nudged me to select website for the general approach of creating my online presence.  
 
 
 ## Broad Requirements and Relative Priority
 
-My first step was to group the requirements into priority tiers, to ensure the most important considerations carried the most sway.
+The decision to build a website brings the next round of questions: how best to build what I am looking for?  My first step was to outline some high level goals and requirements, and group them into priority tiers, to ensure the most important considerations carried the most sway.
 
 
 ### Universal Tier  
@@ -124,63 +141,53 @@ Dimensions with the least influence.
 - **What do I want visitors to do**  
 
 
-
-- Misc
-  - Version Controlled content
-  - Re-using knowledge
-    - markdown
-    - templating (Jinja2, Liquid)
-    - GitHub  
+## Decision  
+There is no shortage of options for how to build a website today (in 2020). I have some Drupal experience from a previous project. I did a quick inspection of some the more popular options today - Wix, Squarespace, WordPress, and others. Each option seemed great in isolation, but intuitively I didn't feel like they were ideal fits for me; many options were ruled out due to higher cost than my budget would support.  
 
 
-This website is definitely a recent project of mine.  My personal website (this one) as well as another project I am working didn't require an immediate web presence, but I knew it would soon.  After poking around many, many options, and all of them are pretty good, I wasn't ready to put down any money so I started looking at free options.  
+Blending cost with leveraging existing skills and experience, I ended up with [GitHub Pages](https://pages.github.com), since GitHub is what I use to manage my [code repositories](https://github.com/mcmasty). That is a win on the cost front, since GitHub Pages is basically a no additional cost web-hosting service from GitHub. With cost and platform re-use nudging me towards GitHub Pages, the **classic web considerations** have been dealt with.
 
 
-On a few projects, which I can't yet discuss, use markdown, and Jinja templates for content, so I was looking for markdown, Jinja-esque website solutions. Jekyll seemed to be pretty close, and when I learned that GitHub pages uses Jekyll I was sold.  
+In terms of the remaining Tier 1 priorities, **Content** and **Flexibility**, [jekyll](https://jekyllrb.com/philosophy/#3-content-is-king) is a solid choice.  The content is authored straight forward text files written in markdown, and since I am using GitHub, each page is version controlled.  The look and feel, as well as where content shows up, depends on straight forward configurations, and which directory the files are stored in. This is makes it very easy to experiment with different ways to handling the content.  
 
 
-***  
-***  
-***  
-## Broad Requirements / Considerations  
-
-- Goal for site / what do I want out of site
-- What do I want visitors to do on the site  
-- Classic Website Stuff: Domain name, registrar, hosting, design (mobile, responsive), branding, UX / navigation,  - Tier 3
-- Cost - Tier 1
-- Content - Tier 1
-- Flexibility - Tier 1
-- User base  - Tier 3
-- Ecosystem - Tier 3
-- Existing Skills / Resources  - Tier 2
-- Secondary Benefits - Tier 2
+A tier 2 benefit (leveraging existing skills), is I have experience with templating solutions, specifically Jinja and liquid from other projects. Jekyll also uses Liquid templating, so that makes a little bit easier to hit the ground running.  On the project that uses Jinja templates, the core content is stored in markdown.  Basically, I am already using the core pattern of Jekyll but with Python and Jinja, so it is a small conceptual step to follow how Jekyll sites are built.    
 
 
+In terms of improving skills (last tier 2 priority), I haven't worked on a static website since the days of coding HTML for every page.  I have built web application servers, managed a Drupal (CMS) site, and worked on several projects that delivered dynamic content over the web, so working on a modern static-site generator provides the opportunity to experience the pro's & con's of static sites.
 
 
-## Misc. Technology Used  
+All that resulted in this **tlm13** website:  A Jekyll built site hosted on GitHub Pages.
+
+
+Feel free to [reach-out to me](/contact/){: target="_blank"} if you'd like additional information, about the tools, my workflow, or anything else.
+
+
+## Technology Recap
+
+### Misc. Technology Used  
 - **Static Site Generator:** Jekyll  
   - Current Theme: [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/){: target="_blank"}
 - **Content Authoring Format:** markdown  
 - **Content Versioning:** GitHub  
 
-## Applications & Tools
-- Atom Text Editor
-- Scrivener (for writing longer posts)
-- Affinity Photo
-- GitHub Desktop Client
+### Applications & Tools
+- **Short Posts, Confg File editing:**  [Atom Text Editor](https://atom.io){: target="_blank"}
+- **Writing Longer Posts:**  [Scrivener](https://www.literatureandlatte.com/scrivener/overview){: target="_blank"}
+- **Photo Editing:** [Affinity Photo](https://affinity.serif.com/en-us/photo/){: target="_blank"}
+- **Working with Git Repository:** [GitHub Desktop Client](https://desktop.github.com){: target="_blank"}
 
-## Platforms, Servers, Hosting   
-- **Website Hosting:** GitHub pages
-- **Domain Registry, DNS:** GoDaddy
-- **Forms:**  Formspree
-- **CDN:** Filestack  
+### Platforms, Servers, Hosting   
+- **Website Hosting:** [GitHub pages](https://pages.github.com){: target="_blank"}
+- **Domain Registry, DNS:** [GoDaddy](https://www.godaddy.com/){: target="_blank"}
+- **Forms:**  [Formspree](https://formspree.io){: target="_blank"}
+- **CDN:**  [Filestack](https://www.filestack.com){: target="_blank"}  
 
-## Photos and Imagery
+### Photos and Imagery
 - [Unsplash](https://unsplash.com){: target="_blank"}  
 - [iStock](https://www.istockphoto.com){: target="_blank"}
 - My own work  
 
-## Other Gear
+### Other Gear
 - iPhone X  (photos)
 - Panasonic GH5  

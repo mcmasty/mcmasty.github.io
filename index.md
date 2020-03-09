@@ -18,6 +18,7 @@ intro:
   - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
 feature_row:
   - image_path:   "https://cdn.filestackcontent.com/resize=w:500,h:300,fit:crop/compress/3vLHQUvRxyMfKDpkJD8N"
+#    image_caption: "Photo by Fabian Blank on Unsplash"
     alt: Piggy Bank
     title: Investing in Peer-to-Peer Notes
     excerpt: "Analysis of my investment performance on Lending Club"
@@ -25,7 +26,7 @@ feature_row:
     btn_label: "Read More"  
     btn_class: "btn--primary"
   - image_path:  https://cdn.filestackcontent.com/resize=w:500,h:300,fit:crop/compress/2lRnaBCVRRmnvYby4tsk
-    image_caption: "Photo by Hitesh Choudhary on [Unsplash](https://unsplash.com/)"
+#    image_caption: Photo by Hitesh Choudhary on [Unsplash](https://unsplash.com/)"
     alt: Technical Projects
     title: "Data, Python, and other technical projects"
     excerpt: Summary of a few of the recent projects I've worked on
@@ -34,7 +35,7 @@ feature_row:
     btn_class: "btn--primary"
   - image_path: /assets/images/2020-Chain-Ornaments500x300.png  
     title: "DIY Christmas Ornaments"
-    image_caption: "2019 Edition"    
+#    image_caption: ""    
     excerpt: "Star Ornaments from old bike chains."
 
 ---
