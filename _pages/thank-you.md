@@ -4,9 +4,10 @@ layout: single
 classes: wide
 permalink: /thank-you/
 header:
-  image: /assets/images/morvanic-lee-GiUJ02Yj_io-unsplash.jpg
+  image: "https://cdn.filestackcontent.com/resize=w:1280,h:400,fit:crop/compress/61nTvNsOSLuvlNVFi3ua"
+  caption: Photo by Morvanic Lee on Unsplash
 excerpt:
 ---
 
 
-I'll get back to you in day or two.
+I'll be in touch shortly.

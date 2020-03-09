@@ -10,6 +10,11 @@ github_username: mcmasty
 minimal_mistakes_skin: "dirt"
 search: true
 markdown: kramdown
+mathjax:
+  enable: true
+  combo: "tex-svg"
+  tags: "ams"
+
 remote_theme: "mmistakes/minimal-mistakes@4.18.1"
 permalink: "/:categories/:title/"
 paginate: 5
@@ -30,6 +35,15 @@ plugins:
 - jekyll-include-cache
 
 
+# Analytics
+#analytics:
+#  provider               : "google-universal" # false (default), "google", "google-universal", "custom"
+#  google:
+#    tracking_id          : "UA-159960294-1" # Replace this with your ID, or delete
+#    anonymize_ip         : true
+
+
+
 author:
   name: Tyler McMaster
   avatar: https://cdn.filestackcontent.com/4nqKY0PSF62ZHEgNZEQ8
@@ -37,7 +51,7 @@ author:
   links:
   - label: Website
     icon: fas fa-fw fa-link
-    url: https://
+    url: https://tlm13.com
 #  - label: Twitter
 #    icon: fab fa-fw fa-twitter-square
 #    url: https://twitter.com/
@@ -107,3 +121,10 @@ category_archive:
 tag_archive:
   type: liquid
   path: "/tags/"
+
+
+
+compress_html:
+  clippings: all
+  ignore:
+    envs: development

@@ -117,7 +117,16 @@ The approach for this analysis will be from broad strokes and refine based on wh
 
 ##  Mixing loan status to histograms 
 
-{% include figure image_path="/assets/images/lc/my_portfolio_ovintage_stacked_bar.png" alt="portfolio stacked bar" caption="My Portfolio by O-Vintage (aka order date year and status)." %}
+{% include figure image_path="/assets/images/lc/my_portfolio_ovintage_stacked_bar.png" alt="portfolio order vintage stacked bar" caption="My Portfolio by O-Vintage (aka order date year and status)." %}
+
+
+{% include figure image_path="/assets/images/lc/my_portfolio_ivintage_stacked_bar.png" alt="portfolio issue vintage stacked bar" caption="My Portfolio by I-Vintage (aka issue date year and status)." %}
+
+
+
+{% include figure image_path="/assets/images/lc/my_portfolio_by_status_pie_count_completed.png" alt="portfolio pie chart completed " caption="My Portfolio by Loan (completed) Status (count)." %}
+
+
 
 
 [Here is summary]({% link _projects/lending-club-summary.md %}) of the data analysis project supporting this post.

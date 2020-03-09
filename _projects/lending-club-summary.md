@@ -14,6 +14,7 @@ tags:
 - Numpy
 - Pandas
 last_modified_at: 2020-03-02 21:20:02 Z
+excerpt: "Python & Pandas: Analyzing my Lending Club portfolio and Lending Club historical data"
 ---  
 
 A summary of the technical aspects of analyzing my Lending Club portfolio as well as Lending Club historical data.
@@ -45,6 +46,9 @@ A summary of the technical aspects of analyzing my Lending Club portfolio as wel
 - Convert JSON to Pandas DataFrame  
 - Perform clean-up and feature engineering.  
 - Save cleansed DataFrame  
+
+
+You can [browse the notebook](https://github.com/mcmasty/stunning-fortnight/blob/master/lending_club_analysis/My%20LC%20Portfolio%20Notes%20Analysis.ipynb){: target="_blank"}  I used to analyze my lending club portfolio on GitHub.
 
 
 **LC Historical Data**   
