@@ -6,6 +6,33 @@ header:
   overlay_image: "https://cdn.filestackcontent.com/resize=w:1280,h:380,fit:crop/compress/3vLHQUvRxyMfKDpkJD8N"   
   overlay_filter: 0.5 
   caption: "Photo by Fabian Blank on Unsplash"  
+
+gallery_histograms: 
+  - image_path:  "/assets/images/lc/my_portfolio_ovintage_histogram.png"
+    alt: "portfolio histogram"
+  - image_path: "/assets/images/lc/my_portfolio_ivintage_histogram.png"
+    alt: "portfolio histogram"
+
+gallery_hist2:
+  - image_path: "/assets/images/lc/my_portfolio_ovintage_stacked_bar.png"  
+    alt: "Order Vintage stacked bar"
+  - image_path:  "/assets/images/lc/my_portfolio_ivintage_stacked_bar.png"  
+    alt:  "Issue Vintage Stacked bar"
+
+gallery_pie1:  
+  - image_path: "/assets/images/lc/lc_all_notes_by_status_pie_count.png"  
+    alt: "LC notes pie chart"  
+  - image_path: "/assets/images/lc/my_portfolio_by_status_pie_count.png"  
+    alt: "My Portfolio by Loan Status (count)."
+
+# Completed Notes
+gallery_pie2:     
+  - image_path: "/assets/images/lc/lc_completed_amount_by_status_pie_count.png"  
+    alt: "LC completed by amount notes pie chart"  
+  - image_path: "/assets/images/lc/my_portfolio_amount_completed_by_status.png"  
+    alt: "My Portfolio by Loan Status (count)."
+
+
 categories:
 - Post
 tags:
@@ -79,12 +106,54 @@ I have done two things in response to having lower than expected returns; the fi
 The early sign for the revised strategy are positive as in recent weeks my combined, adjusted NAR has been creeping up towards 2.5%. I plan to explore strategy performance in future posts.
 
 
+## Analysis   
+### Funding the Account   
+My general approach was to deposit some funds into the account and then re-invest all payments (returned principal as well as interest).  I seeded my account with a few large deposits in 2012 and 2014. Starting in 2015 I moved to an automatic weekly deposit.  In 2019, I was nearing a nice round number, so added a few large deposits to get to that round number; I have since stopped adding new funds.  
+
+
+The chart below summarizes the annual deposits as well as the running total of funds added to my account. 
+
+{% include figure image_path="/assets/images/lc/my_portfolio_deposits.png" alt="Deposits" caption="Deposits by year with running total"  class="half" %}
+
+
+
+For demonstration purposes, the amounts related to my portfolio have been scale (and rounded), so transactions are round numbers and portfolio total will have a total of $10,000 deposited.  
+{: .notice--info}  
+
+
+### Loan Purchases   
+With money in my account it was time to make some purchases.  The two charts below show (a) when loans were purchased and added to my account, which I am calling _order date vintage_, and (b) when the loans were actually issued by Lending Club, known as _issue date vintage_.  For example, I might have purchased a loan in 2014 which was issued in 2011, the result is an _order date vintage_ of 2014, and _issue date vintage_ of 2011.
+
+Not surprising, the loan purchases (order date vintage) chart mirrors the running total of deposits. 
+
+{% include gallery id="gallery_histograms" caption="Loan count by order date and issue date" class="full" %}
+
 
 **Note:** In the early years, automated investing was not allowed in my state. As a result from 2012 to 2015 I purchased notes on the secondary market without a specific strategy. I also had varying degrees of discipline to diversification, so my impatience might have led to larger investments in individual notes than was prudent.
 {: .notice--info}  
 
 
-## Analysis  
+### Current Status of the loans  
+[Here is a full description](https://help.lendingclub.com/hc/en-us/articles/215488038-What-do-the-different-Note-statuses-mean-){: target="_blank} of the different note status values on Lending Club. From a cash-flow perspective, you only get monthly payments from the **issued** and **current** notes.  
+
+Below is a comparison of Lending Club historical loan data from 2012-2016, with the loan status of the notes in my portfolio.
+
+{% include gallery id="gallery_pie1" caption="Loans by Loan Status" class="full" %}  
+
+
+From a count perspective, the number of loans which have **Charged Off** is favorable compared to the Lending Club historical data: My portfolio has approximately 13% of loans charged off, and the historical data around 18%.  
+
+Exploring the distribution of the charge offs
+
+Revisiting the loan purchase bar chart, to include status.
+
+{% include gallery id="gallery_hist2" caption="Loan count by order date and issue date, stacked bar by status" class="full" %}
+
+
+
+
+
+Building capital, starting 2015, I d 
 
 The first research question:  Is my nagging feeling justified ?
 
@@ -93,13 +162,10 @@ The approach for this analysis will be from broad strokes and refine based on wh
 
 ### Loan Vintage Mixture 
 
-{% include figure image_path="/assets/images/lc/my_portfolio_ovintage_histogram.png" alt="portfolio histogram" caption="My Portfolio by O-Vintage (aka order date year)." %}
 
 ~~When automated investing became available my volume of notes purchased increased dramatically.~~  
 
 
-
-{% include figure image_path="/assets/images/lc/my_portfolio_ivintage_histogram.png" alt="portfolio histogram" caption="My Portfolio by I-Vintage (aka issue date year)." %}
 
 
 
@@ -107,25 +173,24 @@ The approach for this analysis will be from broad strokes and refine based on wh
 
 - [ ] Compare count of loans in each loan status:  my portfolio to a large sample of the Lending Club historical data  
 
-{% include figure image_path="/assets/images/lc/my_portfolio_by_status_pie_count.png" alt="portfolio pie chart" caption="My Portfolio by Loan Status (count)." %}
 
 
 
-{% include figure image_path="/assets/images/lc/lc_all_notes_by_status_pie_count.png" alt="portfolio pie chart" caption="Lending Club 2012-2016 Notes by Loan Status (count)." %}
 
 
 
-##  Mixing loan status to histograms 
-
-{% include figure image_path="/assets/images/lc/my_portfolio_ovintage_stacked_bar.png" alt="portfolio order vintage stacked bar" caption="My Portfolio by O-Vintage (aka order date year and status)." %}
-
-
-{% include figure image_path="/assets/images/lc/my_portfolio_ivintage_stacked_bar.png" alt="portfolio issue vintage stacked bar" caption="My Portfolio by I-Vintage (aka issue date year and status)." %}
 
 
 
-{% include figure image_path="/assets/images/lc/my_portfolio_by_status_pie_count_completed.png" alt="portfolio pie chart completed " caption="My Portfolio by Loan (completed) Status (count)." %}
 
+
+
+
+
+{% include gallery id="gallery_pie2" caption="Completed loans by amount" class="full" %}
+
+
+{% include gallery id="gallery_pie3" caption="Loan count by order date and issue date, stacked bar by status" class="full" %}
 
 
 

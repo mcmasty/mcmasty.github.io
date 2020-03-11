@@ -1,41 +1,43 @@
 ---
-title: Tyler's Projects
+title: hmm...
 layout: splash
+author_profile: false
+
 permalink: /
+date: 2016-03-23T11:48:41-04:00
 header:
+  overlay_image: /assets/images/kelly-sikkema-JRVxgAkzIsM-unsplash.jpg
+  # kelly-sikkema-cXkrqY2wFyc-unsplash
+  # kelly-sikkema-JRVxgAkzIsM-unsplash  
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/mm-home-page-feature.jpg
-  actions:
-    - label: "<i class='fas fa-download'></i> Install Now"
-      url: "/docs/quick-start-guide/"
-  caption:
-excerpt: 'A flexible two-column Jekyll theme. Perfect for personal sites, blogs, and portfolios hosted on GitHub or your own server.<br /> <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.12.2">Latest release v4.12.2</a></small><br /><br /> {::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
-feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
-    alt: "customizable"
-    title: "Super Customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
-    btn_class: "btn--primary"
-    btn_label: "Learn More"
-  - image_path: /assets/images/mm-responsive-feature.png
-    alt: "fully responsive"
-    title: "Responsive Layouts"
-    excerpt: "Built on HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
-    btn_class: "btn--primary"
-    btn_label: "Learn More"
-  - image_path: /assets/images/mm-free-feature.png
-    alt: "100% free"
-    title: "100% Free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it, whatever!"
-    url: "/docs/license/"
-    btn_class: "btn--primary"
-    btn_label: "Learn More"
-github:
-  - excerpt: '{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
+  overlay_filter: 0.5  
+  caption: Photo by Kelly Sikkema on Unsplash
+excerpt: 'Following my curiosity, learning along the way, hopefully creating useful stuff.'
+
 intro:
-  - excerpt: 'Get notified when I add new stuff &nbsp; [<i class="fab fa-twitter"></i> @mmistakes](https://twitter.com/mmistakes){: .btn .btn--twitter} [<i class="fab fa-paypal"></i> Tip Me](https://www.paypal.me/mmistakes){: .btn .btn--primary}'
+  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
+feature_row:
+  - image_path:   "https://cdn.filestackcontent.com/resize=w:500,h:300,fit:crop/compress/3vLHQUvRxyMfKDpkJD8N"
+#    image_caption: "Photo by Fabian Blank on Unsplash"
+    alt: Piggy Bank
+    title: Investing in Peer-to-Peer Notes
+    excerpt: "Analysis of my investment performance on Lending Club"
+    url: /2020/post/lending-club-part-one/
+    btn_label: "Read More"  
+    btn_class: "btn--primary"
+  - image_path:  https://cdn.filestackcontent.com/resize=w:500,h:300,fit:crop/compress/2lRnaBCVRRmnvYby4tsk
+#    image_caption: Photo by Hitesh Choudhary on [Unsplash](https://unsplash.com/)"
+    alt: Technical Projects
+    title: "Data, Python, and other technical projects"
+    excerpt: Summary of a few of the recent projects I've worked on
+    url: "/projects/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/2020-Chain-Ornaments500x300.png  
+    title: "DIY Christmas Ornaments"
+#    image_caption: ""    
+    excerpt: "Star Ornaments from old bike chains."
+
 ---
 
 {% include feature_row id="intro" type="center" %}
