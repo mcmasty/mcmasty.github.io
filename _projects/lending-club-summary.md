@@ -49,7 +49,7 @@ A summary of the technical aspects of analyzing my Lending Club portfolio as wel
 - Save cleansed DataFrame  
 
 
-You can [browse the notebook](https://github.com/mcmasty/stunning-fortnight/blob/master/lending_club_analysis/My%20LC%20Portfolio%20Notes%20Analysis.ipynb){: target="_blank"}  I used to analyze my lending club portfolio on GitHub.
+_Look at the code:_  You can [browse the notebook](https://github.com/mcmasty/stunning-fortnight/blob/master/lending_club_analysis/My%20LC%20Portfolio%20Notes%20Analysis.ipynb){: target="_blank"}  I used to analyze my lending club portfolio on GitHub.
 
 
 **LC Historical Data**   

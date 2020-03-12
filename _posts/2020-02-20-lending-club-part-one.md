@@ -165,7 +165,7 @@ To control for these possible distortions, the next analysis uses loan amounts, 
 
 Only looking at _completed loans_ my portfolio looks much less rosy compared to the historical data, with my portfolio having over 15% more Charge Off's than the historical data:  23.5% vs 20.1%.  
 
-{% include gallery id="gallery_pie2" caption="Completed loans by amount" class="full" %}
+{% include gallery id="gallery_pie2" caption="Completed Loans" class="full" %}
 
 
 One more area of refinement; when a loan is charged off, the investor does not lose the full loan amount. The investor retains any received principals as well as any recoveries made during the loan default process. Adjusting the loan amounts for loans with a status of **Charge Off** as follows: 
@@ -184,103 +184,73 @@ then adjusted amount is calculated as:
 $$A_{adj} = a - p_{rcvd} - r$$  
 
 
+The completed loan analysis with adjust loan amounts, reveals my portfolio performed even worse; more than 35% of charge off proportion, 12.7% for historical data and 17.5% for my portfolio. 
+
+{% include gallery id="gallery_pie3" caption="All loans; adjusted amount by loan status" class="full" %}  
+
+
+### Distribution of losses  
+As noted above, automatic investing was unavailable to me for quite some time, it is possible I purchased a cluster of risky loans. To explore this question a bit further, we'll look at the loan-purchases distortion mixed in with loan status.   
+
+A recap of the broad timeframe of how loan purchasing was done.  
+
+| Time Window | Purchase Pattern |  
+|---| --- |
+|2012 - 2016 | Manual Purchases |  
+|2016 - 2019 | Automatic Purchases |  
+| Nov 2019 - Present | Manual Purchases |  
 
 
 
-Exploring the distribution of the charge offs
 
-Revisiting the loan purchase bar chart, to include status.
-
-
-
-
-From a cash-flow perspective, you only get monthly payments from the **issued** and **current** notes.  
-
-Building capital, starting 2015, I d 
-
-The first research question:  Is my nagging feeling justified ?
-
-The approach for this analysis will be from broad strokes and refine based on what is discovered.
-
+Exploring the distribution of the charge offs  Revisiting the loan purchase bar chart, to include status.
 
 
 {% include gallery id="gallery_hist2" caption="Loan count by order date and issue date, stacked bar by status" class="full" %}
 
 
-### Loan Vintage Mixture 
 
 
-~~When automated investing became available my volume of notes purchased increased dramatically.~~  
+## Recap
+The genesis for this analysis was a nagging feeling my portfolio performance was less than stellar. Given the nature of the financial product, loan defaults are always a risk. Looking at a simplistic analysis based on loan status, my portfolio appeared to stack-up well against the historical data. The percent of **Charge Off** loans for my portfolio was approximately 13% vs 18% for the historical data.  
+
+It wasn't until looking at the financial impact of those **Charge Off** loans that the relative underperformance of my portfolio became apparent.  Using the face value loan amounts, my portfolio trailed the Lending Club historical data by 3.4 points.  Using adjusted loan amounts, to account for principal received and other recoveries, actually extended this gap to 4.8 points.  
+
+Charge Off Comparisons:  
+
+| &#xfeff; | My Portfolio | LC Historical |   
+| --- | --- | --- |  
+|Loan Amounts | 23.5% | 20.1% |  
+|Adj. Amounts | 17.5 % | 12.7% |  
 
 
+Reviewing the primary research question:  Is my nagging feeling justified ?  It seems clear the answer is **YES**.  Based on the amount being lost as percentage of funds invested for completed loans, my portfolio did have higher losses than the historical data.  
 
 
-
-### Loan Status Mixture
-
-- [ ] Compare count of loans in each loan status:  my portfolio to a large sample of the Lending Club historical data  
+Based when loans were added to my portfolio and the status of those order vintages, nothing appears to be the obvious culprit as primary source of the **Charge Off** loans.  That is no single order vintage is obviously dominated by **Charge Off** loans.  
 
 
-
-
-
-
-
-
-
-
-
-
-
+The approach for this post, was to start the analysis with broad strokes and refine based on what is discovered.  My initial thought was my portfolio performance was being dragged by **Charge Off** loans, and the data suggests this is accurate.  With a general sense of the overall picture confirming the initial assumptions, a more detailed analysis is warranted. The additional analysis will be continued in second post. 
 
 
 
+## Part 2:
 
-{% include gallery id="gallery_pie3" caption="All loans; adjusted amount by loan status" class="full" %}
+Coming soon. I need to go back and do some additional number crunching, but here are some of the questions I am left with after completing the part 1 analysis. 
 
+Initial Questions for Part 2:  
 
+- Is all Lending Club loans from 2012-2016 an appropriate benchmark for comparison.  That is, a set of 1.3 million loans compared to a portfolio approximately 1,300 notes. Perhaps random sampling of notes from historical data pool to build a benchmark portfolio of similar size would be a better comparison.  
 
-[Here is summary]({% link _projects/lending-club-summary.md %}) of the data analysis project supporting this post.
+- For each order vintage, explore composition of loans based on grade.  
 
-***  
-## Scratch Pad below 
-
-- [ ] Compare value of loans if each loan status:  my portfolio vs Lending Club historical data 
-
-- [ ] Build a benchmark portfolio with same mixture by issue date vintage (and possibly grade...think about how much effort this would be ) 
-
-### Charge-Offs 
-
-- [ ] Compare total Charge percent of loans:  my portfolio vs LC Historical data  
-
-- [ ] Compare charge off value:  my portfolio vs LC Historical Data 
+- Create a measure for performance to see what impact changing purchasing patterns had on performance, with each order vintage.
 
 
 
+### Reference Information  
 
 
-
-This post is an exploration my own personal portfolio performance.
-
-
-My initial thought was my portfolio performance was being dragged by a large number charge-offs.
+If you want to learn more about analysis and tools used [here is summary]({% link _projects/lending-club-summary.md %}) of the data analysis project supporting this post.  Feel free to [get in touch](/contact/){: target="_blank"} if you have any questions or comments.  
 
 
-My portfolio is just a sampling of the total market, which for 2019 was over 4 million loans issued ([as published on the LC stats page](https://www.lendingclub.com/info/statistics.action){:target="_blank"}).
-
-
-My portfolio is roughly 1,300 loans.  There are a lot of ways to draw 1,300 loans from a pool of millions.
-
-
-
-Given the size of LendingClub
-
-
-- [ ] add pie or donut chart by status (of completed notes)
-- [ ] add graph of failures by (by quarter of completed notes)
-- [ ] add last payment by (by quarter)
-
-
-- [ ] add percentage of term at time of order to vintages  
-
-- [ ] add link to code
