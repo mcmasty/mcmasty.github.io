@@ -17,6 +17,7 @@ last_modified_at: 2020-03-02 21:20:02 Z
 excerpt: "Python & Pandas: Analyzing my Lending Club portfolio and Lending Club historical data"
 ---  
 
+
 A summary of the technical aspects of analyzing my Lending Club portfolio as well as Lending Club historical data.
 
 ## Tech Stack

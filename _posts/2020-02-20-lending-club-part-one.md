@@ -33,6 +33,13 @@ gallery_pie2:
     alt: "My Portfolio by Loan Status (count)."
 
 
+gallery_pie3:     
+  - image_path: "/assets/images/lc/lc_completed_adj_amount_by_status_pie.png"  
+    alt: "LC completed by amount notes pie chart"  
+  - image_path: "/assets/images/lc/my_portfolio_adj_amount_completed_by_status.png"  
+    alt: "My Portfolio by Loan Status (count)."
+
+
 categories:
 - Post
 tags:
@@ -44,6 +51,8 @@ project_id: lc_analysis_2020
 ---
 
 
+
+{% include mathjax.html %}  
 
 ## Introduction 
 This is the first in a series of posts analyzing my investing performance in peer-to-peer lending notes. I aim to do two things:  
@@ -107,8 +116,13 @@ The early sign for the revised strategy are positive as in recent weeks my combi
 
 
 ## Analysis   
+Since these are credit products, my initial speculation is that Charge Off's (Defaults) are the primary reason for under-performance and the nagging feeling mentioned above. The remainder of this post will be exploratory analysis trying to confirm if my portfolio had an higher than expected amount of loans that were charged off.
+
+**Charge Off** is a loan status on Lending Club, [here is a full description](https://help.lendingclub.com/hc/en-us/articles/215488038-What-do-the-different-Note-statuses-mean-){: target="_blank} of the different note status values on Lending Club. 
+
+
 ### Funding the Account   
-My general approach was to deposit some funds into the account and then re-invest all payments (returned principal as well as interest).  I seeded my account with a few large deposits in 2012 and 2014. Starting in 2015 I moved to an automatic weekly deposit.  In 2019, I was nearing a nice round number, so added a few large deposits to get to that round number; I have since stopped adding new funds.  
+My general approach to funding the account was to deposit some funds into the account and then re-invest all payments (returned principal as well as interest).  I seeded my account with a few large deposits in 2012 and 2014. Starting in 2015 I moved to an automatic weekly deposit.  In 2019, I was nearing a nice round number, so added a few large deposits to get to that round number; I have since stopped adding new funds.  
 
 
 The chart below summarizes the annual deposits as well as the running total of funds added to my account. 
@@ -134,30 +148,63 @@ Not surprising, the loan purchases (order date vintage) chart mirrors the runnin
 
 
 ### Current Status of the loans  
-[Here is a full description](https://help.lendingclub.com/hc/en-us/articles/215488038-What-do-the-different-Note-statuses-mean-){: target="_blank} of the different note status values on Lending Club. From a cash-flow perspective, you only get monthly payments from the **issued** and **current** notes.  
+Below is a comparison of Lending Club historical loan data from 2012-2016, with the loan status of the notes in my portfolio. 
 
-Below is a comparison of Lending Club historical loan data from 2012-2016, with the loan status of the notes in my portfolio.
+From a count perspective, the number of loans which have **Charged Off** is favorable compared to the Lending Club historical data: My portfolio has approximately 13% of loans charged off, and the historical data around 18%.  However, compared to the Lending Club historical data, my portfolio has 10x more **Current** loans; 44% vs 4%.  
 
 {% include gallery id="gallery_pie1" caption="Loans by Loan Status" class="full" %}  
 
 
-From a count perspective, the number of loans which have **Charged Off** is favorable compared to the Lending Club historical data: My portfolio has approximately 13% of loans charged off, and the historical data around 18%.  
+### Completed Loans & Amounts
+There are two fairly big skews in the charts above. (1) counts might not appropriately reflect the impact of a "Charge Off" and (2) a 10x difference in the portion of **current loans** dilutes the impact of "Charge Off's". 
+
+To control for these possible distortions, the next analysis uses loan amounts, instead of merely counting the loans in each status, and to minimize the impact of the **Current** loans to the analysis, only _Completed Loans_ will be analyzed. 
+
+**Completed Loans** for this article will be any loan with one of the following loan status values: Charged Off, Fully Paid.  
+{: .notice--info}  
+
+Only looking at _completed loans_ my portfolio looks much less rosy compared to the historical data, with my portfolio having over 15% more Charge Off's than the historical data:  23.5% vs 20.1%.  
+
+{% include gallery id="gallery_pie2" caption="Completed loans by amount" class="full" %}
+
+
+One more area of refinement; when a loan is charged off, the investor does not lose the full loan amount. The investor retains any received principals as well as any recoveries made during the loan default process. Adjusting the loan amounts for loans with a status of **Charge Off** as follows: 
+
+Let  
+
+$$\begin{align}
+ a &= \text {Loan Amount} \\  
+ p_{rcvd} &= \text {Principal Received} \\  
+ r &= \text {Recoveries} \\  
+ A_{adj} &= \text {Adjusted Loan Amount} \\  
+ \end{align}$$   
+
+then adjusted amount is calculated as:  
+
+$$A_{adj} = a - p_{rcvd} - r$$  
+
+
+
+
 
 Exploring the distribution of the charge offs
 
 Revisiting the loan purchase bar chart, to include status.
 
-{% include gallery id="gallery_hist2" caption="Loan count by order date and issue date, stacked bar by status" class="full" %}
 
 
 
-
+From a cash-flow perspective, you only get monthly payments from the **issued** and **current** notes.  
 
 Building capital, starting 2015, I d 
 
 The first research question:  Is my nagging feeling justified ?
 
 The approach for this analysis will be from broad strokes and refine based on what is discovered.
+
+
+
+{% include gallery id="gallery_hist2" caption="Loan count by order date and issue date, stacked bar by status" class="full" %}
 
 
 ### Loan Vintage Mixture 
@@ -187,10 +234,9 @@ The approach for this analysis will be from broad strokes and refine based on wh
 
 
 
-{% include gallery id="gallery_pie2" caption="Completed loans by amount" class="full" %}
 
 
-{% include gallery id="gallery_pie3" caption="Loan count by order date and issue date, stacked bar by status" class="full" %}
+{% include gallery id="gallery_pie3" caption="All loans; adjusted amount by loan status" class="full" %}
 
 
 
