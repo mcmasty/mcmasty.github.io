@@ -15,7 +15,7 @@ mathjax:
   combo: "tex-svg"
   tags: "ams"
 
-remote_theme: "mmistakes/minimal-mistakes@4.18.1"
+remote_theme: "mmistakes/minimal-mistakes@4.19.0"
 permalink: "/:year/:categories/:title/"
 paginate: 5
 paginate_path: /blog/page:num/
@@ -60,7 +60,7 @@ plugins:
 author:
   name: Tyler McMaster
   avatar: https://cdn.filestackcontent.com/4nqKY0PSF62ZHEgNZEQ8
-  bio: My biography constrained to a sentence or two goes here.
+  bio: "Enjoys thinking, learning, and chewing on problems."
   links:
   - label: Website
     icon: fas fa-fw fa-link
