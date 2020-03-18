@@ -33,13 +33,13 @@ feature_row:
     url: "/projects/"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/2020-Chain-Ornaments500x300.png  
+  - image_path: /assets/images/2019-Chain-Ornaments_500x300_v2.png  
     title: "DIY Christmas Ornaments"
 #    image_caption: ""    
     excerpt: "Star Ornaments from old bike chains."
 
 ---
 
-{% include feature_row id="intro" type="center" %}
+<!-- {% include feature_row id="intro" type="center" %} -->
 
 {% include feature_row %}
