@@ -124,7 +124,7 @@ My general approach to funding the account was to deposit some funds into the ac
 {% include figure image_path="/assets/images/lc/my_portfolio_deposits.png" alt="Deposits" caption="Deposits by year with running total"  class="half" %}
 
 
-For demonstration purposes, the amounts related to my portfolio have been scale to a total of $10,000 deposited.  
+For demonstration purposes, the amounts related to my portfolio have been scaled to a total of $10,000 deposited.  
 {: .notice--info}  
 
 
