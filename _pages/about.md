@@ -26,7 +26,7 @@ The aim is a well-rounded website. Specific content goals are presented below, a
 There are a number of goals for content on this site. The first is to convey information related to a topic. For example, If I am writing about a trend in the stock market, I hope to convey information, understanding, and possibly an argument or position about the stock market. The second, is a demonstration of relevant skills and abilities; what data is presented, what visualizations and charts are used, what is built and what is borrowed, and are the arguments  supported by the data. The third goal for content on this website is to expose as much of the invisible elements of projects as I can. Thinking, learning, judgement, and decisions are often invisible, but are a vital part of project success. I hope to create content to make elements of my thinking visible.  
 
 
-### Types
+### Content Types  
 Currently, there are two main types of content on this site, **Posts** and **Projects**. [Posts](/posts) are just that, my writing on a particular topic. However, a particular post may require research, analysis, or additional supporting work. This supporting work I am summarizing as [Projects](/projects) pages. The project summaries will include a description of all the technologies used, as well as discussions of methodologies and approaches where applicable. In some cases I will include links to relevant code.
 
 There may also be project pages that are not related to any posts. The first example is [the project around this website.]({% link _projects/tlm-website.md %})
@@ -36,8 +36,7 @@ If you are interested in specific technologies or tools, browsing the project li
 Additional content types might be added in the future.
 
 
-## Get in Touch  
-
+## Get in Touch   
 If you have some projects or challenges where you think I can help, let me know; I do enjoy interesting work, interesting people, and talking shop.  
 
 Feel free to [contact me](/contact/) if you want to discuss anything related to the site or if you have a problem, project, or opportunity you would like to discuss.
