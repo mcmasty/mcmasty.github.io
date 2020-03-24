@@ -6,7 +6,6 @@ header:
   image: "https://cdn.filestackcontent.com/resize=w:1280/crop=dim:[0,155,1280,380]/compress/pTQqXXWOQuWmvDyLMC0n"
   caption: Photo by Kelly Sikkema on Unsplash
 
-
 classes: wide
 ---
 
@@ -16,15 +15,16 @@ First, what kind of title is **tlm13?**
 
 Well, `tlm13` is my very first email handle \ username, assigned to me by my college way back in the fall of 1992. Over the years, I have occasionally used `tlm13` as a placeholder, and this case, I decided to keep the monicker a bit longer. What can I say, I'm sentimental.
 
-And about the site; I've found myself in a bit of a transition, and I'm not exactly sure what's next, but I have been researching and studying things that interest me. This site is part of a learning, exploration, and demonstration process for me; a place to share what I am working on and what I am interested in.
+And about the site; I've found myself in a bit of a transition, and I'm not exactly sure what's next. This site is part of a learning, exploration, and demonstration process for me; a place to share what I am working on and what I am interested in.
 
 
 ## About the Content  
 
 ### Goals  
-The are a number of goals for content on this site. The first is to convey information related to a topic. For example, If I am writing about a trend in the stock market, I hope to convey information, understanding, and possibly an argument or position about the stock market. The second, is a demonstration of relevant skills and abilities. Continuing with with the stock market example, what data is presented ? What visualizations and charts were used ?  Were they built or copied?  Thinking, learning, judgement, and decisions are often invisible, but critically important to success of projects. The third goal for content on this website is to expose as much of these invisible elements as I can, to attempt to make more of my thinking visible.  
+The are a number of goals for content on this site. The first is to convey information related to a topic. For example, If I am writing about a trend in the stock market, I hope to convey information, understanding, and possibly an argument or position about the stock market. The second, is a demonstration of relevant skills and abilities. Continuing with with the stock market example, what data is presented, what visualizations and charts were used, what was built and what was borrowed, and does the data support narrative. The third goal for content on this website is to expose as much of the invisible elements of projects as I can. Thinking, learning, judgement, and decisions are often invisible, but are a vital part project success. I hope to create content to make some of my thinking visible.
 
-No single piece of content can accomplish all of these goals. The aim is a well-rounded website.  Individual pieces of content will aim at specific goals, and if well executed, the collection of pages will demonstrate all goals.
+
+The aim is a well-rounded website. No single piece of content can accomplish all of the above goals. Individual pieces of content will aim at specific goals, and if executed well, the collection of pages on this website will demonstrate all goals.  
 
 
 ### Types
