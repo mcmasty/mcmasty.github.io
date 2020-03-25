@@ -17,7 +17,7 @@ Well, `tlm13` is my very first email handle \ username, assigned to me by my col
 And about the site; I've found myself in a bit of a transition, and I'm not exactly sure what's next. This site is part of a learning, exploration, and demonstration process for me; a place to share what I am working on and what I am interested in.  
 
 
-## About the Content on this site  
+## About the Content  
 
 ### Content Types  
 Currently, there are two main types of content on this site, **Posts** and **Projects**.  
