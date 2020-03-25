@@ -19,12 +19,6 @@ And about the site; I've found myself in a bit of a transition, and I'm not exac
 
 ## About the Content on this site  
 
-### Content Goals  
-The aim is a well-rounded website. Specific content goals are presented below, and by design no single piece of content will attempt to accomplish all of the goals. Individual pieces of content will aim at specific goals, and if executed well, the collection of pages on this website will demonstrate all the goals.  
-
-There are a number of goals for content on this site. The first is to convey information related to a topic. For example, If I am writing about a trend in the stock market, I hope to convey information, understanding, and possibly an argument or position about the stock market. The second, is a demonstration of relevant skills and abilities; what data is presented, what visualizations and charts are used, what is built and what is borrowed, and are the arguments supported by the data. The third goal for content on this website is to expose as much of the invisible elements of projects as I can. Thinking, learning, judgement, and decisions are often invisible, but are a vital part of project success. I hope to create content to make elements of my thinking visible.  
-
-
 ### Content Types  
 Currently, there are two main types of content on this site, **Posts** and **Projects**.  
 
@@ -37,6 +31,11 @@ Some posts may require research, analysis, or additional supporting work. This s
 If you are interested in specific technologies or tools, browsing the project list might be more fruitful for you.  
 {: .notice--info}  
 
+
+### Content Goals  
+The aim is a well-rounded website. Specific content goals are presented below, and by design no single piece of content will attempt to accomplish all of the goals. Individual pieces of content will aim at specific goals, and if executed well, the collection of pages on this website will demonstrate all the goals.  
+
+There are a number of goals for content on this site. The first is to convey information related to a topic. For example, If I am writing about a trend in the stock market, I hope to convey information, understanding, and possibly an argument or position about the stock market. The second, is a demonstration of relevant skills and abilities; what data is presented, what visualizations and charts are used, what is built and what is borrowed, and are the arguments supported by the data. The third goal for content on this website is to expose as much of the invisible elements of projects as I can. Thinking, learning, judgement, and decisions are often invisible, but are a vital part of project success. I hope to create content to make elements of my thinking visible.  
 
 
 ## Get in Touch   
