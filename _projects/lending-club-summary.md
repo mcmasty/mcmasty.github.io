@@ -14,7 +14,7 @@ tags:
 - Numpy
 - Pandas
 last_modified_at: 2020-03-17 16:39:00 -0400
-excerpt: "Python & Pandas: Analyzing my Lending Club portfolio and Lending Club historical data"
+excerpt: "Python & Pandas: Analyzing my Lending Club portfolio and Lending Club historical data."
 --- 
 
 A summary of the technical aspects of analyzing my Lending Club portfolio as well as Lending Club historical data.  
