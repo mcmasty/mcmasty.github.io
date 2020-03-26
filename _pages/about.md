@@ -12,7 +12,7 @@ classes: wide
 ## About the Name  
 First, what kind of site name is **tlm13?**  
 
-Well, `tlm13` is my very first email handle \ username, assigned to me by my college way back in the fall of 1992. Over the years, I have occasionally used `tlm13` as a placeholder, and this case, I decided to keep the monicker a bit longer. What can I say, I'm sentimental.  
+Well, `tlm13` is my very first email handle \ username, assigned to me by my college way back in the fall of 1992. Over the years, I have occasionally used `tlm13` as a placeholder, and in this case, I decided to keep the monicker a bit longer. What can I say, I'm sentimental.  
 
 And about the site; I've found myself in a bit of a transition, and I'm not exactly sure what's next. This site is part of a learning, exploration, and demonstration process for me; a place to share what I am working on and what I am interested in.  
 
