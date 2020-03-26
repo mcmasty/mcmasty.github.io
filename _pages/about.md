@@ -26,7 +26,7 @@ Currently, there are two main types of content on this site, **Posts** and **Pro
 
 - [Project pages](/projects) are descriptions of the work. They may include listings of the technologies used, discussions of methodologies and approaches, or summaries of the project work itself.  
 
-Some posts may require research, analysis, or additional supporting work. This supporting material may be summarized in related project pages. In general, when a post is supported by a project, there will be links on the post to the relevant project pages, and similarly, on project pages there will be links to the related posts. There may also be project pages that are not related to any posts. For example [the project page around this website]({% link _projects/tlm-website.md %}) does not have a corresponding post.  
+Some posts may require research, analysis, or additional supporting work. This supporting material may be summarized in related project pages. In general, when a post is supported by a project, there will be links on the post to the relevant project pages, and similarly, on project pages there will be links to the related posts. There may also be project pages that are not related to any posts. For example, [the project page around this website]({% link _projects/tlm-website.md %}) does not have a corresponding post.  
 
 If you are interested in specific technologies or tools, browsing the project list might be more fruitful for you.  
 {: .notice--info}  
