@@ -36,7 +36,7 @@ feature_row:
   - image_path: /assets/images/2019-Chain-Ornaments_500x300_v2.png  
     title: "DIY Christmas Ornaments"
 #    image_caption: ""    
-    excerpt: "Star Ornaments from old bike chains."
+    excerpt: "Star ornaments from old bike chains."
 
 ---
 
