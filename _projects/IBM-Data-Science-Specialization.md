@@ -1,7 +1,7 @@
 ---
 title: "IBM Data Science Specialization"
 date: 2019-11-10 19:34:30 Z
-excerpt: My Capstone Project for IBM's Professional Certificate Program.
+excerpt: "Capstone Project: Analyzing food options around away game venues."
 header:
   overlay_image: "https://cdn.filestackcontent.com/resize=w:1280/compress/lVJrOvUQJyDFgXUoCBie"
   overlay_filter: 0.6
@@ -16,8 +16,8 @@ tags:
 - Python
 - Data Visualization
 - Numpy
-- Pandas 
-- Databases 
+- Pandas
+- Databases
 - SQL  
 - Web Scraping  
 - Geocoding
