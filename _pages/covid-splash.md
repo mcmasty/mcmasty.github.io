@@ -40,17 +40,44 @@ last_modified_at:  2020-04-07 09:48:00 -0400
 
 - [1point3acres](https://coronavirus.1point3acres.com/en){: target="_blank"}  -- The core data is similar to other sites, but the visualizations are slightly different, and they are starting to track things like PPE requests and jobs (hiring and layoffs)     
 
+## What caught my eye today    
+
+Sadly, the daily death count jumped yesterday, to over 1,900.  
+
+![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_recap_20200408_1586374197_.png){: .align-center}
 
 
+<br/>  
+To put this daily total in perspective, according to the CDC mortality data[^5], there were 2,813,503 deaths in 2017.  
+
+
+**The leading causes:**   
+
+|  Cause | Total Deaths |  
+| :---: | ---: |  
+| Heart Disease | 647,457 |  
+| Cancer | 599,108 |  
+| Accidents | 169,936 |  
+
+
+
+Influenza & Pneumonia is the 8th highest leading cause of death with 55,672 deaths in 2017. As of this writing, the total number of reported COVID-19 deaths in the US is approaching 13,000.
+{: .notice--info}  
+
+
+Given we are still in the early days of the outbreak, the rate of change is more telling then the cumulative totals.  To compare mortality, compute the average deaths per day for each leading cause and compare to COVID-19 for 7-April-2020.   
+
+![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_recap_20200408_1586375084_.png){: .align-center}
 
 ## Daily Summary  
 
-**Data as of:  6-April-2020[^1]**  
+**Data as of:  7-April-2020[^1]**  
 
-The data shows physical distancing is working. The daily growth rate continues to decrease, which means there are fewer new cases each day, and subsequently the number of days until the current number of cases double is improving (aka increasing.)  
+The data shows physical distancing is working. The daily growth rate continues to decrease, which means there are fewer new cases each day, and subsequently the number of days until the current number of cases double is improving (aka increasing.)   
 
+The daily growth rate appears to have stabilized and the last 3 days has been approximately 8.7%.
 
-![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_recap_20200407_1586281625_.png){: .align-center}    
+![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_recap_20200408_1586371494_.png){: .align-center}    
 
 Testing throughput continues to improve, but in my opinion is not yet sufficient to effectively manage the relaxation of physical distancing guidelines. (It looks like data April 4th is bad data.)  
 
@@ -62,7 +89,7 @@ Thought experiment on testing:  There are roughly 17,000,000 health care workers
 
 More to come here, but for folks who received my emails, I discussed **Growth Factor**[^4] as a ratio of new cases today compared to new cases yesterday. As long as growth factor > 1, exponential growth will continue. A Growth Factor = 1, is the inflection point; that is, the point when new case growth changes from exponential to logarithmic. Stopping exponential growth is a critical first step to managing the pandemic.  
 
-![Growth Factor Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_recap_20200407_1586282440_.png){: .align-center}
+![Growth Factor Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_recap_20200408_1586371414_.png){: .align-center}
 
 [^1]:  <cite>Data for these charts sourced from [The Covid Tracking Project](https://covidtracking.com)</cite>
 
@@ -71,3 +98,5 @@ More to come here, but for folks who received my emails, I discussed **Growth Fa
 [^3]:  <cite>Worldometer Incubation [data page](https://www.worldometers.info/coronavirus/coronavirus-incubation-period/){: target="_blank"}</cite>
 
 [^4]: <cite>[3 Brown 1 Blue](https://youtu.be/Kas0tIxDvrg){: target="_blank"} for inspiration on calculating growth factor</cite>  
+
+[^5]:  <cite>[CDC Mortality Data](https://www.cdc.gov/nchs/fastats/deaths.htm){: target="_blank"}</cite>
