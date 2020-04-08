@@ -100,7 +100,7 @@ More to come here, but for folks who received my emails, I discussed **Growth Fa
 
 The two best tools we have today
 
-- Avoid infection and transmission of the COVID-19 by physical distancing
+- Avoid infection and transmission of COVID-19 by physical distancing
 
 - Blood Plasma Transfusion from people who have recovered  
 
