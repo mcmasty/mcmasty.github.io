@@ -13,7 +13,7 @@ excerpt: "I wasn't really finding the numbers I was curious about so I started c
 intro:
   - excerpt: "There are a number of excellent coronavirus tracking websites (see list below) and many of them are making their data sources available. I found myself jumping between pages and sites, doing a few calculations I was interested in, and then emailing my analysis to friends and family. After a few weeks of this, I finally decided to move some of that analysis to the web."      
 
-last_modified_at:  2020-04-08 11:48:00 -0400
+last_modified_at:  2020-04-08 12:48:00 -0400
 ---
 
 
@@ -90,6 +90,26 @@ Thought experiment on testing:  There are roughly 17,000,000 health care workers
 More to come here, but for folks who received my emails, I discussed **Growth Factor**[^4] as a ratio of new cases today compared to new cases yesterday. As long as growth factor > 1, exponential growth will continue. A Growth Factor = 1, is the inflection point; that is, the point when new case growth changes from exponential to logarithmic. Stopping exponential growth is a critical first step to managing the pandemic.  
 
 ![Growth Factor Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_recap_20200408_1586371414_.png){: .align-center}
+
+
+## Fighting COVID-19  
+
+The two best tools we have today
+
+- Avoid infection and transmission by physical distancing
+
+- Blood Plasma Transfusion from people who have recovered  
+
+  [Johns Hopkins convalescent serum therapy](https://hub.jhu.edu/2020/04/08/arturo-casadevall-blood-sera-profile/){: target="_blank"}  
+
+  [National COVID-19 Convalescent Plasma Project](https://ccpp19.org/index.html){: target="_blank"}
+
+  [In use in NYC](https://www.nbcnews.com/health/health-news/plasma-treatment-being-tested-new-york-may-be-coronavirus-gamechanger-n1178436){: target="_blank"}
+
+  [More info at the Red Cross for Recovered Patients](https://www.redcrossblood.org/donate-blood/dlp/plasma-donations-from-recovered-covid-19-patients.html){: target="_blank"}
+
+
+## Citations
 
 [^1]:  <cite>Data for these charts sourced from [The Covid Tracking Project](https://covidtracking.com)</cite>
 
