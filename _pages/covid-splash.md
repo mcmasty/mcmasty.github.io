@@ -112,6 +112,13 @@ The two best tools we have today
 
   [More info at the Red Cross for Recovered Patients](https://www.redcrossblood.org/donate-blood/dlp/plasma-donations-from-recovered-covid-19-patients.html){: target="_blank"}
 
+  An increasing number of recovered people, means more people can help!  
+  ![Recoveries]({{ site.url }}{{ site.baseurl }}/assets/images/covid/recoveries_20200408_1586397999.png){: .align-center}
+
+<br/>
+
+Interesting Link: [Summary of Vaccine and Treatments](https://www.visualcapitalist.com/every-vaccine-treatment-covid-19-so-far/?from=timeline&isappinstalled=0){: target="_blank"}
+
 
 ## Citations
 

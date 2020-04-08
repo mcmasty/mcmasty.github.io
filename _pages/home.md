@@ -44,7 +44,7 @@ feature_row4:
     excerpt: "Looking at the coronavirus data tracking websites, left me with a few more questions. This is my attempt to satisfy my own curiosity.   
     <br/><br/>
 
-    _The analysis page will be frequently updated._"
+    _The analysis page will be updated frequently._"
     url: "/covid-page/"
 
     btn_label: "Read More"
@@ -55,4 +55,4 @@ feature_row4:
 
 {% include feature_row %}
 
-<!-- {% include feature_row id="feature_row4" type="center" %} -->
+{% include feature_row id="feature_row4" type="center" %}
