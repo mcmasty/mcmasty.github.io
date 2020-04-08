@@ -13,7 +13,7 @@ excerpt: "I wasn't really finding the numbers I was curious about so I started c
 intro:
   - excerpt: "There are a number of excellent coronavirus tracking websites (see list below) and many of them are making their data sources available. I found myself jumping between pages and sites, doing a few calculations I was interested in, and then emailing my analysis to friends and family. After a few weeks of this, I finally decided to move some of that analysis to the web."      
 
-last_modified_at:  2020-04-07 09:48:00 -0400
+last_modified_at:  2020-04-08 11:48:00 -0400
 ---
 
 
