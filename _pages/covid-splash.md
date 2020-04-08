@@ -102,7 +102,7 @@ The two best tools we have today
 
 - Preventing infection and transmission of COVID-19 by physical distancing
 
-- Blood Plasma Transfusion from people who have recovered and have COVID-19 antibodies
+- Blood plasma transfusion from people who have recovered and have COVID-19 antibodies
 
   [Johns Hopkins convalescent serum therapy](https://hub.jhu.edu/2020/04/08/arturo-casadevall-blood-sera-profile/){: target="_blank"}  
 
