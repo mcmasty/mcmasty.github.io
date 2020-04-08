@@ -9,10 +9,14 @@ header:
   overlay_image: "https://cdn.filestackcontent.com/resize=w:1280/compress/zZHxJaBNT1ab9jSlVeXl"
   caption: "Photo by [**CDC**](https://www.cdc.gov/) on [**Unsplash**](https://unsplash.com)"
   teaser: https://cdn.filestackcontent.com/resize=w:600,h:400,fit:crop/compress/zZHxJaBNT1ab9jSlVeXl  
-excerpt: "I wasn't really finding the numbers I was curious about so I started crunching the data myself."
+excerpt: "The current data available piqued my curiosity, so I started crunching the data myself."
 intro:
   - excerpt: "There are a number of excellent coronavirus tracking websites (see list below) and many of them are making their data sources available. I found myself jumping between pages and sites, doing a few calculations I was interested in, and then emailing my analysis to friends and family. After a few weeks of this, I finally decided to move some of that analysis to the web."      
 
+categories:
+  - Post
+tags:
+  - COVID-19
 last_modified_at:  2020-04-08 12:48:00 -0400
 ---
 

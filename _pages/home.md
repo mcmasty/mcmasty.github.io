@@ -37,9 +37,22 @@ feature_row:
     title: "DIY Christmas Ornaments"
 #    image_caption: ""    
     excerpt: "Star ornaments from old bike chains."
+feature_row4:
+  - image_path: https://cdn.filestackcontent.com/resize=h:300,fit:crop/compress/zZHxJaBNT1ab9jSlVeXl
+    alt: "COVID-19 Image"
+    title: "Coronavirus Analysis"
+    excerpt: "Looking at the coronavirus data tracking websites, left me with a few more questions. This is my attempt to satisfy my own curiosity.   
+    <br/><br/>
 
+    _The analysis page will be frequently updated._"
+    url: "/covid-page/"
+
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
 
 <!-- {% include feature_row id="intro" type="center" %} -->
 
 {% include feature_row %}
+
+<!-- {% include feature_row id="feature_row4" type="center" %} -->
