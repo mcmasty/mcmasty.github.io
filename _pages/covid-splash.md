@@ -83,7 +83,7 @@ Just this week, the daily growth rate appears to have stabilized below 9%.
 
 ![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_update_20200409_1586458617.png){: .align-center}    
 
-Testing throughput continues to improve, but in my opinion is not yet sufficient to effectively manage the relaxation of physical distancing guidelines. (It looks like data April 4th is bad data.)  
+Testing throughput continues to improve, but in my opinion is not yet sufficient to effectively manage the relaxation of physical distancing guidelines. (It looks like data on April 4th is bad data.)  
 
 Thought experiment on testing:  There are roughly 17,000,000 health care workers in the U.S.[^2]. The average incubation period of coronavirus is around 5 days[^3]. Until treatments are available, to keep our healthcare workers safe, a weekly test seems pragmatic.  17 million divided by 7 days  is roughly 2.4 million tests per day, or 3.4 million tests per day if we test every 5 days. This thought experiment is only to suggest the scale of testing that might be necessary for effective public health management as part of a strategy to relax physical distancing restrictions.  
 {: .notice--info}
