@@ -122,7 +122,8 @@ The best tools we have today
 Hopefully coming soon, a number of vaccines and treatments.   [Summary of Vaccine and Treatments](https://www.visualcapitalist.com/every-vaccine-treatment-covid-19-so-far/?from=timeline&isappinstalled=0){: target="_blank"}
 
 
-This is not an exhaustive list; anything missing is accidental, not intentional.   
+This is not an exhaustive list; anything missing is accidental.  
+
 
 ## Citations
 
