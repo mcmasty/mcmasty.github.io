@@ -65,7 +65,7 @@ To put this daily total in perspective, according to the CDC mortality data[^5],
 
 
 
-Influenza & Pneumonia is the 8th highest leading cause of death with 55,672 deaths in 2017. As of this writing, the total number of reported COVID-19 deaths in the US is approaching 13,000.
+Influenza & Pneumonia is the 8th highest leading cause of death with 55,672 deaths in 2017. As of this writing, the total number of reported COVID-19 deaths in the US is approaching 15,000.
 {: .notice--info}  
 
 
