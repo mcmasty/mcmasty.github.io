@@ -77,9 +77,9 @@ Given we are still in the early days of the outbreak, the rate of change is more
 
 **Data as of:  8-April-2020[^1]**  
 
-The data shows physical distancing is working. The macro trend is that daily growth rate is decreasing, and subsequently the number of days until the cases double is improving (aka increasing.)  
+The data shows physical distancing is working. The macro trend is that the daily growth rate is decreasing, and subsequently the number of days until the case count doubles is also improving, i.e. increasing.  
 
-Just this week, the daily growth rate appears to have stabilized below 9% and the last 4 days and we are making incremental progress.  
+Just this week, the daily growth rate appears to have stabilized below 9%.  
 
 ![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_update_20200409_1586458617.png){: .align-center}    
 
@@ -114,7 +114,7 @@ The best tools we have today
 
   [More info at the Red Cross for Recovered Patients](https://www.redcrossblood.org/donate-blood/dlp/plasma-donations-from-recovered-covid-19-patients.html){: target="_blank"}
 
-  An increasing number of recovered people, means more people can help! I heard on a radio interview that a single person's blood plasma donation produces enough serum to treat 3 people.   
+  An increasing number of people recovered, means more people can help - a single person's blood plasma donation produces enough serum to treat 3 people.[^6]   
   ![Recoveries]({{ site.url }}{{ site.baseurl }}/assets/images/covid/recoveries_20200409_1586458834.png){: .align-center}
 
 <br/>
@@ -134,4 +134,6 @@ This is not an exhaustive list; anything missing is accidental, not intentional.
 
 [^4]: <cite>[3 Brown 1 Blue](https://youtu.be/Kas0tIxDvrg){: target="_blank"} for inspiration on calculating growth factor</cite>  
 
-[^5]:  <cite>[CDC Mortality Data](https://www.cdc.gov/nchs/fastats/deaths.htm){: target="_blank"}</cite>
+[^5]:  <cite>[CDC Mortality Data](https://www.cdc.gov/nchs/fastats/deaths.htm){: target="_blank"}</cite>  
+
+[^6]:  <cite> Dr. Tatiana Prowell, a guest on [Radiolab](https://www.wnycstudios.org/podcasts/radiolab){: target="_blank"}, [Dispatch 3: Shared Immunity episode](https://www.wnycstudios.org/podcasts/radiolab/articles/dispatch-3-shared-immunity){: target="_blank"}</cite>
