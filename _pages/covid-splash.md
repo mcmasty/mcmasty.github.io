@@ -17,7 +17,7 @@ categories:
   - Post
 tags:
   - COVID-19
-last_modified_at:  2020-04-08 12:48:00 -0400
+last_modified_at:  2020-04-09 11:18:00 -0400
 ---
 
 
@@ -44,11 +44,11 @@ last_modified_at:  2020-04-08 12:48:00 -0400
 
 - [1point3acres](https://coronavirus.1point3acres.com/en){: target="_blank"}  -- The core data is similar to other sites, but the visualizations are slightly different, and they are starting to track things like PPE requests and jobs (hiring and layoffs)     
 
-## What caught my eye today    
+## What caught my eye    
 
-Sadly, the daily death count jumped yesterday, to over 1,900.  
+Sadly, the daily death count jumped to over 1,900 on 7-April and remains above 1,800.  
 
-![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_recap_20200408_1586374197_.png){: .align-center}
+![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/new_death_20200409_1586458440.png){: .align-center}
 
 
 <br/>  
@@ -69,19 +69,19 @@ Influenza & Pneumonia is the 8th highest leading cause of death with 55,672 deat
 {: .notice--info}  
 
 
-Given we are still in the early days of the outbreak, the rate of change is more telling then the cumulative totals.  To compare mortality, compute the average deaths per day for each leading cause and compare to COVID-19 for 7-April-2020.   
+Given we are still in the early days of the outbreak, the rate of change is more telling then the cumulative totals.  To compare mortality, compute the average deaths per day for each leading cause and compare to COVID-19 for 8-April-2020.   
 
-![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_recap_20200408_1586375084_.png){: .align-center}
+![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/leading_causes_20200409_1586458077.png){: .align-center}
 
 ## Daily Summary  
 
-**Data as of:  7-April-2020[^1]**  
+**Data as of:  8-April-2020[^1]**  
 
 The data shows physical distancing is working. The daily growth rate continues to decrease, which means there are fewer new cases each day, and subsequently the number of days until the current number of cases double is improving (aka increasing.)   
 
-The daily growth rate appears to have stabilized and the last 3 days has been approximately 8.7%.
+The daily growth rate appears to have stabilized and the last 4 days and we are making incremental progress.  
 
-![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_recap_20200408_1586371494_.png){: .align-center}    
+![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_update_20200409_1586458617.png){: .align-center}    
 
 Testing throughput continues to improve, but in my opinion is not yet sufficient to effectively manage the relaxation of physical distancing guidelines. (It looks like data April 4th is bad data.)  
 
@@ -93,16 +93,18 @@ Thought experiment on testing:  There are roughly 17,000,000 health care workers
 
 More to come here, but for folks who received my emails, I discussed **Growth Factor**[^4] as a ratio of new cases today compared to new cases yesterday. As long as growth factor > 1, exponential growth will continue. A Growth Factor = 1, is the inflection point; that is, the point when new case growth changes from exponential to logarithmic. Stopping exponential growth is a critical first step to managing the pandemic.  
 
-![Growth Factor Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_recap_20200408_1586371414_.png){: .align-center}
+![Growth Factor Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/growth_factor_20200409_1586458698.png){: .align-center}
 
 
 ## Fighting COVID-19  
 
-The two best tools we have today
+The best tools we have today
 
-- Preventing infection and transmission of COVID-19 by physical distancing
+- (Prevention) Frequent hand washing
 
-- Blood plasma transfusion from people who have recovered and have COVID-19 antibodies
+- (Prevention) Physical distancing
+
+- (Treatment) Blood plasma transfusion from people who have recovered and have COVID-19 antibodies
 
   [Johns Hopkins convalescent serum therapy](https://hub.jhu.edu/2020/04/08/arturo-casadevall-blood-sera-profile/){: target="_blank"}  
 
@@ -112,13 +114,15 @@ The two best tools we have today
 
   [More info at the Red Cross for Recovered Patients](https://www.redcrossblood.org/donate-blood/dlp/plasma-donations-from-recovered-covid-19-patients.html){: target="_blank"}
 
-  An increasing number of recovered people, means more people can help!  
-  ![Recoveries]({{ site.url }}{{ site.baseurl }}/assets/images/covid/recoveries_20200408_1586397999.png){: .align-center}
+  An increasing number of recovered people, means more people can help! I heard on a radio interview that a single person's blood plasma donation produces enough serum to treat 3 people.   
+  ![Recoveries]({{ site.url }}{{ site.baseurl }}/assets/images/covid/recoveries_20200409_1586458834.png){: .align-center}
 
 <br/>
 
-Interesting Link: [Summary of Vaccine and Treatments](https://www.visualcapitalist.com/every-vaccine-treatment-covid-19-so-far/?from=timeline&isappinstalled=0){: target="_blank"}
+Hopefully coming soon, a number of vaccines and treatments.   [Summary of Vaccine and Treatments](https://www.visualcapitalist.com/every-vaccine-treatment-covid-19-so-far/?from=timeline&isappinstalled=0){: target="_blank"}
 
+
+This is not an exhaustive list; anything missing is accidental, not intentional.   
 
 ## Citations
 
