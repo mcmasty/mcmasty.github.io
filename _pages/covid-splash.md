@@ -77,9 +77,9 @@ Given we are still in the early days of the outbreak, the rate of change is more
 
 **Data as of:  8-April-2020[^1]**  
 
-The data shows physical distancing is working. The daily growth rate continues to decrease, which means there are fewer new cases each day, and subsequently the number of days until the current number of cases double is improving (aka increasing.)   
+The data shows physical distancing is working. The macro trend is that daily growth rate continues to decrease, which means the number of days until the current number of cases double is improving (aka increasing.)  
 
-The daily growth rate appears to have stabilized and the last 4 days and we are making incremental progress.  
+Just this week, the daily growth rate appears to have stabilized below 9% and the last 4 days and we are making incremental progress.  
 
 ![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_update_20200409_1586458617.png){: .align-center}    
 
