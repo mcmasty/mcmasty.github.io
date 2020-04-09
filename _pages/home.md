@@ -41,7 +41,7 @@ feature_row4:
   - image_path: https://cdn.filestackcontent.com/resize=h:300,fit:crop/compress/zZHxJaBNT1ab9jSlVeXl
     alt: "COVID-19 Image"
     title: "Coronavirus Analysis"
-    excerpt: "Looking at the coronavirus data tracking websites, left me with a few more questions. This is my attempt to satisfy my own curiosity.   
+    excerpt: "Looking at the coronavirus data tracking websites left me with questions. This is my attempt to satisfy my own curiosity.   
     <br/><br/>
 
     _The analysis page will be updated frequently._"
