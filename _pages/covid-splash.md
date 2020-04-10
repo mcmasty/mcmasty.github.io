@@ -17,7 +17,7 @@ categories:
   - Post
 tags:
   - COVID-19
-last_modified_at:  2020-04-09 11:18:00 -0400
+last_modified_at:  2020-04-10 12:28:00 -0400
 ---
 
 
@@ -48,7 +48,7 @@ last_modified_at:  2020-04-09 11:18:00 -0400
 
 Sadly, the daily death count jumped to over 1,900 on 7-April and remains above 1,800.  
 
-![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/new_death_20200409_1586458440.png){: .align-center}
+![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/new_death_20200410_1586544617.png){: .align-center}
 
 
 <br/>  
@@ -71,17 +71,17 @@ Influenza & Pneumonia is the 8th highest leading cause of death with 55,672 deat
 
 Given we are still in the early days of the outbreak, the rate of change is more telling then the cumulative totals.  To compare mortality, compute the average deaths per day for each leading cause and compare to COVID-19 for 8-April-2020.   
 
-![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/leading_causes_20200409_1586458077.png){: .align-center}
+![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/leading_causes_20200410_1586543867.png){: .align-center}
 
 ## Daily Summary  
 
-**Data as of:  8-April-2020[^1]**  
+**Data as of:  9-April-2020[^1]**  
 
 The data shows physical distancing is working. The macro trend is that the daily growth rate is decreasing, and subsequently the number of days until the case count doubles is also improving, i.e. increasing.  
 
 Just this week, the daily growth rate appears to have stabilized below 9%.  
 
-![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_update_20200409_1586458617.png){: .align-center}    
+![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_update_20200410_1586544579.png){: .align-center}    
 
 Testing throughput continues to improve, but in my opinion is not yet sufficient to effectively manage the relaxation of physical distancing guidelines. (It looks like data on April 4th is bad data.)  
 
@@ -93,8 +93,22 @@ Thought experiment on testing:  There are roughly 17,000,000 health care workers
 
 More to come here, but for folks who received my emails, I discussed **Growth Factor**[^4] as a ratio of new cases today compared to new cases yesterday. As long as growth factor > 1, exponential growth will continue. A Growth Factor = 1, is the inflection point; that is, the point when new case growth changes from exponential to logarithmic. Stopping exponential growth is a critical first step to managing the pandemic.  
 
-![Growth Factor Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/growth_factor_20200409_1586458698.png){: .align-center}
+![Growth Factor Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/growth_factor_20200410_1586544759.png){: .align-center}
 
+
+To get a better feel for growth factor, below is a basic logistic curve with different growth factor reference values plotted. Even though exponential growth ceases at growth factor = 1, the curve is still steep. In my opinion, the growth in total COVID-19 cases won't feel like it slowing until the growth factor is below 0.95.  
+
+
+![Logistic Curve Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/logistic_curve_20200410_1586548277.png){: .align-center}  
+
+> All models are wrong, but some are useful.  
+> <cite>George Box</cite>  
+
+
+A few notes:  
+- The logistic curve above is not a measurement, it is a model, and therefore it is an approximation. The goal is to provide some context of where we might be on the curve, based on the actual measurement and calculation of growth factor.   
+
+- The distance between time points on the plot is not fixed. The distance between t0 and t1, might be 30 days, while the distance between t6 and t7 might be 3 days. One complicating factor of epidemics is the feedback loop. We can influence what shape the outbreak takes. The total number of COVID-19 cases depends on us, and what we do.  How quickly we flatten the curve depends on us, and what we do. Therefore, the duration between t5 and t6 is not a fixed number of days, but instead, depends on us, and what we do.  
 
 ## Fighting COVID-19  
 
@@ -115,7 +129,7 @@ The best tools we have today
   [More info at the Red Cross for Recovered Patients](https://www.redcrossblood.org/donate-blood/dlp/plasma-donations-from-recovered-covid-19-patients.html){: target="_blank"}
 
   An increasing number of people recovered, means more people can help - a single person's blood plasma donation produces enough serum to treat 3 people.[^6]   
-  ![Recoveries]({{ site.url }}{{ site.baseurl }}/assets/images/covid/recoveries_20200409_1586458834.png){: .align-center}
+  ![Recoveries]({{ site.url }}{{ site.baseurl }}/assets/images/covid/recoveries_20200410_1586544860.png){: .align-center}
 
 <br/>
 
