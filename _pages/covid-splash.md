@@ -69,7 +69,7 @@ Influenza & Pneumonia is the 8th highest leading cause of death with 55,672 deat
 {: .notice--info}  
 
 
-Given we are still in the early days of the outbreak, the rate of change is more telling then the cumulative totals.  To compare mortality, compute the average deaths per day for each leading cause and compare to COVID-19 for 8-April-2020.   
+Given we are still in the early days of the outbreak, the rate of change is more telling then the cumulative totals.  To compare mortality, compute the average deaths per day for each leading cause and compare to the daily death count for COVID-19. 
 
 ![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/leading_causes_20200410_1586543867.png){: .align-center}
 
