@@ -81,7 +81,7 @@ Given we are still in the early days of the outbreak, the rate of change is more
 
 The data shows physical distancing is working. The macro trend is that the daily growth rate is decreasing, and subsequently the number of days until the case count doubles is also improving, i.e. increasing.  
 
-The daily growth rate is approaching 5%, with a value of 4.5% for 13-April and 3-day moving average of 5.8%.  
+The daily growth rate is approaching 5%, with a value of 4.5% for 14-April and 3-day moving average of 5.2%.  
 
 ![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_update_20200415_1586978666.png){: .align-center}    
 
