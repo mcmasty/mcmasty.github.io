@@ -48,7 +48,7 @@ last_modified_at:  2020-04-15 11:38:00 -0400
 
 <!-- After 5 consecutive days of exceeding 1,800 deaths last week, yesterday's total took another step in the right direction, dropping to 1,450.   -->
 
-Yesterday saw a spike in new deaths after 4 consecutive days of improving numbers.  
+Yesterday saw a spike in new deaths after 3 consecutive days of improving numbers.  
 
 ![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/new_death_20200415_1586978779.png){: .align-center}
 
