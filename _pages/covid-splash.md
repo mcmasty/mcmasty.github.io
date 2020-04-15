@@ -17,7 +17,7 @@ categories:
   - Post
 tags:
   - COVID-19
-last_modified_at:  2020-04-14 11:28:00 -0400
+last_modified_at:  2020-04-15 11:38:00 -0400
 ---
 
 
@@ -44,11 +44,13 @@ last_modified_at:  2020-04-14 11:28:00 -0400
 
 - [1point3acres](https://coronavirus.1point3acres.com/en){: target="_blank"}  -- The core data is similar to other sites, but the visualizations are slightly different, and they are starting to track things like PPE requests and jobs (hiring and layoffs)     
 
-## A decline in new deaths   
+## A Spike in new deaths   
 
-After 5 consecutive days of exceeding 1,800 deaths last week, yesterday's total took another step in the right direction, dropping to 1,450.   
+<!-- After 5 consecutive days of exceeding 1,800 deaths last week, yesterday's total took another step in the right direction, dropping to 1,450.   -->
 
-![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/new_death_20200414_1586890240.png){: .align-center}
+Yesterday saw a spike in new deaths after 4 consecutive days of improving numbers.  
+
+![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/new_death_20200415_1586978779.png){: .align-center}
 
 
 <br/>  
@@ -71,17 +73,17 @@ Influenza & Pneumonia is the 8th highest leading cause of death with 55,672 deat
 
 Given we are still in the early days of the outbreak, the rate of change is more telling then the cumulative totals.  To compare mortality, compute the average deaths per day for each leading cause and compare to the daily death count for COVID-19.
 
-![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/leading_causes_20200413_1586803875.png){: .align-center}
+![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/leading_causes_20200415_1586978612.png){: .align-center}
 
 ## Daily Summary  
 
-**Data as of:  13-April-2020[^1]**  
+**Data as of:  14-April-2020[^1]**  
 
 The data shows physical distancing is working. The macro trend is that the daily growth rate is decreasing, and subsequently the number of days until the case count doubles is also improving, i.e. increasing.  
 
 The daily growth rate is approaching 5%, with a value of 4.5% for 13-April and 3-day moving average of 5.8%.  
 
-![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_update_20200414_1586890215.png){: .align-center}    
+![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_update_20200415_1586978666.png){: .align-center}    
 
 Testing throughput continues to improve, but in my opinion is not yet sufficient to effectively manage the relaxation of physical distancing guidelines. (It looks like data on April 4th is bad data.) As of this writing, the cumulative number of test result is approaching 3 million.   
 
@@ -93,7 +95,7 @@ Thought experiment on testing:  There are roughly 17,000,000 health care workers
 
 More to come here, but for folks who received my emails, I discussed **Growth Factor**[^4] as a ratio of new cases today compared to new cases yesterday. As long as growth factor > 1, exponential growth will continue. A Growth Factor = 1, is the inflection point; that is, the point when new case growth changes from exponential to logarithmic. Stopping exponential growth is a critical first step to managing the pandemic.  
 
-![Growth Factor Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/growth_factor_20200414_1586890226.png){: .align-center}
+![Growth Factor Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/growth_factor_20200415_1586978732.png){: .align-center}
 
 
 To get a better feel for growth factor, below is a basic logistic curve with different growth factor reference values plotted. Even though exponential growth ceases at growth factor = 1, the curve is still steep. In my opinion, the growth in total COVID-19 cases won't feel like it slowing until the growth factor is below 0.95.  
@@ -129,7 +131,7 @@ The best tools we have today
   [More info at the Red Cross for Recovered Patients](https://www.redcrossblood.org/donate-blood/dlp/plasma-donations-from-recovered-covid-19-patients.html){: target="_blank"}
 
   An increasing number of people recovered, means more people can help - a single person's blood plasma donation produces enough serum to treat 3 people.[^6]   
-  ![Recoveries]({{ site.url }}{{ site.baseurl }}/assets/images/covid/recoveries_20200414_1586890256.png){: .align-center}
+  ![Recoveries]({{ site.url }}{{ site.baseurl }}/assets/images/covid/recoveries_20200415_1586978794.png){: .align-center}
 
 <br/>
 
