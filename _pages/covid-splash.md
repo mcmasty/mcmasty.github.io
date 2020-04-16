@@ -46,7 +46,6 @@ last_modified_at:  2020-04-16 12:38:00 -0400
 
 ## Impact in Lives Lost  
 
-
 <!-- After 5 consecutive days of exceeding 1,800 deaths last week, yesterday's total took another step in the right direction, dropping to 1,450.   -->
 
 Yesterday saw another peak in new deaths.  
@@ -85,7 +84,7 @@ The data shows physical distancing is working. The macro trend is that the daily
 
 The daily growth rate is approaching 5%, with a value of 5.0% for 14-April and 3-day moving average of 5.1%.  
 
-The bad news, is that growth has accelerated in recent days.  
+The bad news, is that growth has accelerated in recent days; the trend is most observable in the growth factor charts.  
 
 ![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_update_20200416_1587067269.png){: .align-center}    
 
