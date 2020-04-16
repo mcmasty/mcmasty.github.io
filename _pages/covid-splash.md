@@ -52,7 +52,7 @@ Yesterday saw another peak in new deaths.
 
 ![New Death Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/new_death_20200416_1587064526.png){: .align-center}
 
-The Lancet[^8] has reported that the time between symptom onset and death can range between 2 and 8 weeks, as well as a revised mortality rate estimation of 5.6%. Combining The Lancet report with the observed spike of new case spikes on 10th and 11th of April (chart below), we might anticipate the death rate to stay relatively high for a few more weeks.  
+The Lancet[^8] has reported that the time between symptom onset and death can range between 2 and 8 weeks, as well as a revised mortality rate estimation of 5.6%. Combining The Lancet report with the observed spike of new case spikes on 10th and 11th of April (chart below), we might anticipate the death rate to stay relatively high for a few more weeks.  Be mindful Case Fatality Rate estimations vary widely, and a number of factors are at play, including the capacity of the local health care system.  
 {: .notice--info}      
 
 
