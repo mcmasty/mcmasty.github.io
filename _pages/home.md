@@ -6,7 +6,7 @@ author_profile: false
 permalink: /
 date: 2016-03-23T11:48:41-04:00
 header:
-  overlay_image: /assets/images/kelly-sikkema-JRVxgAkzIsM-unsplash.jpg
+  overlay_image:  https://cdn.filestackcontent.com/resize=w:1280,h:380,fit:crop,align:bottom/auto_image/compress/FGoq5EQ0SzCk2KRx5OOr
   # kelly-sikkema-cXkrqY2wFyc-unsplash
   # kelly-sikkema-JRVxgAkzIsM-unsplash  
   overlay_color: "#5e616c"
