@@ -2,10 +2,10 @@
 title: Lending Club Analysis
 date: 2020-03-02 19:34:30 Z
 header:
-  overlay_image: "https://cdn.filestackcontent.com/resize=w:1280,h:380,fit:crop/compress/WWsYBBGRnaIYRjfhXk4T"
+  overlay_image: "https://cdn.filestackcontent.com/resize=w:1280,h:380,fit:crop/auto_image/compress/WWsYBBGRnaIYRjfhXk4T"
   overlay_filter: 0.65
   caption: Photo by Mika Baumeister on Unsplash
-  teaser: https://cdn.filestackcontent.com/resize=w:600,h:400,fit:crop/compress/WWsYBBGRnaIYRjfhXk4T
+  teaser: https://cdn.filestackcontent.com/resize=w:600,h:400,fit:crop/auto_image/compress/WWsYBBGRnaIYRjfhXk4T
 categories:
 - Project
 tags:
@@ -15,7 +15,7 @@ tags:
 - Pandas
 last_modified_at: 2020-03-17 16:39:00 -0400
 excerpt: "Python & Pandas: Analyzing my Lending Club portfolio and Lending Club historical data."
---- 
+---
 
 A summary of the technical aspects of analyzing my Lending Club portfolio as well as Lending Club historical data.  
 
@@ -55,7 +55,7 @@ The following data is required:
 
 
 - **Lending Club Loans**  
-  Loans issued by LendingClub. These loans are the source instruments for the individual notes purchased by investors. 
+  Loans issued by LendingClub. These loans are the source instruments for the individual notes purchased by investors.
 
 - **Lending Club Summary Statistics**  
   LendingClub provides some high level statistics on all the loans they have issued. Example statistics include, but not limited to, average interest rate, grade mix per issue date year, and loan performance summaries.  
@@ -113,7 +113,7 @@ One area with open questions is sampling of the LendingClub historical data. The
 The initial LendingClub post focuses on exploratory analysis. Therefore, the analytic approach will be descriptive in nature, focusing on sums, proportions, etc.  
 
 Regarding LendingClub historical loans, a convenience sample will be used covering the period of 2007 to 2016.  
-  
+
   - This dataset is approximately 1.3 million loans.  
 
   - The longest loan term on offer from LendingClub is 60 months, therefore should be very few "current" loans in this period. As a result, the data won't need to be refreshed frequently to stay relevant.  
@@ -128,7 +128,7 @@ Additional information on data usage is provided [in the first post.]({% link  _
 
 # Technology Tools
 
-Below is a list of all the major technology tools and libraries used in this analysis project. 
+Below is a list of all the major technology tools and libraries used in this analysis project.
 
 ### Python & "core" libraries  
 - Python 3

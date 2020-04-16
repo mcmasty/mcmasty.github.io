@@ -3,10 +3,10 @@ title: "IBM Data Science Specialization"
 date: 2019-11-10 19:34:30 Z
 excerpt: "Capstone Project: Analyzing food options in vicinity of away game gymnasiums."
 header:
-  overlay_image: "https://cdn.filestackcontent.com/resize=w:1280/compress/lVJrOvUQJyDFgXUoCBie"
+  overlay_image: "https://cdn.filestackcontent.com/resize=w:1280/auto_image/compress/lVJrOvUQJyDFgXUoCBie"
   overlay_filter: 0.6
   caption: " "
-  teaser: https://cdn.filestackcontent.com/resize=w:600,h:400,fit:crop/compress/lVJrOvUQJyDFgXUoCBie
+  teaser: https://cdn.filestackcontent.com/resize=w:600,h:400,fit:crop/auto_image/compress/lVJrOvUQJyDFgXUoCBie
 categories:
 - Project
 tags:
@@ -81,7 +81,7 @@ The models should generate:
 The data analysis was used to create a presentation which a coach could share with athlete's, friends and families, as well as anyone else who might be traveling to support the team at an away game.  
 
 See the Presentation here:
-[![Capstone Presentation](https://cdn.filestackcontent.com/resize=w:475,fit:crop/compress/K2YrByOCQbubgu3clOMt)](https://github.com/mcmasty/Coursera_Capstone/blob/master/Capstone_Presentation.pdf){: target="_blank"}  
+[![Capstone Presentation](https://cdn.filestackcontent.com/resize=w:475,fit:crop/auto_image/compress/K2YrByOCQbubgu3clOMt)](https://github.com/mcmasty/Coursera_Capstone/blob/master/Capstone_Presentation.pdf){: target="_blank"}  
 
 
 
@@ -107,7 +107,7 @@ The Course List:
 
 
 ## My Certification:  
-[![Cert Image](https://cdn.filestackcontent.com/resize=w:300,fit:crop/compress/07QWIHFmS0i8EgF3aaPT "IBM Certification")](https://www.coursera.org/account/accomplishments/specialization/certificate/84SBK2VTVA9D){: target="_blank"}  
+[![Cert Image](https://cdn.filestackcontent.com/resize=w:300,fit:crop/auto_image/compress/07QWIHFmS0i8EgF3aaPT "IBM Certification")](https://www.coursera.org/account/accomplishments/specialization/certificate/84SBK2VTVA9D){: target="_blank"}  
 
 
 

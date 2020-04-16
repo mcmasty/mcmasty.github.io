@@ -3,10 +3,10 @@ title: tlm13 Website
 date: 2020-03-10 19:34:30 Z
 excerpt: How I arrived at a Jekyll based website.
 header:
-  overlay_image: "https://cdn.filestackcontent.com/resize=w:1280,h:380,fit:crop/compress/THb1f9EkR8y1WHWLXZwz"
+  overlay_image: "https://cdn.filestackcontent.com/resize=w:1280,h:380,fit:crop/auto_image/compress/THb1f9EkR8y1WHWLXZwz"
   overlay_filter: 0.6
   caption: Photo by Hal Gatewood on Unsplash
-  teaser: https://cdn.filestackcontent.com/resize=w:600,h:400,fit:crop/compress/THb1f9EkR8y1WHWLXZwz
+  teaser: https://cdn.filestackcontent.com/resize=w:600,h:400,fit:crop/auto_image/compress/THb1f9EkR8y1WHWLXZwz
 categories:
 - Project
 tags:

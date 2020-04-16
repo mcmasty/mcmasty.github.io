@@ -1,13 +1,13 @@
 ---
 title: Lending Club Investing Performance, Part 1
 date: 2020-03-15 19:34:30 Z
-excerpt: This is the first in a series of posts analyzing my investing performance in peer-to-peer lending notes. 
+excerpt: This is the first in a series of posts analyzing my investing performance in peer-to-peer lending notes.
 header:
-  overlay_image: "https://cdn.filestackcontent.com/resize=w:1280,h:380,fit:crop/compress/3vLHQUvRxyMfKDpkJD8N"   
-  overlay_filter: 0.5 
+  overlay_image: "https://cdn.filestackcontent.com/resize=w:1280,h:380,fit:crop/auto_image/compress/3vLHQUvRxyMfKDpkJD8N"   
+  overlay_filter: 0.5
   caption: "Photo by Fabian Blank on Unsplash"  
 
-gallery_histograms: 
+gallery_histograms:
   - image_path:  "/assets/images/lc/my_portfolio_ovintage_histogram.png"
     alt: "portfolio histogram"
   - image_path: "/assets/images/lc/my_portfolio_ivintage_histogram.png"
@@ -54,7 +54,7 @@ project_id: lc_analysis_2020
 
 {% include mathjax.html %}  
 
-## Introduction 
+## Introduction
 This is the first in a series of posts analyzing my investing performance in peer-to-peer lending products. In this series I aim to do two things:  
 
   1. Analyze my portfolio performance, and where possible place my performance in context of my particular peer-to-peer marketplace.  
@@ -66,7 +66,7 @@ This series will not be a critique of any peer-to-peer platforms or services. Th
 
 > I write to find out what I am thinking...   
 >  
-> <cite>Joan Didion </cite> 
+> <cite>Joan Didion </cite>
 
 
 The primary driver for this analysis is a gut feeling my portfolio is under-performing. My plan is to start with broad exploratory analysis, and drill down if and when I find something interesting. The aim of this initial post and exploratory analysis is to establish a broad context of the problem space; if I am totally off base, more detailed analysis is pointless.  
@@ -85,7 +85,7 @@ One place I looked for alternative investments was the new at the time retail le
 
 
 ### Why Peer-To-Peer Lending - Affinity for the model  
-I first discovered peer-to-peer lending through micro-loans to help economies in developing countries. I was a relatively early participant of [Kiva](https://www.kiva.org){:target="_blank"}, funding my [first micro-loan in November 2006](https://www.kiva.org/lend/1147){:target="_blank"}. Through the experience of Kiva, I thought the peer-to-peer model would be promising in the United States and there were opportunities for a For-Profit institution to make a viable business. 
+I first discovered peer-to-peer lending through micro-loans to help economies in developing countries. I was a relatively early participant of [Kiva](https://www.kiva.org){:target="_blank"}, funding my [first micro-loan in November 2006](https://www.kiva.org/lend/1147){:target="_blank"}. Through the experience of Kiva, I thought the peer-to-peer model would be promising in the United States and there were opportunities for a For-Profit institution to make a viable business.
 
 The financial crisis of 2007-2009 reinforced some of my beliefs:  
   - Large numbers of credit-worthy folks fail to get access to capital via traditional lending institutions.  
@@ -110,7 +110,7 @@ These are credit products, and defaults are to be expected with any product base
 In the LendingClub data `Default` means loan payment is severely delinquent while `Charge Off` means "no longer expecting payment" on this loan. [Here is a full description](https://help.lendingclub.com/hc/en-us/articles/215488038-What-do-the-different-Note-statuses-mean-){: target="_blank} of the different note status values on LendingClub.  
 
 
-Analysis will be based on `Charge Off` loan status, since that is the clear negative impact to the portfolio --- no longer expecting repayment of principal or payment of interest owed. 
+Analysis will be based on `Charge Off` loan status, since that is the clear negative impact to the portfolio --- no longer expecting repayment of principal or payment of interest owed.
 
 
 `Monospace font` will be used to indicate a literal loan status, such as `Charge Off` or `In Grace Period`  
@@ -158,7 +158,7 @@ Looking only at _completed loans_ my portfolio looks much less rosy compared to 
 
 The preceding analysis used the full loan amount when calculating the sum total of charged off amount. This overstates the actual losses.  
 
-When a loan is charged off, the investor does not lose the full loan amount. Investors will retain any principal paid between when the loan was issued and last payment date; additionally, loan servicers will try to recover as much outstanding principal as possible.  Adjusting the loan amount for `Charge Off` status loans can ameliorate this overstatement; the adjustment to loan amounts will done as follows: 
+When a loan is charged off, the investor does not lose the full loan amount. Investors will retain any principal paid between when the loan was issued and last payment date; additionally, loan servicers will try to recover as much outstanding principal as possible.  Adjusting the loan amount for `Charge Off` status loans can ameliorate this overstatement; the adjustment to loan amounts will done as follows:
 
 Let  
 
@@ -201,7 +201,7 @@ It wasn't until looking at the financial impact of those `Charge Off` loans that
 |Loan Amounts | 23.5% | 20.1% |  
 |Adj. Amounts | 17.5 % | 12.7% |  
 
-  
+
 ### Reviewing the research questions covered in this post.  
 **Is my nagging feeling of underperformance justified?**  
 It seems clear the answer is **YES**.  The amount being lost, both loan amount and adjusted amount, as a percentage of cash invested for completed loans is significantly higher for my portfolio than the historical data.  
@@ -229,5 +229,3 @@ As I work through the analysis, I'm sure I'll a few questions to the list. I'll 
 
 ### Reference Information   
 If you want to learn more about the analysis and tools used, or if you think you have a similar project you'd like help on, [here is a project summary]({% link _projects/lending-club-summary.md %}) outlining more of the nuts and bolts of technical work for this post.  Feel free to [get in touch](/contact/){: target="_blank"} if you have any questions or comments.  
-
-
