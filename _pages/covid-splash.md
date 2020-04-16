@@ -17,7 +17,7 @@ categories:
   - Post
 tags:
   - COVID-19
-last_modified_at:  2020-04-15 11:38:00 -0400
+last_modified_at:  2020-04-16 12:38:00 -0400
 ---
 
 
@@ -44,18 +44,20 @@ last_modified_at:  2020-04-15 11:38:00 -0400
 
 - [1point3acres](https://coronavirus.1point3acres.com/en){: target="_blank"}  -- The core data is similar to other sites, but the visualizations are slightly different, and they are starting to track things like PPE requests and jobs (hiring and layoffs)     
 
-## A Spike in new deaths   
+## Impact in Lives Lost  
+
 
 <!-- After 5 consecutive days of exceeding 1,800 deaths last week, yesterday's total took another step in the right direction, dropping to 1,450.   -->
 
-Yesterday saw a spike in new deaths after 3 consecutive days of improving numbers.  
+Yesterday saw another peak in new deaths.  
 
-![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/new_death_20200415_1586978779.png){: .align-center}
+![New Death Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/new_death_20200416_1587064526.png){: .align-center}
+
+The Lancet[^8] has reported that the time between symptom onset and death can range between 2 and 8 weeks, as well as a revised mortality rate estimation of 5.6%. Combining The Lancet report with the observed spike of new case spikes on 10th and 11th of April (chart below), we might anticipate the death rate to stay relatively high for a few more weeks.  
+{: .notice--info}      
 
 
-<br/>  
-To put this daily total in perspective, according to the CDC mortality data[^5], there were 2,813,503 deaths in 2017.  
-
+To put this daily death total in perspective, according to the CDC mortality data[^5], there were 2,813,503 deaths in 2017.  
 
 **The leading causes:**   
 
@@ -73,29 +75,27 @@ Influenza & Pneumonia is the 8th highest leading cause of death with 55,672 deat
 
 Given we are still in the early days of the outbreak, the rate of change is more telling then the cumulative totals.  To compare mortality, compute the average deaths per day for each leading cause and compare to the daily death count for COVID-19.
 
-![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/leading_causes_20200415_1586978612.png){: .align-center}
+![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/leading_causes_20200416_1587064132.png){: .align-center}
 
-## Daily Summary  
+## Spread / Containment      
 
-**Data as of:  14-April-2020[^1]**  
+**Data as of:  15-April-2020[^1]**  
 
 The data shows physical distancing is working. The macro trend is that the daily growth rate is decreasing, and subsequently the number of days until the case count doubles is also improving, i.e. increasing.  
 
-The daily growth rate is approaching 5%, with a value of 4.5% for 14-April and 3-day moving average of 5.2%.  
+The daily growth rate is approaching 5%, with a value of 5.0% for 14-April and 3-day moving average of 5.1%.  
 
-![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_update_20200415_1586978666.png){: .align-center}    
+The bad news, is that growth has accelerated in recent days.  
 
-Testing throughput continues to improve, but in my opinion is not yet sufficient to effectively manage the relaxation of physical distancing guidelines. (It looks like data on April 4th is bad data.) As of this writing, the cumulative number of test result is approaching 3 million.   
-
-Thought experiment on testing:  There are roughly 17,000,000 health care workers in the U.S.[^2]. The average incubation period of coronavirus is around 5 days[^3]. Until treatments are available, to keep our healthcare workers safe, a weekly test seems pragmatic.  17 million divided by 7 days  is roughly 2.4 million tests per day, or 3.4 million tests per day if we test every 5 days. This thought experiment is only to suggest the scale of testing that might be necessary for effective public health management as part of a strategy to relax physical distancing restrictions.  
-{: .notice--info}
+![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_update_20200416_1587067269.png){: .align-center}    
 
 
-***  
+<br/>  
 
-More to come here, but for folks who received my emails, I discussed **Growth Factor**[^4] as a ratio of new cases today compared to new cases yesterday. As long as growth factor > 1, exponential growth will continue. A Growth Factor = 1, is the inflection point; that is, the point when new case growth changes from exponential to logarithmic. Stopping exponential growth is a critical first step to managing the pandemic.  
+### Growth Factor    
+More to come here, but for folks who received my emails, I discussed _Growth Factor_[^4] as a ratio of new cases today compared to new cases yesterday. As long as growth factor > 1, exponential growth will continue. A Growth Factor = 1, is the inflection point; that is, the point when new case growth changes from exponential to logarithmic. Stopping exponential growth is a critical first step to managing the pandemic.  
 
-![Growth Factor Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/growth_factor_20200415_1586978732.png){: .align-center}
+![Growth Factor Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/growth_factor_20200416_1587064256.png){: .align-center}
 
 
 To get a better feel for growth factor, below is a basic logistic curve with different growth factor reference values plotted. Even though exponential growth ceases at growth factor = 1, the curve is still steep. In my opinion, the growth in total COVID-19 cases won't feel like it slowing until the growth factor is below 0.95.  
@@ -110,7 +110,42 @@ To get a better feel for growth factor, below is a basic logistic curve with dif
 A few notes:  
 - The logistic curve above is not a measurement, it is a model, and therefore it is an approximation. The goal is to provide some context of where we might be on the curve, based on the actual measurement and calculation of growth factor.   
 
-- The distance between time points on the plot is not fixed. The distance between t0 and t1, might be 30 days, while the distance between t6 and t7 might be 3 days. One complicating factor of epidemics is the feedback loop. We can influence what shape the outbreak takes. The total number of COVID-19 cases depends on us, and what we do.  How quickly we flatten the curve depends on us, and what we do. Therefore, the duration between t5 and t6 is not a fixed number of days, but instead, depends on us, and what we do.  
+- The distance between time points on the plot is not fixed. The distance between t0 and t1, might be 30 days, while the distance between t6 and t7 might be 3 days. One complicating factor of epidemics is the feedback loop. We can influence what shape the outbreak takes. The total number of COVID-19 cases depends on us, and what we do.  How quickly we flatten the curve depends on us, and what we do. Therefore, the duration between t5 and t6 is not a fixed number of days, but instead, depends on us, and what we do.   
+
+## Testing Snapshot
+
+The US has surpassed 3 million total tests.  
+
+![Positive Test Proportion]({{ site.url }}{{ site.baseurl }}/assets/images/covid/high_level_testing_20200416_1587066291.png){: .align-center}
+
+Testing throughput continues to improve, but in my opinion is not yet sufficient to effectively manage the relaxation of physical distancing guidelines. (It looks like data on April 4th is bad data.) As of this writing, the cumulative number of test result is approaching 3 million.   
+
+Thought experiment on testing:  There are roughly 17,000,000 health care workers in the U.S.[^2]. The average incubation period of coronavirus is around 5 days[^3]. Until treatments are available, to keep our healthcare workers safe, a weekly test seems pragmatic.  17 million divided by 7 days  is roughly 2.4 million tests per day, or 3.4 million tests per day if we test every 5 days. This thought experiment is only to suggest the scale of testing that might be necessary for effective public health management as part of a strategy to relax physical distancing restrictions.  
+{: .notice--info}
+
+
+
+
+**How much testing is enough?**   
+One measure might be the proportion of positive tests as a share of total testing. We know that asymptomatic contagious individuals are making this outbreak particularly challenging to deal with. Any attempt to identify the asymptomatic carriers of the disease will require testing many healthy people, who are also asymptomatic. The impact of doing this, would drive down the number of positive tests.   
+
+The below graph shows the number of positive tests as a proportion of total testing.  
+![Positive Test Proportion]({{ site.url }}{{ site.baseurl }}/assets/images/covid/positive_test_proportion_20200416_1587065050.png){: .align-center}  
+
+
+**Reference Countries[^7]:**   
+
+|  Country | Proportion of Positive Tests |  
+| :---: | :---: |  
+| Taiwan | 0.8% |  
+| South Korea | 2.0% |  
+| Iceland | 4.6% |  
+| Canada | 5.9% |
+| Germany | 7.7% |  
+| Italy | 14.8% |  
+| United States | 19.5% |    
+
+
 
 ## Fighting COVID-19  
 
@@ -131,11 +166,14 @@ The best tools we have today
   [More info at the Red Cross for Recovered Patients](https://www.redcrossblood.org/donate-blood/dlp/plasma-donations-from-recovered-covid-19-patients.html){: target="_blank"}
 
   An increasing number of people recovered, means more people can help - a single person's blood plasma donation produces enough serum to treat 3 people.[^6]   
-  ![Recoveries]({{ site.url }}{{ site.baseurl }}/assets/images/covid/recoveries_20200415_1586978794.png){: .align-center}
+  ![Recoveries]({{ site.url }}{{ site.baseurl }}/assets/images/covid/recoveries_20200416_1587064793.png){: .align-center}
+
 
 <br/>
 
 Hopefully coming soon, a number of vaccines and treatments.   [Summary of Vaccine and Treatments](https://www.visualcapitalist.com/every-vaccine-treatment-covid-19-so-far/?from=timeline&isappinstalled=0){: target="_blank"}
+
+[Summary of Treatment Research by WHO](https://www.who.int/blueprint/priority-diseases/key-action/novel-coronavirus/en/){: target="_blank"}  
 
 
 This is not an exhaustive list; anything missing is accidental.  
@@ -154,3 +192,7 @@ This is not an exhaustive list; anything missing is accidental.
 [^5]:  <cite>[CDC Mortality Data](https://www.cdc.gov/nchs/fastats/deaths.htm){: target="_blank"}</cite>  
 
 [^6]:  <cite> Dr. Tatiana Prowell, a guest on [Radiolab](https://www.wnycstudios.org/podcasts/radiolab){: target="_blank"}, [Dispatch 3: Shared Immunity episode](https://www.wnycstudios.org/podcasts/radiolab/articles/dispatch-3-shared-immunity){: target="_blank"}</cite>
+
+[^7]: <cite>Country Level testing summary from [Wikipedia](https://en.wikipedia.org/wiki/COVID-19_testing){: target="_blank"}
+
+[^8]: <cite>Mortality following infection, [The Lancet](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30195-X/fulltext){: target="_blank"}  
