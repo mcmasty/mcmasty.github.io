@@ -17,7 +17,7 @@ excerpt: 'Following my curiosity, learning along the way, hopefully creating use
 intro:
   - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
 feature_row:
-  - image_path:   "https://cdn.filestackcontent.com/resize=w:500,h:300,fit:crop/compress/3vLHQUvRxyMfKDpkJD8N"
+  - image_path:   "https://cdn.filestackcontent.com/resize=w:500,h:300,fit:crop/auto_image/compress/3vLHQUvRxyMfKDpkJD8N"
 #    image_caption: "Photo by Fabian Blank on Unsplash"
     alt: Piggy Bank
     title: Investing in Peer-to-Peer Notes
@@ -25,7 +25,7 @@ feature_row:
     url: /2020/post/lending-club-part-one/
     btn_label: "Read More"  
     btn_class: "btn--primary"
-  - image_path:  https://cdn.filestackcontent.com/resize=w:500,h:300,fit:crop/compress/2lRnaBCVRRmnvYby4tsk
+  - image_path:  https://cdn.filestackcontent.com/resize=w:500,h:300,fit:crop/auto_image/compress/2lRnaBCVRRmnvYby4tsk
 #    image_caption: Photo by Hitesh Choudhary on [Unsplash](https://unsplash.com/)"
     alt: Technical Projects
     title: "Data, Python, and other technical projects"
@@ -38,7 +38,7 @@ feature_row:
 #    image_caption: ""    
     excerpt: "Star ornaments from old bike chains."
 feature_row4:
-  - image_path: https://cdn.filestackcontent.com/resize=h:300,fit:crop/compress/zZHxJaBNT1ab9jSlVeXl
+  - image_path: https://cdn.filestackcontent.com/resize=h:300,fit:crop/auto_image/compress/zZHxJaBNT1ab9jSlVeXl
     alt: "COVID-19 Image"
     title: "Coronavirus Analysis"
     excerpt: "Looking at the coronavirus data tracking websites left me with questions. This is my attempt to satisfy my own curiosity.   
