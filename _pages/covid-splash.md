@@ -17,7 +17,7 @@ categories:
   - Post
 tags:
   - COVID-19
-last_modified_at:  2020-04-16 12:38:00 -0400
+last_modified_at:  2020-04-17 11:38:00 -0400
 ---
 
 
@@ -48,9 +48,8 @@ last_modified_at:  2020-04-16 12:38:00 -0400
 
 <!-- After 5 consecutive days of exceeding 1,800 deaths last week, yesterday's total took another step in the right direction, dropping to 1,450.   -->
 
-Yesterday saw another peak in new deaths.  
 
-![New Death Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/new_death_20200416_1587064526.png){: .align-center}
+![New Death Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/new_death_20200417_1587151071.png){: .align-center}
 
 The Lancet[^8] has reported that the time between symptom onset and death can range between 2 and 8 weeks, as well as a revised mortality rate estimation of 5.6%. Combining The Lancet report with the observed spike of new case spikes on 10th and 11th of April (chart below), we might anticipate the death rate to stay relatively high for a few more weeks.  Be mindful Case Fatality Rate estimations vary widely, and a number of factors are at play, including the capacity of the local health care system.  
 {: .notice--info}      
@@ -74,19 +73,19 @@ Influenza & Pneumonia is the 8th highest leading cause of death with 55,672 deat
 
 Given we are still in the early days of the outbreak, the rate of change is more telling then the cumulative totals.  To compare mortality, compute the average deaths per day for each leading cause and compare to the daily death count for COVID-19.
 
-![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/leading_causes_20200416_1587064132.png){: .align-center}
+![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/leading_causes_20200417_1587151009.png){: .align-center}
 
 ## Spread / Containment      
 
-**Data as of:  15-April-2020[^1]**  
+**Data as of:  16-April-2020[^1]**  
 
 The data shows physical distancing is working. The macro trend is that the daily growth rate is decreasing, and subsequently the number of days until the case count doubles is also improving, i.e. increasing.  
 
-The daily growth rate is approaching 5%, with a value of 5.0% for 14-April and 3-day moving average of 5.1%.  
+The daily growth rate is stabilizing around 5%, with a value of 4.8% for 16-April and 3-day moving average of 5.0%.  
 
 The bad news, is that growth has accelerated in recent days; the trend is most observable in the growth factor charts.  
 
-![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_update_20200416_1587067269.png){: .align-center}    
+![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_update_20200417_1587151140.png){: .align-center}    
 
 
 <br/>  
@@ -94,7 +93,7 @@ The bad news, is that growth has accelerated in recent days; the trend is most o
 ### Growth Factor    
 More to come here, but for folks who received my emails, I discussed _Growth Factor_[^4] as a ratio of new cases today compared to new cases yesterday. As long as growth factor > 1, exponential growth will continue. A Growth Factor = 1, is the inflection point; that is, the point when new case growth changes from exponential to logarithmic. Stopping exponential growth is a critical first step to managing the pandemic.  
 
-![Growth Factor Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/growth_factor_20200416_1587064256.png){: .align-center}
+![Growth Factor Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/growth_factor_20200417_1587151220.png){: .align-center}
 
 
 To get a better feel for growth factor, below is a basic logistic curve with different growth factor reference values plotted. Even though exponential growth ceases at growth factor = 1, the curve is still steep. In my opinion, the growth in total COVID-19 cases won't feel like it slowing until the growth factor is below 0.95.  
@@ -115,7 +114,7 @@ A few notes:
 
 The US has surpassed 3 million total tests.  
 
-![Positive Test Proportion]({{ site.url }}{{ site.baseurl }}/assets/images/covid/high_level_testing_20200416_1587066291.png){: .align-center}
+![High Level Testing]({{ site.url }}{{ site.baseurl }}/assets/images/covid/high_level_testing_20200417_1587151364.png){: .align-center}
 
 Testing throughput continues to improve, but in my opinion is not yet sufficient to effectively manage the relaxation of physical distancing guidelines. (It looks like data on April 4th is bad data.)    
 
@@ -129,7 +128,7 @@ Thought experiment on testing:  There are roughly 17,000,000 health care workers
 One measure might be the proportion of positive tests as a share of total testing. We know that asymptomatic contagious individuals are making this outbreak particularly challenging to deal with. Any attempt to identify the asymptomatic carriers of the disease will require testing many healthy people, who are also asymptomatic. The impact of testing more asymptomatic people, would drive down the number of positive tests as more healthy people are tested.   
 
 The below graph shows the number of positive tests as a proportion of total testing.  
-![Positive Test Proportion]({{ site.url }}{{ site.baseurl }}/assets/images/covid/positive_test_proportion_20200416_1587065050.png){: .align-center}  
+![Positive Test Proportion]({{ site.url }}{{ site.baseurl }}/assets/images/covid/positive_test_proportion_20200417_1587151390.png){: .align-center}  
 
 
 **Reference Countries[^7]:**   
@@ -174,7 +173,7 @@ The best tools we have today
   [More info at the Red Cross for Recovered Patients](https://www.redcrossblood.org/donate-blood/dlp/plasma-donations-from-recovered-covid-19-patients.html){: target="_blank"}
 
   An increasing number of people recovered, means more people can help - a single person's blood plasma donation produces enough serum to treat 3 people.[^6]   
-  ![Recoveries]({{ site.url }}{{ site.baseurl }}/assets/images/covid/recoveries_20200416_1587064793.png){: .align-center}
+  ![Recoveries]({{ site.url }}{{ site.baseurl }}/assets/images/covid/recoveries_20200417_1587151327.png){: .align-center}
 
 
 <br/>
