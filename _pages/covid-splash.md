@@ -140,7 +140,7 @@ The below graph shows the number of positive tests as a proportion of total test
 | Canada | 5.9% |
 | Germany | 7.7% |  
 | Italy | 14.8% |  
-| United States | 19.5% |    
+| United States | 16.1% |    
 
 
 If we use 5% as a threshold for relaxing physical distancing, there are two levers we can pull to reach it; (1) decrease the number of new positive tests ( aka continue with physical distancing measures), (2) increase the number tests completed each day.
