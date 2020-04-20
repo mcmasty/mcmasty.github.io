@@ -143,6 +143,7 @@ The below graph shows the number of positive tests as a proportion of total test
 | United States | 16.1% |    
 
 
+
 If we use 5% as a threshold for relaxing physical distancing, there are two levers we can pull to reach it; (1) decrease the number of new positive tests ( aka continue with physical distancing measures), (2) increase the number tests completed each day.
 
 Assuming no increase in testing capacity, our current capacity is around 150,000 test per day, 5% of that number is 7,500.  To reach 5% positive test proportion, we'd need to keep physical distancing guidelines in place until the number of new cases falls to 7,500 per day.  
