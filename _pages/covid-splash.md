@@ -17,7 +17,7 @@ categories:
   - Post
 tags:
   - COVID-19
-last_modified_at:  2020-04-21 12:35:00 -0400
+last_modified_at:  2020-04-21 14:35:00 -0400
 ---
 
 
@@ -73,7 +73,7 @@ To put this daily death total in perspective, according to the CDC mortality dat
 
 
 
-Influenza & Pneumonia is the 8th highest leading cause of death with 55,672 deaths in 2017. As of this writing, the total number of reported COVID-19 deaths in the US is approaching 15,000.
+Influenza & Pneumonia is the 8th highest leading cause of death with 55,672 deaths in 2017. As of this writing, the total number of reported COVID-19 deaths in the US is approaching 45,000.
 {: .notice--info}  
 
 
@@ -109,11 +109,8 @@ To get a better feel for growth factor, below is a basic logistic curve with dif
 > All models are wrong, but some are useful.  
 > <cite>George Box</cite>  
 
+See notes[^9] [^10] for more details on logistic curve and growth factor.
 
-A few notes:  
-- The logistic curve above is not a measurement, it is a model, and therefore it is an approximation. The goal is to provide some context of where we might be on the curve, based on the actual measurement and calculation of growth factor.   
-
-- The distance between time points on the plot is not fixed. The distance between t0 and t1, might be 30 days, while the distance between t6 and t7 might be 3 days. One complicating factor of epidemics is the feedback loop. We can influence what shape the outbreak takes. The total number of COVID-19 cases depends on us, and what we do.  How quickly we flatten the curve depends on us, and what we do. Therefore, the duration between t5 and t6 is not a fixed number of days, but instead, depends on us, and what we do.   
 
 ## Testing Snapshot
 
@@ -133,32 +130,35 @@ Thought experiment on testing:  There are roughly 17,000,000 health care workers
 One measure might be the proportion of positive tests as a share of total testing. We know that asymptomatic contagious individuals are making this outbreak particularly challenging to deal with. Any attempt to identify the asymptomatic carriers of the disease will require testing many healthy people, who are also asymptomatic. The impact of testing more asymptomatic people, would drive down the number of positive tests as more healthy people are tested.   
 
 The below graph shows the number of positive tests as a proportion of total testing.  
-![Positive Test Proportion]({{ site.url }}{{ site.baseurl }}/assets/images/covid/positive_test_proportion_20200421_1587496328.png){: .align-center}  
+![Positive Test Proportion]({{ site.url }}{{ site.baseurl }}/assets/images/covid/positive_test_proportion_20200421_1587506536.png){: .align-center}  
+
+United States test positivity for 20-April-2020:  16.9%.
 
 
 **Reference Countries[^7]:**   
 
-|  Country | Proportion of Positive Tests |  
-| :---: | :---: |  
-| Taiwan | 0.8% |  
-| South Korea | 1.9% |  
-| Iceland | 4.1% |  
-| Canada | 6.4% |
-| Germany | 7.7% |  
-| Italy | 13.0% |  
-| United States (daily)| 16.7% |    
+| Country | Test Positivity | Case Fatality Rate |
+| :--- | :---: | :---: |
+| Taiwan     |    0.77% |    1.41% |
+| S. Korea   |    1.87% |    2.22% |
+| Iceland    |    4.06% |    0.56% |
+| Canada     |    6.61% |    4.62% |
+| Germany    |    8.56% |    3.33% |
+| Italy      |   12.69% |   13.40% |
 
 Test positivity is measured with aggregate test data unless noted otherwise.
 
-
-If we use 5% as a threshold for relaxing physical distancing, there are two levers we can pull to reach it; (1) decrease the number of new positive tests ( aka continue with physical distancing measures), (2) increase the number tests completed each day.
+{% capture testing-example %}
+Thought experiment on test-positivity: If we use 5% as a threshold for relaxing physical distancing, there are two levers we can pull to reach it; (1) decrease the number of new positive tests ( aka continue with physical distancing measures), (2) increase the number tests completed each day.
 
 Assuming no increase in testing capacity, our current capacity is around 150,000 test per day, 5% of that number is 7,500.  To reach 5% positive test proportion, we'd need to keep physical distancing guidelines in place until the number of new cases falls to 7,500 per day.  
 
 Alternatively, given the 30,000 new case on 15-April, we'd need 600,000 total tests, with all additional tests negative, for the proportion of positives to be 5%.  
 
-Ideally we will make progress on strategies.  
+Ideally we will make progress on both strategies.  
+{% endcapture %}  
 
+<div class="notice--info"> {{ testing-example | markdownify }} </div>
 
 
 ## Fighting COVID-19  
@@ -194,7 +194,7 @@ Hopefully coming soon, a number of vaccines and treatments.   [Summary of Vaccin
 This is not an exhaustive list; anything missing is accidental.  
 
 
-## Citations
+## Citations and Notes  
 
 [^1]:  <cite>Data for these charts sourced from [The Covid Tracking Project](https://covidtracking.com)</cite>
 
@@ -208,6 +208,10 @@ This is not an exhaustive list; anything missing is accidental.
 
 [^6]:  <cite> Dr. Tatiana Prowell, a guest on [Radiolab](https://www.wnycstudios.org/podcasts/radiolab){: target="_blank"}, [Dispatch 3: Shared Immunity episode](https://www.wnycstudios.org/podcasts/radiolab/articles/dispatch-3-shared-immunity){: target="_blank"}</cite>
 
-[^7]: <cite>Country Level testing summary from [Wikipedia](https://en.wikipedia.org/wiki/COVID-19_testing){: target="_blank"}
+[^7]: <cite>Country Level testing summary from [Wordodmeter Country Page](https://www.worldometers.info/coronavirus/){: target="_blank"}
 
 [^8]: <cite>Mortality following infection, [The Lancet](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30195-X/fulltext){: target="_blank"}  
+
+[^9]: The logistic curve above is not a measurement, it is a model, and therefore it is an approximation. The goal is to provide some context of where we might be on the curve, based on the actual measurement and calculation of growth factor.   
+
+[^10]: The distance between time points on the plot is not fixed. The distance between t0 and t1, might be 30 days, while the distance between t6 and t7 might be 3 days. One complicating factor of epidemics is the feedback loop. We can influence what shape the outbreak takes. The total number of COVID-19 cases depends on us, and what we do.  How quickly we flatten the curve depends on us, and what we do. Therefore, the duration between t5 and t6 is not a fixed number of days, but instead, depends on us, and what we do.   
