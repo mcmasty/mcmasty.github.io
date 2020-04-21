@@ -147,6 +147,7 @@ United States for 20-April-2020[^1]: test positivity: 16.9%, case fatality rate:
 | Italy      |   12.69% |   13.40% |
 | UK         |   24.10% |   13.43% |
 
+
 Test positivity is measured with aggregate test data unless noted otherwise.
 
 {% capture testing-example %}
