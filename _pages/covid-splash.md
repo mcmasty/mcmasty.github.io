@@ -54,7 +54,7 @@ last_modified_at:  2020-04-21 11:35:00 -0400
 
 ## Impact in Lives Lost  
 
-In terms of fatality, the number of lives lost is moving in the right direction. Yesterday was the 4th consecutive day of a decreasing death total; the longest stretch we've had in this outbreak.  
+In terms of fatality, the number of lives lost is moving in the right direction. Yesterday was the 5th consecutive day of a decreasing death total; the longest stretch we've had in this outbreak.  
 
 ![New Death Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/new_death_20200421_1587496139.png){: .align-center}
 
