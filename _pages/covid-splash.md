@@ -136,6 +136,7 @@ United States for 20-April-2020[^1]: test positivity: 16.9%, case fatality rate:
 
 
 **Reference Countries[^7]:**   
+
 | Country | Test Positivity | Case Fatality Rate |
 | :--- | :---: | :---: |
 | Taiwan     |     0.8% |     1.4% |  
