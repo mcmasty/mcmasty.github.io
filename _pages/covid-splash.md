@@ -32,8 +32,7 @@ last_modified_at:  2020-04-21 11:35:00 -0400
 - 5th consecutive day of decreasing new deaths (longest such run)
 - 3rd consecutive day of decreasing new cases (tied for longest such run)  
 - Lowest level of new cases since March 30th
-- Daily growth rate is lowest measured value (3.1%); Days until cases double is highest measured value (22.2 days)
-
+- Daily growth rate is lowest measured value (3.1%); Days until cases double is highest measured value (22.2 days)  
 
 
 ### Coronavirus Tracking sites and Data Sources  
