@@ -17,7 +17,7 @@ categories:
   - Post
 tags:
   - COVID-19
-last_modified_at:  2020-04-20 11:35:00 -0400
+last_modified_at:  2020-04-21 11:35:00 -0400
 ---
 
 
@@ -26,6 +26,13 @@ last_modified_at:  2020-04-20 11:35:00 -0400
 
 <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.last_modified_at | date: "%Y-%m-%d" }}">{{ page.last_modified_at | date: "%B %-d, %Y  %r  %Z %z" }}</time></p>
 
+
+### tl;dr summary 
+
+- 5th consecutive day of decreasing new deaths  
+- 3rd consecutive day of decreasing new cases  
+- Lowest level of new cases since March 30th
+- Daily growth rate is lowest measured value (3.1%); Days until cases double is highest measured value (22.2 days)
 
 
 ### Coronavirus Tracking sites and Data Sources  
@@ -48,7 +55,7 @@ last_modified_at:  2020-04-20 11:35:00 -0400
 
 In terms of fatality, the number of lives lost is moving in the right direction. Yesterday was the 4th consecutive day of a decreasing death total; the longest stretch we've had in this outbreak.  
 
-![New Death Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/new_death_20200420_1587408468.png){: .align-center}
+![New Death Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/new_death_20200421_1587496139.png){: .align-center}
 
 The Lancet[^8] has reported that the time between symptom onset and death can range between 2 and 8 weeks. Combining The Lancet report with the observed spike of new case spikes on 10th and 11th of April (chart below), we might anticipate the death rate to stay relatively high for a few more weeks.   
 {: .notice--info}      
@@ -72,19 +79,19 @@ Influenza & Pneumonia is the 8th highest leading cause of death with 55,672 deat
 
 Given we are still in the early days of the outbreak, the rate of change is more telling then the cumulative totals.  To compare mortality, compute the average deaths per day for each leading cause and compare to the daily death count for COVID-19.
 
-![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/leading_causes_20200420_1587408439.png){: .align-center}
+![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/leading_causes_20200421_1587496074.png){: .align-center}
 
 ## Spread / Containment      
 
-**Data as of:  19-April-2020[^1]**  
+**Data as of:  20-April-2020[^1]**  
 
 The data shows physical distancing is working. The macro trend is that the daily growth rate is decreasing, and subsequently the number of days until the case count doubles is also improving, i.e. increasing.  
 
-The daily growth rate continues to improve and headed towards 4%, with the 3-day moving average of 4.2%.  
+The daily growth rate continues to improve and headed towards 4%, with the 3-day moving average of 3.8%.  
 
 
 
-![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_update_20200420_1587408513.png){: .align-center}    
+![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_update_20200421_1587496198.png){: .align-center}    
 
 
 <br/>  
@@ -92,7 +99,7 @@ The daily growth rate continues to improve and headed towards 4%, with the 3-day
 ### Growth Factor    
 More to come here, but for folks who received my emails, I discussed _Growth Factor_[^4] as a ratio of new cases today compared to new cases yesterday. As long as growth factor > 1, exponential growth will continue. A Growth Factor = 1, is the inflection point; that is, the point when new case growth changes from exponential to logarithmic. Stopping exponential growth is a critical first step to managing the pandemic.  
 
-![Growth Factor Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/growth_factor_20200420_1587408536.png){: .align-center}
+![Growth Factor Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/growth_factor_20200421_1587496226.png){: .align-center}
 
 
 To get a better feel for growth factor, below is a basic logistic curve with different growth factor reference values plotted. Even though exponential growth ceases at growth factor = 1, the curve is still steep. In my opinion, the growth in total COVID-19 cases won't feel like it slowing until the growth factor is below 0.95.  
@@ -111,9 +118,9 @@ A few notes:
 
 ## Testing Snapshot
 
-The US is approaching 4 million total tests.  
+The US has surpassed 4 million total tests.  
 
-![High Level Testing]({{ site.url }}{{ site.baseurl }}/assets/images/covid/high_level_testing_20200420_1587408613.png){: .align-center}
+![High Level Testing]({{ site.url }}{{ site.baseurl }}/assets/images/covid/high_level_testing_20200421_1587496301.png){: .align-center}
 
 Testing throughput continues to improve, but in my opinion is not yet sufficient to effectively manage the relaxation of physical distancing guidelines. (It looks like data on April 4th is bad data.)    
 
@@ -127,7 +134,7 @@ Thought experiment on testing:  There are roughly 17,000,000 health care workers
 One measure might be the proportion of positive tests as a share of total testing. We know that asymptomatic contagious individuals are making this outbreak particularly challenging to deal with. Any attempt to identify the asymptomatic carriers of the disease will require testing many healthy people, who are also asymptomatic. The impact of testing more asymptomatic people, would drive down the number of positive tests as more healthy people are tested.   
 
 The below graph shows the number of positive tests as a proportion of total testing.  
-![Positive Test Proportion]({{ site.url }}{{ site.baseurl }}/assets/images/covid/positive_test_proportion_20200420_1587408644.png){: .align-center}  
+![Positive Test Proportion]({{ site.url }}{{ site.baseurl }}/assets/images/covid/positive_test_proportion_20200421_1587496328.png){: .align-center}  
 
 
 **Reference Countries[^7]:**   
@@ -135,13 +142,14 @@ The below graph shows the number of positive tests as a proportion of total test
 |  Country | Proportion of Positive Tests |  
 | :---: | :---: |  
 | Taiwan | 0.8% |  
-| South Korea | 2.0% |  
-| Iceland | 4.6% |  
-| Canada | 5.9% |
+| South Korea | 1.9% |  
+| Iceland | 4.1% |  
+| Canada | 6.4% |
 | Germany | 7.7% |  
-| Italy | 14.8% |  
-| United States | 16.1% |    
+| Italy | 13.0% |  
+| United States (daily)| 16.7% |    
 
+Test positivity is measured with aggregate test data unless noted otherwise.
 
 
 If we use 5% as a threshold for relaxing physical distancing, there are two levers we can pull to reach it; (1) decrease the number of new positive tests ( aka continue with physical distancing measures), (2) increase the number tests completed each day.
@@ -174,7 +182,7 @@ The best tools we have today
 
   An increasing number of people recovered, means more people can help - a single person's blood plasma donation produces enough serum to treat 3 people.[^6]    
 
-  ![Recoveries]({{ site.url }}{{ site.baseurl }}/assets/images/covid/recoveries_20200420_1587408574.png){: .align-center}
+  ![Recoveries]({{ site.url }}{{ site.baseurl }}/assets/images/covid/recoveries_20200421_1587496257.png){: .align-center}
 
 
 <br/>
