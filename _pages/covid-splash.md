@@ -91,7 +91,6 @@ The data shows physical distancing is working. The macro trend is that the daily
 The daily growth rate continues to improve and is now under 4%, with the 3-day moving average of 3.8%.  
 
 
-
 ![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_update_20200421_1587496198.png){: .align-center}    
 
 
