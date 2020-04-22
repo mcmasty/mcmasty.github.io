@@ -58,7 +58,7 @@ Yesterday was a bit of a speed bump or maybe a pothole, but overall trends are s
 
 ## Impact in Lives Lost  
 
-In terms of fatality, the number of lives lost is moving in the right direction. Yesterday was the 5th consecutive day of a decreasing death total; the longest stretch we've had in this outbreak.  
+In terms of fatality, the number of lives lost is moving in the right direction. Prior to yesterday, the trend was 5 consecutive days of a decreasing death total; the longest stretch we've had in this outbreak.  
 
 ![New Death Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/new_death_20200422_1587582780.png){: .align-center}
 
