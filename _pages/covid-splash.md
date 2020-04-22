@@ -144,7 +144,7 @@ The below graph shows the number of positive tests as a proportion of total test
 United States for 21-April-2020[^1]: test positivity: 17.9%, case fatality rate: 5.0%.  
 
 
-**Reference Countries[^7]:**   
+**Comparison to other Countries[^7]:**   
 
 | Country | Test Positivity | Case Fatality Rate |
 | :--- | :---: | :---: |
