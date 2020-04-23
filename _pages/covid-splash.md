@@ -17,7 +17,7 @@ categories:
   - Post
 tags:
   - COVID-19
-last_modified_at:  2020-04-22 11:35:00 -0400
+last_modified_at:  2020-04-23 14:05:00 -0400
 ---
 
 
@@ -29,13 +29,12 @@ last_modified_at:  2020-04-22 11:35:00 -0400
 
 ### tl;dr[^11] summary
 
-Yesterday was a bit of a speed bump or maybe a pothole, but overall trends are still on the right track.
 
-- <i class="fas fa-arrow-up" style="color: red;"></i> Highest day recorded for new deaths (2,674)
-- <i class="fas fa-arrow-up" style="color: red;"></i> New cases on the rise   
-- <i class="fas fa-arrow-up" style="color: red;"></i> All metrics reflect the step backwards.  The change in growth factor is most stark.
-- <i class="fas fa-arrows-alt-h" style="color: #ffbf00;"></i> The downward trend in daily growth rate continues; for example the days until cases double, although lower than yesterday, is at its second highest value, and a significant improvement over last week.  
+- <i class="fas fa-arrows-alt-h" style="color: #ffbf00;"></i> New deaths saw a big decrease compared to yesterday, but remains over 2,000 (2,108)  
 
+- <i class="fas fa-arrows-alt-h" style="color: #ffbf00;"></i> Growth factor is flat and is hovering around 1; as a result number of new cases is also flat
+
+- <i class="fas fa-arrow-up" style="color: green;"></i> Huge jump in testing, mostly due to California reporting 165k test yesterday.  
 
 
 
@@ -58,9 +57,9 @@ Yesterday was a bit of a speed bump or maybe a pothole, but overall trends are s
 
 ## Impact in Lives Lost  
 
-In terms of fatality, the number of lives lost is moving in the right direction. Prior to yesterday, the trend was 5 consecutive days of a decreasing death total; the longest stretch we've had in this outbreak.  
+In terms of fatality, the number of lives lost is remains high (over 2,000), but hopefully we're about to start a new trend of decreasing numbers.  
 
-![New Death Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/new_death_20200422_1587582780.png){: .align-center}
+![New Death Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/new_death_20200423_1587679558.png){: .align-center}
 
 The Lancet[^8] has reported that the time between symptom onset and death can range between 2 and 8 weeks. Combining The Lancet report with the observed spike of new case spikes on 10th and 11th of April (chart below), we might anticipate the death rate to stay relatively high for a few more weeks.   
 {: .notice--info}      
@@ -84,7 +83,7 @@ Influenza & Pneumonia is the 8th highest leading cause of death with 55,672 deat
 
 Given we are still in the early days of the outbreak, the rate of change is more telling then the cumulative totals.  To compare mortality, compute the average deaths per day for each leading cause and compare to the daily death count for COVID-19.
 
-![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/leading_causes_20200422_1587582739.png){: .align-center}
+![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/leading_causes_20200423_1587678179.png){: .align-center}
 
 ## Spread / Containment      
 
@@ -92,10 +91,10 @@ Given we are still in the early days of the outbreak, the rate of change is more
 
 The data shows physical distancing is working. The macro trend is that the daily growth rate is decreasing, and subsequently the number of days until the case count doubles is also improving, i.e. increasing.  
 
-The daily growth rate continues to improve and is now under 4%, with the 3-day moving average of 3.7%.  
+The daily growth rate continues to improve and is now under 4%, with the 3-day moving average of 3.6%.  
 
 
-![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_update_20200422_1587583009.png){: .align-center}    
+![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_update_20200423_1587678246.png){: .align-center}    
 
 
 <br/>  
@@ -103,7 +102,7 @@ The daily growth rate continues to improve and is now under 4%, with the 3-day m
 ### Growth Factor    
 More to come here, but for folks who received my emails, I discussed _Growth Factor_[^4] as a ratio of new cases today compared to new cases yesterday. As long as growth factor > 1, exponential growth will continue. A Growth Factor = 1, is the inflection point; that is, the point when new case growth changes from exponential to logarithmic. Stopping exponential growth is a critical first step to managing the pandemic.  
 
-![Growth Factor Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/growth_factor_20200422_1587583029.png){: .align-center}
+![Growth Factor Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/growth_factor_20200423_1587678287.png){: .align-center}
 
 
 To get a better feel for growth factor, below is a basic logistic curve with different growth factor reference values plotted. Even though exponential growth ceases at growth factor = 1, the curve is still steep. In my opinion, the growth in total COVID-19 cases won't feel like it slowing until the growth factor is below 0.90.  
@@ -123,9 +122,10 @@ See notes[^9] [^10] for more details on logistic curve and growth factor.
 
 The US has surpassed 4 million total tests.  
 
-![High Level Testing]({{ site.url }}{{ site.baseurl }}/assets/images/covid/high_level_testing_20200422_1587583126.png){: .align-center}
+![High Level Testing]({{ site.url }}{{ site.baseurl }}/assets/images/covid/high_level_testing_20200423_1587678367.png){: .align-center}
 
-Testing throughput has plateaued.  
+California reported 165k test for 22-April, hopefully this represents the new normal in California.  Testing throughput remains relatively flat throughout the rest of the country.  
+
 
 (It looks like data on April 4th is bad data.)    
 
@@ -139,9 +139,9 @@ Thought experiment on testing:  There are roughly 17,000,000 health care workers
 One measure might be the proportion of positive tests as a share of total testing. We know that asymptomatic contagious individuals are making this outbreak particularly challenging to deal with. Any attempt to identify the asymptomatic carriers of the disease will require testing many healthy people, who are also asymptomatic. The impact of testing more asymptomatic people, would drive down the number of positive tests as more healthy people are tested.   
 
 The below graph shows the number of positive tests as a proportion of total testing.  
-![Positive Test Proportion]({{ site.url }}{{ site.baseurl }}/assets/images/covid/positive_test_proportion_20200422_1587583176.png){: .align-center}  
+![Positive Test Proportion]({{ site.url }}{{ site.baseurl }}/assets/images/covid/positive_test_proportion_20200423_1587678419.png){: .align-center}  
 
-United States for 21-April-2020[^1]: test positivity: 17.9%, case fatality rate: 5.0%.  
+United States for 22-April-2020[^1]: test positivity: 8.7%, case fatality rate: 5.1%    
 
 
 **Comparison to other Countries[^7]:**   
@@ -192,7 +192,7 @@ The best tools we have today
 
   An increasing number of people recovered, means more people can help - a single person's blood plasma donation produces enough serum to treat 3 people.[^6]    
 
-  ![Recoveries]({{ site.url }}{{ site.baseurl }}/assets/images/covid/recoveries_20200422_1587583073.png){: .align-center}
+  ![Recoveries]({{ site.url }}{{ site.baseurl }}/assets/images/covid/recoveries_20200423_1587678331.png){: .align-center}
 
 
 <br/>
