@@ -17,7 +17,7 @@ categories:
   - Post
 tags:
   - COVID-19
-last_modified_at:  2020-04-23 14:05:00 -0400
+last_modified_at:  2020-04-24 11:25:00 -0400
 ---
 
 
@@ -29,12 +29,16 @@ last_modified_at:  2020-04-23 14:05:00 -0400
 
 ### tl;dr[^11] summary
 
+<!-- <i class="fas fa-arrows-alt-h" style="color: #ffbf00;"></i> -->
 
-- <i class="fas fa-arrows-alt-h" style="color: #ffbf00;"></i> New deaths saw a big decrease compared to yesterday, but remains over 2,000 (2,108)  
 
-- <i class="fas fa-arrows-alt-h" style="color: #ffbf00;"></i> Growth factor is flat and is hovering around 1; as a result number of new cases is also flat
+- <i class="fas fa-arrow-down" style="color: green;"></i> New deaths saw a second consecutive day of reductions.  
 
-- <i class="fas fa-arrow-up" style="color: green;"></i> Huge jump in testing, mostly due to California reporting 165k test yesterday.  
+- <i class="fas fa-arrow-up" style="color: red;"></i> The number of new cases rose yesterday, as a result the growth factor has also increased
+
+- <i class="fas fa-arrows-alt-h" style="color: #ffbf00;"> </i> The huge jump in testing was not sustained, however, testing appears to be increasing from the plateau.  
+
+- **New Data**  State level test positivity data available near the bottom of this page.  
 
 
 
@@ -57,9 +61,9 @@ last_modified_at:  2020-04-23 14:05:00 -0400
 
 ## Impact in Lives Lost  
 
-In terms of fatality, the number of lives lost is remains high (over 2,000), but hopefully we're about to start a new trend of decreasing numbers.  
+In terms of fatality, the number of lives lost is remains high (near 2,000), but hopefully we're about to start a new trend of decreasing numbers.  
 
-![New Death Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/new_death_20200423_1587679558.png){: .align-center}
+![New Death Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/new_death_20200424_1587754919.png){: .align-center}
 
 The Lancet[^8] has reported that the time between symptom onset and death can range between 2 and 8 weeks. Combining The Lancet report with the observed spike of new case spikes on 10th and 11th of April (chart below), we might anticipate the death rate to stay relatively high for a few more weeks.   
 {: .notice--info}      
@@ -83,26 +87,35 @@ Influenza & Pneumonia is the 8th highest leading cause of death with 55,672 deat
 
 Given we are still in the early days of the outbreak, the rate of change is more telling then the cumulative totals.  To compare mortality, compute the average deaths per day for each leading cause and compare to the daily death count for COVID-19.
 
-![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/leading_causes_20200423_1587678179.png){: .align-center}
+![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/leading_causes_20200424_1587754882.png){: .align-center}
 
 ## Spread / Containment      
 
-**Data as of:  21-April-2020[^1]**  
+**Data as of:  23-April-2020[^1]**  
 
 The data shows physical distancing is working. The macro trend is that the daily growth rate is decreasing, and subsequently the number of days until the case count doubles is also improving, i.e. increasing.  
 
-The daily growth rate continues to improve and is now under 4%, with the 3-day moving average of 3.6%.  
+The daily growth rate continues to improve and is now under 4%, with the 3-day moving average of 3.7%.  
 
 
-![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_update_20200423_1587678246.png){: .align-center}    
+![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_update_20200424_1587754966.png){: .align-center}    
 
 
 <br/>  
 
 ### Growth Factor    
-More to come here, but for folks who received my emails, I discussed _Growth Factor_[^4] as a ratio of new cases today compared to new cases yesterday. As long as growth factor > 1, exponential growth will continue. A Growth Factor = 1, is the inflection point; that is, the point when new case growth changes from exponential to logarithmic. Stopping exponential growth is a critical first step to managing the pandemic.  
 
-![Growth Factor Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/growth_factor_20200423_1587678287.png){: .align-center}
+Growth factor is a measure of how quickly the infection is growing.  
+
+A growth factor < 1 (green area on chart), means there are fewer cases today then yesterday, and If we can keep that up long-enough, the outbreak will die down.
+
+In a perfect world the growth factor would approach 0, meaning no new cases.
+
+
+_Growth Factor_[^4] is a ratio of new cases today compared to new cases yesterday.
+
+
+![Growth Factor Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/growth_factor_20200424_1587755033.png){: .align-center}
 
 
 To get a better feel for growth factor, below is a basic logistic curve with different growth factor reference values plotted. Even though exponential growth ceases at growth factor = 1, the curve is still steep. In my opinion, the growth in total COVID-19 cases won't feel like it slowing until the growth factor is below 0.90.  
@@ -122,12 +135,11 @@ See notes[^9] [^10] for more details on logistic curve and growth factor.
 
 The US has surpassed 4 million total tests.  
 
-![High Level Testing]({{ site.url }}{{ site.baseurl }}/assets/images/covid/high_level_testing_20200423_1587678367.png){: .align-center}
+![High Level Testing]({{ site.url }}{{ site.baseurl }}/assets/images/covid/high_level_testing_20200424_1587755091.png){: .align-center}
 
-California reported 165k test for 22-April, hopefully this represents the new normal in California.  Testing throughput remains relatively flat throughout the rest of the country.  
+California's jump in testing has not continued. On the bright side, it appears testing throughput has increased to approach the 200k test per day, up from the 150k per day plateau of the last few weeks.  
 
 
-(It looks like data on April 4th is bad data.)    
 
 Thought experiment on testing:  There are roughly 17,000,000 health care workers in the U.S.[^2]. The average incubation period of coronavirus is around 5 days[^3]. Until treatments are available, to keep our healthcare workers safe, a weekly test seems pragmatic.  17 million divided by 7 days  is roughly 2.4 million tests per day, or 3.4 million tests per day if we test every 5 days. This thought experiment is only to suggest the scale of testing that might be necessary for effective public health management as part of a strategy to relax physical distancing restrictions.  
 {: .notice--info}
@@ -139,7 +151,7 @@ Thought experiment on testing:  There are roughly 17,000,000 health care workers
 One measure might be the proportion of positive tests as a share of total testing. We know that asymptomatic contagious individuals are making this outbreak particularly challenging to deal with. Any attempt to identify the asymptomatic carriers of the disease will require testing many healthy people, who are also asymptomatic. The impact of testing more asymptomatic people, would drive down the number of positive tests as more healthy people are tested.   
 
 The below graph shows the number of positive tests as a proportion of total testing.  
-![Positive Test Proportion]({{ site.url }}{{ site.baseurl }}/assets/images/covid/positive_test_proportion_20200423_1587678419.png){: .align-center}  
+![Positive Test Proportion]({{ site.url }}{{ site.baseurl }}/assets/images/covid/positive_test_proportion_20200424_1587755140.png){: .align-center}  
 
 United States for 22-April-2020[^1]: test positivity: 8.7%, case fatality rate: 5.1%    
 
@@ -170,6 +182,77 @@ Ideally we will make progress on both strategies.
 {% endcapture %}  
 
 <div class="notice--info"> {{ testing-example | markdownify }} </div>
+
+
+
+### State Level Snapshot
+
+Some field definitions:  
+
+- `Pop.` is state population in millions  
+- `Tot.Case` is the total number of cases measured by positive test results  
+- `Tests per 1k` is number of tests per 1,000 in state's population  
+- `T-Positivity` is the test-positivity percentage; ratio of positive tests to total tests    
+- `Fatality per 1M`  number of deaths per 1 million in population  
+- `As-Of Date`  the date when the data was last modified
+
+
+
+| State|    Pop.| Tot.Case | Tests per 1k | T-Positivity | Fatalities | Fatality per 1M | As-Of Date |  
+| :---:  | ---:   |  ---:    |   :---:  |:---:  |   ---:   |  :---: |  :---: |
+| AK  | 0.7 M   | 337  | 17  | 2.8%  | 9  | 12    | 23-Apr |
+| AL  | 4.9 M   | 5,832  | 11  | 11.1%  | 197  | 40    | 23-Apr |
+| AR  | 3.0 M   | 2,599  | 11  | 7.5%  | 45  | 15    | 24-Apr |
+| AZ  | 7.3 M   | 5,769  | 8  | 9.8%  | 249  | 34    | 23-Apr |
+| CA  | 39.5 M   | 37,369  | 12  | 7.8%  | 1,469  | 37    | 22-Apr |
+| CO  | 5.8 M   | 11,262  | 9  | 21.5%  | 552  | 96    | 23-Apr |
+| CT  | 3.6 M   | 23,100  | 20  | 32.3%  | 1,639  | 460    | 23-Apr |
+| DC  | 0.7 M   | 3,361  | 23  | 21.1%  | 139  | 197    | 22-Apr |
+| DE  | 1.0 M   | 3,308  | 17  | 19.6%  | 92  | 94    | 22-Apr |
+| FL  | 21.5 M   | 29,648  | 14  | 9.8%  | 1,006  | 47    | 23-Apr |
+| GA  | 10.6 M   | 21,883  | 10  | 21.6%  | 881  | 83    | 23-Apr |
+| HI  | 1.4 M   | 591  | 19  | 2.2%  | 12  | 8    | 22-Apr |
+| IA  | 3.2 M   | 3,924  | 9  | 13.4%  | 96  | 30    | 22-Apr |
+| ID  | 1.8 M   | 1,836  | 11  | 9.6%  | 54  | 30    | 23-Apr |
+| IL  | 12.7 M   | 36,934  | 14  | 21.3%  | 1,688  | 133    | 23-Apr |
+| IN  | 6.7 M   | 13,039  | 11  | 18.1%  | 706  | 105    | 23-Apr |
+| KS  | 2.9 M   | 2,482  | 7  | 11.6%  | 112  | 38    | 23-Apr |
+| KY  | 4.5 M   | 3,481  | 10  | 8.1%  | 191  | 43    | 23-Apr |
+| LA  | 4.6 M   | 25,739  | 31  | 18.0%  | 1,540  | 331    | 23-Apr |
+| MA  | 6.9 M   | 46,023  | 28  | 23.6%  | 2,360  | 340    | 22-Apr |
+| MD  | 6.0 M   | 15,737  | 13  | 19.6%  | 748  | 124    | 23-Apr |
+| ME  | 1.3 M   | 937  | 13  | 5.3%  | 44  | 33    | 23-Apr |
+| MI  | 10.0 M   | 35,291  | 13  | 27.5%  | 2,977  | 298    | 23-Apr |
+| MN  | 5.6 M   | 2,942  | 9  | 5.7%  | 200  | 35    | 22-Apr |
+| MO  | 6.1 M   | 6,321  | 11  | 9.7%  | 218  | 36    | 23-Apr |
+| MS  | 3.0 M   | 5,153  | 19  | 9.3%  | 201  | 68    | 22-Apr |
+| MT  | 1.1 M   | 442  | 11  | 3.7%  | 14  | 13    | 23-Apr |
+| NC  | 10.5 M   | 7,608  | 9  | 7.9%  | 253  | 24    | 23-Apr |
+| ND  | 0.8 M   | 709  | 21  | 4.3%  | 15  | 20    | 23-Apr |
+| NE  | 1.9 M   | 2,124  | 10  | 11.4%  | 47  | 24    | 23-Apr |
+| NH  | 1.4 M   | 1,670  | 12  | 9.9%  | 51  | 38    | 23-Apr |
+| NJ  | 8.9 M   | 99,989  | 23  | 50.0%  | 5,368  | 604    | 23-Apr |
+| NM  | 2.1 M   | 2,210  | 20  | 5.4%  | 71  | 34    | 23-Apr |
+| NV  | 3.1 M   | 4,208  | 11  | 12.1%  | 195  | 63    | 24-Apr |
+| NY  | 19.5 M   | 263,460  | 36  | 37.9%  | 15,740  | 809    | 23-Apr |
+| OH  | 11.7 M   | 14,142  | 9  | 13.8%  | 656  | 56    | 23-Apr |
+| OK  | 4.0 M   | 3,017  | 12  | 6.6%  | 179  | 45    | 23-Apr |
+| OR  | 4.2 M   | 2,127  | 10  | 4.8%  | 83  | 20    | 23-Apr |
+| PA  | 12.8 M   | 36,647  | 14  | 20.5%  | 1,421  | 111    | 23-Apr |
+| RI  | 1.1 M   | 6,256  | 42  | 14.1%  | 189  | 178    | 23-Apr |
+| SC  | 5.1 M   | 4,917  | 9  | 11.1%  | 150  | 29    | 23-Apr |
+| SD  | 0.9 M   | 1,956  | 16  | 13.9%  | 9  | 10    | 22-Apr |
+| TN  | 6.8 M   | 8,266  | 18  | 6.7%  | 170  | 25    | 23-Apr |
+| TX  | 29.0 M   | 21,944  | 8  | 9.7%  | 561  | 19    | 23-Apr |
+| UT  | 3.2 M   | 3,612  | 25  | 4.5%  | 35  | 11    | 23-Apr |
+| VA  | 8.5 M   | 10,627  | 8  | 16.5%  | 372  | 44    | 23-Apr |
+| VT  | 0.6 M   | 825  | 22  | 6.0%  | 43  | 69    | 23-Apr |
+| WA  | 7.6 M   | 12,753  | 20  | 8.3%  | 711  | 93    | 23-Apr |
+| WI  | 5.8 M   | 5,052  | 10  | 8.9%  | 257  | 44    | 23-Apr |
+| WV  | 1.8 M   | 981  | 16  | 3.4%  | 31  | 17    | 23-Apr |
+| WY  | 0.6 M   | 332  | 14  | 4.2%  | 7  | 12    | 23-Apr |
+
+
 
 
 ## Fighting COVID-19  
