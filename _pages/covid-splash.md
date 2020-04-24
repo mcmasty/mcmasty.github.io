@@ -153,7 +153,8 @@ One measure might be the proportion of positive tests as a share of total testin
 The below graph shows the number of positive tests as a proportion of total testing.  
 ![Positive Test Proportion]({{ site.url }}{{ site.baseurl }}/assets/images/covid/positive_test_proportion_20200424_1587755140.png){: .align-center}  
 
-United States for 22-April-2020[^1]: test positivity: 8.7%, case fatality rate: 5.1%    
+United States for 23-April-2020[^1]: test positivity: 16.3%, case fatality rate: 5.1%.  
+    
 
 
 **Comparison to other Countries[^7]:**   
