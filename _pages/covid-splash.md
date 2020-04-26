@@ -154,7 +154,7 @@ The below graph shows the number of positive tests as a proportion of total test
 ![Positive Test Proportion]({{ site.url }}{{ site.baseurl }}/assets/images/covid/positive_test_proportion_20200424_1587755140.png){: .align-center}  
 
 United States for 23-April-2020[^1]: test positivity: 16.3%, case fatality rate: 5.1%.  
-    
+
 
 
 **Comparison to other Countries[^7]:**   
@@ -168,6 +168,7 @@ United States for 23-April-2020[^1]: test positivity: 16.3%, case fatality rate:
 | Germany    |     8.6% |     3.4% |  
 | Italy      |    12.7% |    13.4% |  
 | UK         |    23.8% |    13.6% |    
+
 
 
 Test positivity is measured with aggregate test data unless noted otherwise.
