@@ -140,7 +140,7 @@ As of this writing, the US is nearing 5 million total tests.
 
 ![High Level Testing]({{ site.url }}{{ site.baseurl }}/assets/images/covid/high_level_testing_20200427_1588018780.png){: .align-center}
 
-California's jump in testing has not continued. On the bright side, it appears testing throughput has increased to approach the 200k test per day, up from the 150k per day plateau of the last few weeks.  
+It appears testing throughput has increased to approach the 250k test per day, up from the 150k per day plateau of the last few weeks.  
 
 
 
