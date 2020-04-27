@@ -17,7 +17,7 @@ categories:
   - Post
 tags:
   - COVID-19
-last_modified_at:  2020-04-24 11:25:00 -0400
+last_modified_at:  2020-04-27 12:25:00 -0400
 ---
 
 
@@ -29,16 +29,19 @@ last_modified_at:  2020-04-24 11:25:00 -0400
 
 ### tl;dr[^11] summary
 
-<!-- <i class="fas fa-arrows-alt-h" style="color: #ffbf00;"></i> -->
+<!-- horizontal amber <i class="fas fa-arrows-alt-h" style="color: #ffbf00;"></i> -->
+<!--  red up <i class="fas fa-arrow-up" style="color: red;"> </i>-->
+<!--  green down <i class="fas fa-arrow-down" style="color: green;"></i> -->
 
+Yesterday is a the most positive snapshot, across a number of measures, we've had in a long time.
 
-- <i class="fas fa-arrow-down" style="color: green;"></i> New deaths saw a second consecutive day of reductions.  
+- <i class="fas fa-arrow-down" style="color: green;"></i> New deaths lowest count since 6-April.  
 
-- <i class="fas fa-arrow-up" style="color: red;"></i> The number of new cases rose yesterday, as a result the growth factor has also increased
+- <i class="fas fa-arrows-alt-h" style="color: #ffbf00;"></i> The number of new cases seems to be oscillating around 27,500 - No consistent decline, but not consistently growing either.   
 
-- <i class="fas fa-arrows-alt-h" style="color: #ffbf00;"> </i> The huge jump in testing was not sustained, however, testing appears to be increasing from the plateau.  
+- <i class="fas fa-arrow-up" style="color: green;"></i> Testing appears to have reached a new plateau around 250,000 test per day (around 100,000 test per day higher than previous weeks).    
 
-- **New Data**  State level test positivity data available near the bottom of this page.  
+- **New Data**  State Level Data: Many new data fields, as well as spark line graphs for trend indication.  Updated state data table near the bottom of this page.   
 
 
 
@@ -63,7 +66,7 @@ last_modified_at:  2020-04-24 11:25:00 -0400
 
 In terms of fatality, the number of lives lost is remains high (near 2,000), but hopefully we're about to start a new trend of decreasing numbers.  
 
-![New Death Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/new_death_20200424_1587754919.png){: .align-center}
+![New Death Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/new_death_20200427_1588018570.png){: .align-center}
 
 The Lancet[^8] has reported that the time between symptom onset and death can range between 2 and 8 weeks. Combining The Lancet report with the observed spike of new case spikes on 10th and 11th of April (chart below), we might anticipate the death rate to stay relatively high for a few more weeks.   
 {: .notice--info}      
@@ -81,24 +84,24 @@ To put this daily death total in perspective, according to the CDC mortality dat
 
 
 
-Influenza & Pneumonia is the 8th highest leading cause of death with 55,672 deaths in 2017. As of this writing, the total number of reported COVID-19 deaths in the US is approaching 46,000.
+Influenza & Pneumonia is the 8th highest leading cause of death with 55,672 deaths in 2017. As of this writing, the total number of reported COVID-19 deaths in the US is approaching 50,000.
 {: .notice--info}  
 
 
 Given we are still in the early days of the outbreak, the rate of change is more telling then the cumulative totals.  To compare mortality, compute the average deaths per day for each leading cause and compare to the daily death count for COVID-19.
 
-![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/leading_causes_20200424_1587754882.png){: .align-center}
+![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/leading_causes_20200427_1588018540.png){: .align-center}
 
 ## Spread / Containment      
 
-**Data as of:  23-April-2020[^1]**  
+**Data as of:  26-April-2020[^1]**  
 
 The data shows physical distancing is working. The macro trend is that the daily growth rate is decreasing, and subsequently the number of days until the case count doubles is also improving, i.e. increasing.  
 
-The daily growth rate has stabilized under 4%, with the 3-day moving average currently at 3.7%.  
+The daily growth rate has stabilized under 4%, with the 3-day moving average currently at 3.5%.  
 
 
-![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_update_20200424_1587754966.png){: .align-center}    
+![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_update_20200427_1588018634.png){: .align-center}    
 
 
 <br/>  
@@ -115,7 +118,7 @@ In a perfect world the growth factor would approach 0, meaning no new cases.
 _Growth Factor_[^4] is a ratio of new cases today compared to new cases yesterday.
 
 
-![Growth Factor Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/growth_factor_20200424_1587755033.png){: .align-center}
+![Growth Factor Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/growth_factor_20200427_1588018723.png){: .align-center}
 
 
 To get a better feel for growth factor, below is a basic logistic curve with different growth factor reference values plotted. Even though exponential growth ceases at growth factor = 1, the curve is still steep. In my opinion, the growth in total COVID-19 cases won't feel like it slowing until the growth factor is below 0.90.  
@@ -133,9 +136,9 @@ See notes[^9] [^10] for more details on logistic curve and growth factor.
 
 ## Testing Snapshot
 
-The US has surpassed 4 million total tests.  
+As of this writing, the US is nearing 5 million total tests.  
 
-![High Level Testing]({{ site.url }}{{ site.baseurl }}/assets/images/covid/high_level_testing_20200424_1587755091.png){: .align-center}
+![High Level Testing]({{ site.url }}{{ site.baseurl }}/assets/images/covid/high_level_testing_20200427_1588018780.png){: .align-center}
 
 California's jump in testing has not continued. On the bright side, it appears testing throughput has increased to approach the 200k test per day, up from the 150k per day plateau of the last few weeks.  
 
@@ -151,9 +154,10 @@ Thought experiment on testing:  There are roughly 17,000,000 health care workers
 One measure might be the proportion of positive tests as a share of total testing. We know that asymptomatic contagious individuals are making this outbreak particularly challenging to deal with. Any attempt to identify the asymptomatic carriers of the disease will require testing many healthy people, who are also asymptomatic. The impact of testing more asymptomatic people, would drive down the number of positive tests as more healthy people are tested.   
 
 The below graph shows the number of positive tests as a proportion of total testing.  
-![Positive Test Proportion]({{ site.url }}{{ site.baseurl }}/assets/images/covid/positive_test_proportion_20200424_1587755140.png){: .align-center}  
+![Positive Test Proportion]({{ site.url }}{{ site.baseurl }}/assets/images/covid/positive_test_proportion_20200427_1588018806.png){: .align-center}  
 
-United States for 23-April-2020[^1]: test positivity: 16.3%, case fatality rate: 5.1%.  
+United States for 26-April-2020[^1]: test positivity: 10.9%, case fatality rate: 5.1%.
+
 
 
 
@@ -188,13 +192,20 @@ Ideally we will make progress on both strategies.
 
 ### State Level Snapshot
 
-Some field definitions:  
+Field definitions:  
 
 - `Pop.` is state population in millions  
-- `Tot.Case` is the total number of cases measured by positive test results  
-- `Tests per 1k` is number of tests per 1,000 in state's population  
-- `T-Positivity` is the test-positivity percentage; ratio of positive tests to total tests    
-- `Fatality per 1M`  number of deaths per 1 million in population  
+- `New.C` New Cases. Lower is better.
+- `Cases` is the total number of cases measured by positive test results  
+- `DGR` Daily Growth Rate.  Lower is better.
+- `Tests per 1k` is number of tests per 1,000 in state's population. Higher is better.   
+- `T-Pos.` is the test-positivity percentage; ratio of positive tests to total tests.  Lower is better.     
+- `Fat.`  Total number of fatalities
+- `Fat./1M`  number of deaths per 1 million in population  
+- `GF-m.a.` Growth Factor, 4-day span, exponentially weighted moving average. Todays value has more weight, than the measure of 4 days ago.  Lower is better.    
+- `GF-7day`   Summation of GF-m.a. from last 7 days. The lower the better. Values below 7 indicate exponential has stopped.  
+- `GF-14day`   Summation of GF-m.a. from last 14 days. The lower the better. Values below 14 indicate exponential has stopped.   
+- `Dbl.Days`  Given the current daily growth rate, how many days until cases double.  Higher is better.    
 - `As-Of Date`  the date when the data was last modified
 
 
@@ -222,7 +233,7 @@ The best tools we have today
 
   An increasing number of people recovered, means more people can help - a single person's blood plasma donation produces enough serum to treat 3 people.[^6]    
 
-  ![Recoveries]({{ site.url }}{{ site.baseurl }}/assets/images/covid/recoveries_20200423_1587678331.png){: .align-center}
+  ![Recoveries]({{ site.url }}{{ site.baseurl }}/assets/images/covid/recoveries_20200427_1588018899.png){: .align-center}
 
 
 <br/>
