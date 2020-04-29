@@ -19,9 +19,12 @@ tags:
   - COVID-19
 last_modified_at:  2020-04-29 12:35:00 -0400
 ---
+  
 
+{% include plotly.html %}
 
 {% include feature_row id="intro" type="center" %}
+
 
 
 <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.last_modified_at | date: "%Y-%m-%d" }}">{{ page.last_modified_at | date: "%B %-d, %Y  %r  %Z %z" }}</time></p>
@@ -73,8 +76,11 @@ The Lancet[^8] has reported that the time between symptom onset and death can ra
 {: .notice--info}      
 
 
+{% include state_death_treemap.html %}{: align="center"}
 
+<!--
 ![New Death Proportions]({{ site.url }}{{ site.baseurl }}/assets/images/covid/state_new_death_proportion_20200429_1588194225.png){: .align-center}
+-->
 
 
 
@@ -163,7 +169,6 @@ The below graph shows the number of positive tests as a proportion of total test
 ![Positive Test Proportion]({{ site.url }}{{ site.baseurl }}/assets/images/covid/positive_test_proportion_20200429_1588195679.png){: .align-center}  
 
 United States for 28-April-2020[^1]: test positivity: 12.1%, case fatality rate: 5.2%.  
-
 
 
 
