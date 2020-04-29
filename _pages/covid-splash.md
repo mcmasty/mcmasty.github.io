@@ -17,7 +17,7 @@ categories:
   - Post
 tags:
   - COVID-19
-last_modified_at:  2020-04-28 14:25:00 -0400
+last_modified_at:  2020-04-29 12:35:00 -0400
 ---
 
 
@@ -34,14 +34,15 @@ last_modified_at:  2020-04-28 14:25:00 -0400
 <!--  green down <i class="fas fa-arrow-down" style="color: green;"></i> -->
 
 
+It seems the path forward will be a roller coaster of progress and regression.  
 
-- <i class="fas fa-arrow-down" style="color: green;"></i> Consecutive days of (low) death counts not seen since early April.  
+- <i class="fas fa-arrow-up" style="color: red;"> </i> New deaths jumped up yesterday.  
 
-- <i class="fas fa-arrow-down" style="color: green;"></i> The number of new cases also lowest value since late March / early April.   
+- <i class="fas fa-arrows-alt-h" style="color: #ffbf00;"></i> New cases had a minor tick up, but still below 25,000 new cases.     
 
-- <i class="fas fa-arrows-alt-h" style="color: #ffbf00;"></i> Testing appears to have been retroactively adjusted, and throughput seems to be better estimated at 200k per day.    
+- <i class="fas fa-arrows-alt-h" style="color: #ffbf00;"></i> Testing remains around 200k per day, and test-positivity is 12.1%.    
 
-- **New Data**  State Level Data: Many new data fields, as well as spark line graphs for trend indication.  Updated state data table near the bottom of this page.   
+- **New Data**  State Level Data: New chart for each state's share of new cases.     
 
 
 
@@ -66,7 +67,7 @@ last_modified_at:  2020-04-28 14:25:00 -0400
 
 In terms of fatality, the number of lives lost is remains high (near 2,000), but hopefully we're about to start a new trend of decreasing numbers.  
 
-![New Death Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/new_death_20200428_1588109096.png){: .align-center}
+![New Death Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/new_death_20200429_1588189187.png){: .align-center}
 
 The Lancet[^8] has reported that the time between symptom onset and death can range between 2 and 8 weeks. Combining The Lancet report with the observed spike of new case spikes on 10th and 11th of April (chart below), we might anticipate the death rate to stay relatively high for a few more weeks.   
 {: .notice--info}      
@@ -90,7 +91,7 @@ Influenza & Pneumonia is the 8th highest leading cause of death with 55,672 deat
 
 Given we are still in the early days of the outbreak, the rate of change is more telling then the cumulative totals.  To compare mortality, compute the average deaths per day for each leading cause and compare to the daily death count for COVID-19.
 
-![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/leading_causes_20200428_1588109061.png){: .align-center}
+![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/leading_causes_20200429_1588189234.png){: .align-center}
 
 ## Spread / Containment      
 
@@ -101,7 +102,7 @@ The data shows physical distancing is working. The macro trend is that the daily
 The daily growth rate is now stabilizing around  3%, with the 3-day moving average currently at 3.0%.  
 
 
-![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_update_20200428_1588109267.png){: .align-center}    
+![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_update_20200429_1588189256.png){: .align-center}    
 
 
 <br/>  
@@ -118,7 +119,7 @@ In a perfect world the growth factor would approach 0, meaning no new cases.
 _Growth Factor_[^4] is a ratio of new cases today compared to new cases yesterday.
 
 
-![Growth Factor Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/growth_factor_20200428_1588109291.png){: .align-center}
+![Growth Factor Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/growth_factor_20200429_1588189291.png){: .align-center}
 
 
 To get a better feel for growth factor, below is a basic logistic curve with different growth factor reference values plotted. Even though exponential growth ceases at growth factor = 1, the curve is still steep. In my opinion, the growth in total COVID-19 cases won't feel like it slowing until the growth factor is below 0.90.  
@@ -136,9 +137,9 @@ See notes[^9] [^10] for more details on logistic curve and growth factor.
 
 ## Testing Snapshot
 
-As of this writing, the US is nearing 5 million total tests.  
+As of this writing, the US has surpassed 5 million total tests.  
 
-![High Level Testing]({{ site.url }}{{ site.baseurl }}/assets/images/covid/high_level_testing_20200428_1588109347.png){: .align-center}
+![High Level Testing]({{ site.url }}{{ site.baseurl }}/assets/images/covid/high_level_testing_20200429_1588189334.png){: .align-center}
 
 It appears testing throughput has increased to approach the 200k test per day, up from the 150k per day plateau of the last few weeks.  
 
@@ -154,9 +155,9 @@ Thought experiment on testing:  There are roughly 17,000,000 health care workers
 One measure might be the proportion of positive tests as a share of total testing. We know that asymptomatic contagious individuals are making this outbreak particularly challenging to deal with. Any attempt to identify the asymptomatic carriers of the disease will require testing many healthy people, who are also asymptomatic. The impact of testing more asymptomatic people, would drive down the number of positive tests as more healthy people are tested.   
 
 The below graph shows the number of positive tests as a proportion of total testing.  
-![Positive Test Proportion]({{ site.url }}{{ site.baseurl }}/assets/images/covid/positive_test_proportion_20200428_1588109377.png){: .align-center}  
+![Positive Test Proportion]({{ site.url }}{{ site.baseurl }}/assets/images/covid/positive_test_proportion_20200429_1588189357.png){: .align-center}  
 
-United States for 27-April-2020[^1]: test positivity: 11.5%, case fatality rate: 5.1%.
+United States for 28-April-2020[^1]: test positivity: 12.1%, case fatality rate: 5.2%.  
 
 
 
@@ -194,6 +195,7 @@ Ideally we will make progress on both strategies.
 
 Field definitions:  
 
+- `State` State code, followed by that state's contribution to the total number of new cases as a percent.
 - `Pop.` is state population in millions  
 - `Cases` is the total number of cases measured by positive test results  
 - `New.C` New Cases. Lower is better.
@@ -211,6 +213,14 @@ Field definitions:
 - `SparkLines`  The embedded graphs in the table are a plot of the last 14-days of the metric in question. For example, in the `Cases` column, the sparkline shows visually how the total number of cases has changed over the last 14 days.
 
 {%  include state_table.md  %}
+
+
+<br>
+
+**State's share of new cases today**  
+
+![New Case Proportions]({{ site.url }}{{ site.baseurl }}/assets/images/covid/state_new_case_proportion_20200429_1588191115.png){: .align-center}
+
 
 
 ## Fighting COVID-19  
@@ -233,7 +243,7 @@ The best tools we have today
 
   An increasing number of people recovered, means more people can help - a single person's blood plasma donation produces enough serum to treat 3 people.[^6]    
 
-  ![Recoveries]({{ site.url }}{{ site.baseurl }}/assets/images/covid/recoveries_20200428_1588109399.png){: .align-center}
+  ![Recoveries]({{ site.url }}{{ site.baseurl }}/assets/images/covid/recoveries_20200429_1588189399.png){: .align-center}
 
 
 <br/>
