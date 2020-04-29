@@ -73,6 +73,11 @@ The Lancet[^8] has reported that the time between symptom onset and death can ra
 {: .notice--info}      
 
 
+
+![New Death Proportions]({{ site.url }}{{ site.baseurl }}/assets/images/covid/state_new_death_proportion_20200429_1588194225.png){: .align-center}
+
+
+
 To put this daily death total in perspective, according to the CDC mortality data[^5], there were 2,813,503 deaths in 2017.  
 
 **The leading causes:**   
@@ -219,7 +224,7 @@ Field definitions:
 
 **State's share of new cases today**  
 
-![New Case Proportions]({{ site.url }}{{ site.baseurl }}/assets/images/covid/state_new_case_proportion_20200429_1588191115.png){: .align-center}
+![New Case Proportions]({{ site.url }}{{ site.baseurl }}/assets/images/covid/state_new_case_proportion_20200429_1588194188.png){: .align-center}
 
 
 
