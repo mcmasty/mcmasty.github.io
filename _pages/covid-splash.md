@@ -177,13 +177,12 @@ United States for 29-April-2020[^1]: test positivity: 11.9%, case fatality rate:
 | Country | Test Positivity | Case Fatality Rate |
 | :--- | :---: | :---: |
 | Taiwan     |     0.7% |     1.4% |  
-| S. Korea   |     1.9% |     2.2% |  
-| Iceland    |     4.0% |     0.6% |  
-| Canada     |     6.8% |     4.8% |  
-| Germany    |     8.6% |     3.4% |  
-| Italy      |    12.7% |    13.4% |  
-| UK         |    23.8% |    13.6% |    
-
+| S. Korea   |     1.7% |     2.3% |  
+| Iceland    |     3.7% |     0.6% |  
+| Germany    |     6.4% |     4.0% |  
+| Canada     |     6.7% |     5.9% |  
+| Italy      |    10.4% |    13.6% |  
+| UK         |    20.9% |    15.6% |
 
 Test positivity is measured with aggregate test data unless noted otherwise.
 
