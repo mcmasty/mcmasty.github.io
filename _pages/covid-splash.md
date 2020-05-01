@@ -17,7 +17,7 @@ categories:
   - Post
 tags:
   - COVID-19
-last_modified_at:  2020-04-30 13:35:00 -0400
+last_modified_at:  2020-05-01 12:35:00 -0400
 ---
 
 
@@ -29,48 +29,51 @@ last_modified_at:  2020-04-30 13:35:00 -0400
 
 <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.last_modified_at | date: "%Y-%m-%d" }}">{{ page.last_modified_at | date: "%B %-d, %Y  %r  %Z %z" }}</time></p>
 
-**Data as of:  29-April-2020[^1]**  
+**Data as of:  30-April-2020[^1]**  
 
-### tl;dr[^11] summary
+## tl;dr[^11] summary
+
+**Just the Data:**  
+United States for 30-April-2020[^1]:  
+- 27,944 new positive tests, out of 206,557 total tests for a test positivity of 13.5%.  
+- Total fatalities: 57,266 and daily fatalities: 2,041, leading to case fatality rate of: 5.4%.  
+
+<br>  
 
 <!-- horizontal amber <i class="fas fa-arrows-alt-h" style="color: #ffbf00;"></i> -->
 <!--  red up <i class="fas fa-arrow-up" style="color: red;"> </i>-->
 <!--  green down <i class="fas fa-arrow-down" style="color: green;"></i> -->
 
+**My take**  
+It seems the path forward will be a roller coaster of progress and regression (the growth factor moving average demonstrates this.)  However, the _big_ trends are positive (April was better than March), but the _small_ trends are  volatile (a single day may be better or worse than the day before).    
 
-It seems the path forward will be a roller coaster of progress and regression.  
+Although we still have work to do, we have made tremendous strides.
 
-- <i class="fas fa-arrow-up" style="color: red;"> </i> New deaths jumped to new all time daily high.  
+- <i class="fas fa-arrow-down" style="color: green;"> </i> March average daily growth rate: 29%;   April average daily growth rate 5.9%.  
+
+- <i class="fas fa-arrow-up" style="color: green;"> </i> March average doubling days of 2.6 days;  April average doubling days of 15 days.  
+
+
+- <i class="fas fa-arrows-alt-h" style="color: #ffbf00;"></i> Another daily fatality total exceeding 2,000; our 9th such day in April.   
 
 - <i class="fas fa-arrows-alt-h" style="color: #ffbf00;"></i> New cases on the rise, but still below recent peaks.     
 
-- <i class="fas fa-arrows-alt-h" style="color: #ffbf00;"></i> Daily test totals are oscillating but remain in the 200k per day ballpark; test-positivity is 11.9%.    
+- <i class="fas fa-arrows-alt-h" style="color: #ffbf00;"></i> Daily test totals are oscillating but remain in the 200k per day ballpark; test-positivity increased to 13.5%.    
 
 
 
+<br>
+<!--http://localhost:5000/covid-page/#coronavirus-tracking-sites-and-data-sources -->
+
+FYI:  [My list of Coronavirus Tracking sites and data sources.](#coronavirus-tracking-sites-and-data-sources)
 
 
-### Coronavirus Tracking sites and Data Sources  
-- [Johns Hopkins Tracker](https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6){: target="_blank"}  -- Dashboard tracking the global outbreak  
-
-- [worldometer](https://www.worldometers.info/coronavirus/){: target="_blank"}   -- High Level coronavirus stats for all the countries in the world      
-
-- [The Covid Tracking Project](https://covidtracking.com){: target="_blank"} -- The most complete testing dataset I've found, aggregating information from  state public health authorities    
-
-- [The New York Times Data Files](https://github.com/nytimes/covid-19-data){: target="_blank"}  -- NYT compiles data at the state and county level from state and local governments      
-
-- [The New York Times Growth Tracker](https://www.nytimes.com/interactive/2020/04/03/upshot/coronavirus-metro-area-tracker.html){: target="_blank"}  -- Different data visualization tools to examine how fast coronavirus is spreading   
-
-
-- [University of Washington Institute for Health Metrics and Evaluation](https://covid19.healthdata.org/projections){: target="_blank"}   -- Projections on when peak new cases and peak new deaths will happen along with impact to projected hospital resources   
-
-- [1point3acres](https://coronavirus.1point3acres.com/en){: target="_blank"}  -- The core data is similar to other sites, but the visualizations are slightly different, and they are starting to track things like PPE requests and jobs (hiring and layoffs)     
 
 ## Impact in Lives Lost  
 
 In terms of fatality, the number of lives lost is remains high (near 2,000), but hopefully we're about to start a new trend of decreasing numbers.  
 
-![New Death Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/new_death_20200430_1588273767.png){: .align-center}
+![New Death Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/new_death_20200501_1588360032.png){: .align-center}
 
 The Lancet[^8] has reported that the time between symptom onset and death can range between 2 and 8 weeks. Combining The Lancet report with the observed spike of new case spikes on 10th and 11th of April (chart below), we might anticipate the death rate to stay relatively high for a few more weeks.   
 {: .notice--info}      
@@ -79,7 +82,7 @@ The Lancet[^8] has reported that the time between symptom onset and death can ra
 <!-- {% include state_death_treemap.html %}{: align="center"} -->
 
 
-![New Death Proportions]({{ site.url }}{{ site.baseurl }}/assets/images/covid/state_new_death_proportion_20200430_1588274699.png){: .align-center}
+![New Death Proportions]({{ site.url }}{{ site.baseurl }}/assets/images/covid/state_new_death_proportion_20200501_1588363752.png){: .align-center}
 
 
 
@@ -102,17 +105,17 @@ Influenza & Pneumonia is the 8th highest leading cause of death with 55,672 deat
 
 Given we are still in the early days of the outbreak, the rate of change is more telling then the cumulative totals.  To compare mortality, compute the average deaths per day for each leading cause and compare to the daily death count for COVID-19.
 
-![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/leading_causes_20200430_1588273795.png){: .align-center}
+![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/leading_causes_20200501_1588360088.png){: .align-center}
 
 ## Spread / Containment      
 
 
 The data shows physical distancing is working. The macro trend is that the daily growth rate is decreasing, and subsequently the number of days until the case count doubles is also improving, i.e. increasing.  
 
-The daily growth rate is now stabilizing around  3%, with the 3-day moving average currently at 3.0%.  
+The daily growth rate is now stabilizing around  3%, with the 3-day moving average currently at 2.8%.  
 
 
-![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_update_20200430_1588273878.png){: .align-center}    
+![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_update_20200501_1588360127.png){: .align-center}    
 
 
 <br/>  
@@ -129,7 +132,7 @@ In a perfect world the growth factor would approach 0, meaning no new cases.
 _Growth Factor_[^4] is a ratio of new cases today compared to new cases yesterday.
 
 
-![Growth Factor Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/growth_factor_20200430_1588273901.png){: .align-center}
+![Growth Factor Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/growth_factor_20200501_1588360144.png){: .align-center}
 
 
 To get a better feel for growth factor, below is a basic logistic curve with different growth factor reference values plotted. Even though exponential growth ceases at growth factor = 1, the curve is still steep. In my opinion, the growth in total COVID-19 cases won't feel like it slowing until the growth factor is below 0.90.  
@@ -149,7 +152,7 @@ See notes[^9] [^10] for more details on logistic curve and growth factor.
 
 As of this writing, the US has surpassed 6 million total tests.  
 
-![High Level Testing]({{ site.url }}{{ site.baseurl }}/assets/images/covid/high_level_testing_20200430_1588273933.png){: .align-center}
+![High Level Testing]({{ site.url }}{{ site.baseurl }}/assets/images/covid/high_level_testing_20200501_1588360167.png){: .align-center}
 
 It appears testing throughput has increased to approach the 200k test per day, up from the 150k per day plateau of the last few weeks.  
 
@@ -165,9 +168,9 @@ Thought experiment on testing:  There are roughly 17,000,000 health care workers
 One measure might be the proportion of positive tests as a share of total testing. We know that asymptomatic contagious individuals are making this outbreak particularly challenging to deal with. Any attempt to identify the asymptomatic carriers of the disease will require testing many healthy people, who are also asymptomatic. The impact of testing more asymptomatic people, would drive down the number of positive tests as more healthy people are tested.   
 
 The below graph shows the number of positive tests as a proportion of total testing.  
-![Positive Test Proportion]({{ site.url }}{{ site.baseurl }}/assets/images/covid/positive_test_proportion_20200430_1588273961.png){: .align-center}  
+![Positive Test Proportion]({{ site.url }}{{ site.baseurl }}/assets/images/covid/positive_test_proportion_20200501_1588360188.png){: .align-center}  
 
-United States for 29-April-2020[^1]: test positivity: 11.9%, case fatality rate: 5.3%.
+
 
 
 
@@ -228,9 +231,7 @@ Field definitions:
 
 **State's share of new cases today**  
 
-![New Case Proportions]({{ site.url }}{{ site.baseurl }}/assets/images/covid/state_new_case_proportion_20200430_1588274654.png){: .align-center}
-
-- The 8 biggest new case daily growth rates (DGR) are: WY(17.3%), MN(9.0%), IA(8.2%), NE(7.1%), KS(6.3%), VA(6.2%), ND(5.7%), DE(5.3%)  
+![New Case Proportions]({{ site.url }}{{ site.baseurl }}/assets/images/covid/state_new_case_proportion_20200501_1588364033.png){: .align-center}
 
 
 
@@ -256,7 +257,7 @@ The best tools we have today
 
   An increasing number of people recovered, means more people can help - a single person's blood plasma donation produces enough serum to treat 3 people.[^6]    
 
-  ![Recoveries]({{ site.url }}{{ site.baseurl }}/assets/images/covid/recoveries_20200430_1588274006.png){: .align-center}
+  ![Recoveries]({{ site.url }}{{ site.baseurl }}/assets/images/covid/recoveries_20200501_1588363234.png){: .align-center}
 
 
 <br/>
@@ -268,6 +269,23 @@ Hopefully coming soon, a number of vaccines and treatments.   [Summary of Vaccin
 
 This is not an exhaustive list; anything missing is accidental.  
 
+***   
+
+## Coronavirus Tracking sites and Data Sources  
+- [Johns Hopkins Tracker](https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6){: target="_blank"}  -- Dashboard tracking the global outbreak  
+
+- [worldometer](https://www.worldometers.info/coronavirus/){: target="_blank"}   -- High Level coronavirus stats for all the countries in the world      
+
+- [The Covid Tracking Project](https://covidtracking.com){: target="_blank"} -- The most complete testing dataset I've found, aggregating information from  state public health authorities    
+
+- [The New York Times Data Files](https://github.com/nytimes/covid-19-data){: target="_blank"}  -- NYT compiles data at the state and county level from state and local governments      
+
+- [The New York Times Growth Tracker](https://www.nytimes.com/interactive/2020/04/03/upshot/coronavirus-metro-area-tracker.html){: target="_blank"}  -- Different data visualization tools to examine how fast coronavirus is spreading   
+
+
+- [University of Washington Institute for Health Metrics and Evaluation](https://covid19.healthdata.org/projections){: target="_blank"}   -- Projections on when peak new cases and peak new deaths will happen along with impact to projected hospital resources   
+
+- [1point3acres](https://coronavirus.1point3acres.com/en){: target="_blank"}  -- The core data is similar to other sites, but the visualizations are slightly different, and they are starting to track things like PPE requests and jobs (hiring and layoffs)     
 
 ## Citations and Notes  
 
