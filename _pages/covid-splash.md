@@ -17,7 +17,7 @@ categories:
   - Post
 tags:
   - COVID-19
-last_modified_at:  2020-05-01 12:35:00 -0400
+last_modified_at:  2020-05-02 12:35:00 -0400
 ---
 
 
@@ -29,14 +29,17 @@ last_modified_at:  2020-05-01 12:35:00 -0400
 
 <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.last_modified_at | date: "%Y-%m-%d" }}">{{ page.last_modified_at | date: "%B %-d, %Y  %r  %Z %z" }}</time></p>
 
-**Data as of:  30-April-2020[^1]**  
+**Data as of:  1-May-2020[^1]**  
 
 ## tl;dr[^11] summary
 
 **Just the Data:**  
-United States for 30-April-2020[^1]:  
-- 27,944 new positive tests, out of 206,557 total tests for a test positivity of 13.5%.  
-- Total fatalities: 57,266 and daily fatalities: 2,041, leading to case fatality rate of: 5.4%.  
+United States for 01-May-2020[^1]:  
+
+- 33,547 new positive tests, out of 305,118 total tests for a test positivity of 11.0%.  
+
+- Total fatalities: 59,059 and daily fatalities: 1,743, leading to case fatality rate of: 5.4%.  
+
 
 <br>  
 
@@ -47,18 +50,17 @@ United States for 30-April-2020[^1]:
 **My take**  
 It seems the path forward will be a roller coaster of progress and regression (the growth factor moving average demonstrates this.)  However, the _big_ trends are positive (April was better than March), but the _small_ trends are  volatile (a single day may be better or worse than the day before).    
 
-Although we still have work to do, we have made tremendous strides.
 
 - <i class="fas fa-arrow-down" style="color: green;"> </i> March average daily growth rate: 29%;   April average daily growth rate 5.9%.  
 
 - <i class="fas fa-arrow-up" style="color: green;"> </i> March average doubling days of 2.6 days;  April average doubling days of 15 days.  
 
 
-- <i class="fas fa-arrows-alt-h" style="color: #ffbf00;"></i> Another daily fatality total exceeding 2,000; our 9th such day in April.   
+- <i class="fas fa-arrow-down" style="color: green;"> </i> New fatalities below 1,800.   
 
-- <i class="fas fa-arrows-alt-h" style="color: #ffbf00;"></i> New cases on the rise, but still below recent peaks.     
+- <i class="fas fa-arrow-up" style="color: red;"> </i> 5 consecutive day of increases on new cases, but still below recent peaks.     
 
-- <i class="fas fa-arrows-alt-h" style="color: #ffbf00;"></i> Daily test totals are oscillating but remain in the 200k per day ballpark; test-positivity increased to 13.5%.    
+- <i class="fas fa-arrows-alt-h" style="color: #ffbf00;"></i> Spike in testing yesterday to over 300k.  However, the trend in daily test totals is oscillating around the 200k per day level.    
 
 
 
@@ -73,16 +75,13 @@ FYI:  [My list of Coronavirus Tracking sites and data sources.](#coronavirus-tra
 
 In terms of fatality, the number of lives lost is remains high (near 2,000), but hopefully we're about to start a new trend of decreasing numbers.  
 
-![New Death Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/new_death_20200501_1588360032.png){: .align-center}
-
-The Lancet[^8] has reported that the time between symptom onset and death can range between 2 and 8 weeks. Combining The Lancet report with the observed spike of new case spikes on 10th and 11th of April (chart below), we might anticipate the death rate to stay relatively high for a few more weeks.   
-{: .notice--info}      
+![New Death Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/new_death_20200502_1588444934.png){: .align-center}
 
 
 <!-- {% include state_death_treemap.html %}{: align="center"} -->
 
 
-![New Death Proportions]({{ site.url }}{{ site.baseurl }}/assets/images/covid/state_new_death_proportion_20200501_1588363752.png){: .align-center}
+![New Death Proportions]({{ site.url }}{{ site.baseurl }}/assets/images/covid/state_new_death_proportion_20200502_1588445551.png){: .align-center}
 
 
 
@@ -99,23 +98,23 @@ To put this daily death total in perspective, according to the CDC mortality dat
 
 
 
-Influenza & Pneumonia is the 8th highest leading cause of death with 55,672 deaths in 2017. As of this writing, the total number of reported COVID-19 deaths in the US just surpassed 55,000.
+Influenza & Pneumonia is the 8th highest leading cause of death with 55,672 deaths in 2017.  
 {: .notice--info}  
 
 
 Given we are still in the early days of the outbreak, the rate of change is more telling then the cumulative totals.  To compare mortality, compute the average deaths per day for each leading cause and compare to the daily death count for COVID-19.
 
-![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/leading_causes_20200501_1588360088.png){: .align-center}
+![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/leading_causes_20200502_1588445114.png){: .align-center}
 
 ## Spread / Containment      
 
 
 The data shows physical distancing is working. The macro trend is that the daily growth rate is decreasing, and subsequently the number of days until the case count doubles is also improving, i.e. increasing.  
 
-The daily growth rate is now stabilizing around  3%, with the 3-day moving average currently at 2.8%.  
+The daily growth rate is now stabilizing around  3%, with the 3-day moving average currently at 2.9%.  
 
 
-![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_update_20200501_1588360127.png){: .align-center}    
+![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_update_20200502_1588444987.png){: .align-center}    
 
 
 <br/>  
@@ -132,7 +131,7 @@ In a perfect world the growth factor would approach 0, meaning no new cases.
 _Growth Factor_[^4] is a ratio of new cases today compared to new cases yesterday.
 
 
-![Growth Factor Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/growth_factor_20200501_1588360144.png){: .align-center}
+![Growth Factor Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/growth_factor_20200502_1588447888.png){: .align-center}
 
 
 To get a better feel for growth factor, below is a basic logistic curve with different growth factor reference values plotted. Even though exponential growth ceases at growth factor = 1, the curve is still steep. In my opinion, the growth in total COVID-19 cases won't feel like it slowing until the growth factor is below 0.90.  
@@ -152,7 +151,7 @@ See notes[^9] [^10] for more details on logistic curve and growth factor.
 
 As of this writing, the US has surpassed 6 million total tests.  
 
-![High Level Testing]({{ site.url }}{{ site.baseurl }}/assets/images/covid/high_level_testing_20200501_1588360167.png){: .align-center}
+![High Level Testing]({{ site.url }}{{ site.baseurl }}/assets/images/covid/high_level_testing_20200502_1588445043.png){: .align-center}
 
 It appears testing throughput has increased to approach the 200k test per day, up from the 150k per day plateau of the last few weeks.  
 
@@ -168,7 +167,7 @@ Thought experiment on testing:  There are roughly 17,000,000 health care workers
 One measure might be the proportion of positive tests as a share of total testing. We know that asymptomatic contagious individuals are making this outbreak particularly challenging to deal with. Any attempt to identify the asymptomatic carriers of the disease will require testing many healthy people, who are also asymptomatic. The impact of testing more asymptomatic people, would drive down the number of positive tests as more healthy people are tested.   
 
 The below graph shows the number of positive tests as a proportion of total testing.  
-![Positive Test Proportion]({{ site.url }}{{ site.baseurl }}/assets/images/covid/positive_test_proportion_20200501_1588360188.png){: .align-center}  
+![Positive Test Proportion]({{ site.url }}{{ site.baseurl }}/assets/images/covid/positive_test_proportion_20200502_1588445270.png){: .align-center}  
 
 
 
@@ -177,15 +176,20 @@ The below graph shows the number of positive tests as a proportion of total test
 
 **Comparison to other Countries[^7]:**   
 
-| Country | Test Positivity | Case Fatality Rate |
-| :--- | :---: | :---: |
-| Taiwan     |     0.7% |     1.4% |  
-| S. Korea   |     1.7% |     2.3% |  
-| Iceland    |     3.7% |     0.6% |  
-| Germany    |     6.4% |     4.0% |  
-| Canada     |     6.7% |     5.9% |  
-| Italy      |    10.4% |    13.6% |  
-| UK         |    20.9% |    15.6% |
+| Country | Pop. | Test Positivity | Case Fatality Rate | Test Per 1k Pop
+| :--- |  ---: | ---: | ---: |  ---: |
+| Taiwan     |     23.8 M |     0.7% |     1.4% |        3 |  
+| S. Korea   |     51.3 M |     1.7% |     2.3% |       12 |  
+| Russia     |    145.9 M |     3.1% |     1.0% |       24 |  
+| Iceland    |      0.3 M |     3.7% |     0.6% |      142 |  
+| India      |  1,379.1 M |     4.2% |     3.3% |        1 |  
+| Germany    |     83.8 M |     6.4% |     4.0% |       30 |  
+| Canada     |     37.7 M |     6.7% |     5.9% |       21 |  
+| Italy      |     60.5 M |    10.4% |    13.6% |       33 |  
+| USA        |    331.0 M |    17.3% |     5.8% |       19 |  
+| Sweden     |     10.1 M |    17.7% |    12.3% |       12 |  
+| UK         |     67.9 M |    20.9% |    15.6% |       12 |
+
 
 Test positivity is measured with aggregate test data unless noted otherwise.
 
@@ -231,7 +235,7 @@ Field definitions:
 
 **State's share of new cases today**  
 
-![New Case Proportions]({{ site.url }}{{ site.baseurl }}/assets/images/covid/state_new_case_proportion_20200501_1588364033.png){: .align-center}
+![New Case Proportions]({{ site.url }}{{ site.baseurl }}/assets/images/covid/state_new_case_proportion_20200502_1588445521.png){: .align-center}
 
 
 
@@ -257,7 +261,7 @@ The best tools we have today
 
   An increasing number of people recovered, means more people can help - a single person's blood plasma donation produces enough serum to treat 3 people.[^6]    
 
-  ![Recoveries]({{ site.url }}{{ site.baseurl }}/assets/images/covid/recoveries_20200501_1588363234.png){: .align-center}
+  ![Recoveries]({{ site.url }}{{ site.baseurl }}/assets/images/covid/recoveries_20200502_1588445304.png){: .align-center}
 
 
 <br/>
