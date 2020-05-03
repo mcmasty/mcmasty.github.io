@@ -34,11 +34,11 @@ last_modified_at:  2020-05-02 12:35:00 -0400
 ## tl;dr[^11] summary
 
 **Just the Data:**  
-United States for 01-May-2020[^1]:  
+United States for 02-May-2020[^1]:  
 
-- 33,547 new positive tests, out of 305,118 total tests for a test positivity of 11.0%.  
+- 30,038 new positive tests, out of 264,537 total tests for a test positivity of 11.4%.  
 
-- Total fatalities: 59,059 and daily fatalities: 1,743, leading to case fatality rate of: 5.4%.  
+- Total fatalities: 60,710 and daily fatalities: 1,651, leading to case fatality rate of: 5.4%.
 
 
 <br>  
@@ -56,11 +56,11 @@ It seems the path forward will be a roller coaster of progress and regression (t
 - <i class="fas fa-arrow-up" style="color: green;"> </i> March average doubling days of 2.6 days;  April average doubling days of 15 days.  
 
 
-- <i class="fas fa-arrow-down" style="color: green;"> </i> New fatalities below 1,800.   
+- <i class="fas fa-arrow-down" style="color: green;"> </i> New fatalities below 1,700; 3 consecutive days of decreasing fatalities.     
 
-- <i class="fas fa-arrow-up" style="color: red;"> </i> 5 consecutive day of increases on new cases, but still below recent peaks.     
+- <i class="fas fa-arrows-alt-h" style="color: #ffbf00;"></i> New Cases have stopped their recent growth spurt.       
 
-- <i class="fas fa-arrows-alt-h" style="color: #ffbf00;"></i> Spike in testing yesterday to over 300k.  However, the trend in daily test totals is oscillating around the 200k per day level.    
+- <i class="fas fa-arrow-up" style="color: green;"> </i> Two consecutive days surpassing 250,000 tests.    
 
 
 
@@ -75,13 +75,13 @@ FYI:  [My list of Coronavirus Tracking sites and data sources.](#coronavirus-tra
 
 In terms of fatality, the number of lives lost is remains high (near 2,000), but hopefully we're about to start a new trend of decreasing numbers.  
 
-![New Death Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/new_death_20200502_1588444934.png){: .align-center}
+![New Death Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/new_death_20200503_1588531211.png){: .align-center}
 
 
 <!-- {% include state_death_treemap.html %}{: align="center"} -->
 
 
-![New Death Proportions]({{ site.url }}{{ site.baseurl }}/assets/images/covid/state_new_death_proportion_20200502_1588445551.png){: .align-center}
+![New Death Proportions]({{ site.url }}{{ site.baseurl }}/assets/images/covid/state_new_death_proportion_20200503_1588532636.png){: .align-center}
 
 
 
@@ -104,7 +104,7 @@ Influenza & Pneumonia is the 8th highest leading cause of death with 55,672 deat
 
 Given we are still in the early days of the outbreak, the rate of change is more telling then the cumulative totals.  To compare mortality, compute the average deaths per day for each leading cause and compare to the daily death count for COVID-19.
 
-![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/leading_causes_20200502_1588445114.png){: .align-center}
+![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/leading_causes_20200503_1588531260.png){: .align-center}
 
 ## Spread / Containment      
 
@@ -114,7 +114,7 @@ The data shows physical distancing is working. The macro trend is that the daily
 The daily growth rate is now stabilizing around  3%, with the 3-day moving average currently at 2.9%.  
 
 
-![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_update_20200502_1588444987.png){: .align-center}    
+![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_update_20200503_1588531287.png){: .align-center}    
 
 
 <br/>  
@@ -131,7 +131,7 @@ In a perfect world the growth factor would approach 0, meaning no new cases.
 _Growth Factor_[^4] is a ratio of new cases today compared to new cases yesterday.
 
 
-![Growth Factor Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/growth_factor_20200502_1588447888.png){: .align-center}
+![Growth Factor Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/growth_factor_20200503_1588531305.png){: .align-center}
 
 
 To get a better feel for growth factor, below is a basic logistic curve with different growth factor reference values plotted. Even though exponential growth ceases at growth factor = 1, the curve is still steep. In my opinion, the growth in total COVID-19 cases won't feel like it slowing until the growth factor is below 0.90.  
@@ -149,11 +149,12 @@ See notes[^9] [^10] for more details on logistic curve and growth factor.
 
 ## Testing Snapshot
 
-As of this writing, the US has surpassed 6 million total tests.  
+As of this writing, the US is nearing  7 million total tests.  
 
-![High Level Testing]({{ site.url }}{{ site.baseurl }}/assets/images/covid/high_level_testing_20200502_1588445043.png){: .align-center}
+![High Level Testing]({{ site.url }}{{ site.baseurl }}/assets/images/covid/high_level_testing_20200503_1588531329.png){: .align-center}
 
-It appears testing throughput has increased to approach the 200k test per day, up from the 150k per day plateau of the last few weeks.  
+Consecutive days of surpassing 250,000 tests.  
+<!-- It appears testing throughput has increased to approach the 200k test per day, up from the 150k per day plateau of the last few weeks.  -->
 
 
 
@@ -167,7 +168,7 @@ Thought experiment on testing:  There are roughly 17,000,000 health care workers
 One measure might be the proportion of positive tests as a share of total testing. We know that asymptomatic contagious individuals are making this outbreak particularly challenging to deal with. Any attempt to identify the asymptomatic carriers of the disease will require testing many healthy people, who are also asymptomatic. The impact of testing more asymptomatic people, would drive down the number of positive tests as more healthy people are tested.   
 
 The below graph shows the number of positive tests as a proportion of total testing.  
-![Positive Test Proportion]({{ site.url }}{{ site.baseurl }}/assets/images/covid/positive_test_proportion_20200502_1588445270.png){: .align-center}  
+![Positive Test Proportion]({{ site.url }}{{ site.baseurl }}/assets/images/covid/positive_test_proportion_20200503_1588531349.png){: .align-center}  
 
 
 
@@ -235,7 +236,7 @@ Field definitions:
 
 **State's share of new cases today**  
 
-![New Case Proportions]({{ site.url }}{{ site.baseurl }}/assets/images/covid/state_new_case_proportion_20200502_1588445521.png){: .align-center}
+![New Case Proportions]({{ site.url }}{{ site.baseurl }}/assets/images/covid/state_new_case_proportion_20200503_1588532531.png){: .align-center}
 
 
 
@@ -261,7 +262,7 @@ The best tools we have today
 
   An increasing number of people recovered, means more people can help - a single person's blood plasma donation produces enough serum to treat 3 people.[^6]    
 
-  ![Recoveries]({{ site.url }}{{ site.baseurl }}/assets/images/covid/recoveries_20200502_1588445304.png){: .align-center}
+  ![Recoveries]({{ site.url }}{{ site.baseurl }}/assets/images/covid/recoveries_20200503_1588531397.png){: .align-center}
 
 
 <br/>
