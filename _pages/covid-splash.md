@@ -17,7 +17,7 @@ categories:
   - Post
 tags:
   - COVID-19
-last_modified_at:  2020-05-02 12:35:00 -0400
+last_modified_at:  2020-05-03 11:35:00 -0400
 ---
 
 
@@ -29,7 +29,7 @@ last_modified_at:  2020-05-02 12:35:00 -0400
 
 <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.last_modified_at | date: "%Y-%m-%d" }}">{{ page.last_modified_at | date: "%B %-d, %Y  %r  %Z %z" }}</time></p>
 
-**Data as of:  1-May-2020[^1]**  
+**Data as of:  2-May-2020[^1]**  
 
 ## tl;dr[^11] summary
 
