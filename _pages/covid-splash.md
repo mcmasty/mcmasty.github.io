@@ -187,9 +187,8 @@ The below graph shows the number of positive tests as a proportion of total test
 | Germany    |     83.8 M |     6.4% |     4.0% |       30 |  
 | Canada     |     37.7 M |     6.7% |     5.9% |       21 |  
 | Italy      |     60.5 M |    10.4% |    13.6% |       33 |  
-| USA        |    331.0 M |    17.3% |     5.8% |       19 |  
 | Sweden     |     10.1 M |    17.7% |    12.3% |       12 |  
-| UK         |     67.9 M |    20.9% |    15.6% |       12 |
+| UK         |     67.9 M |    20.9% |    15.6% |       12 |  
 
 
 Test positivity is measured with aggregate test data unless noted otherwise.
