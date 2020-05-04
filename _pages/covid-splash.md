@@ -17,7 +17,7 @@ categories:
   - Post
 tags:
   - COVID-19
-last_modified_at:  2020-05-03 11:35:00 -0400
+last_modified_at:  2020-05-04 11:35:00 -0400
 ---
 
 
@@ -29,16 +29,16 @@ last_modified_at:  2020-05-03 11:35:00 -0400
 
 <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.last_modified_at | date: "%Y-%m-%d" }}">{{ page.last_modified_at | date: "%B %-d, %Y  %r  %Z %z" }}</time></p>
 
-**Data as of:  2-May-2020[^1]**  
+**Data as of:  3-May-2020[^1]**  
 
 ## tl;dr[^11] summary
 
 **Just the Data:**  
-United States for 02-May-2020[^1]:  
+United States for 03-May-2020[^1]:  
 
-- 30,038 new positive tests, out of 264,537 total tests for a test positivity of 11.4%.  
+- 26,287 new positive tests, out of 237,019 total tests for a test positivity of 11.1%.  
 
-- Total fatalities: 60,710 and daily fatalities: 1,651, leading to case fatality rate of: 5.4%.
+- Total fatalities: 61,868 and daily fatalities: 1,158, leading to case fatality rate of: 5.4%.
 
 
 <br>  
@@ -56,11 +56,10 @@ It seems the path forward will be a roller coaster of progress and regression (t
 - <i class="fas fa-arrow-up" style="color: green;"> </i> March average doubling days of 2.6 days;  April average doubling days of 15 days.  
 
 
-- <i class="fas fa-arrow-down" style="color: green;"> </i> New fatalities below 1,700; 3 consecutive days of decreasing fatalities.     
+- <i class="fas fa-arrow-down" style="color: green;"> </i> New fatalities below 1,200; 4th consecutive days of decreasing fatalities.     
 
-- <i class="fas fa-arrows-alt-h" style="color: #ffbf00;"></i> New Cases have stopped their recent growth spurt.       
+- <i class="fas fa-arrows-alt-h" style="color: #ffbf00;"></i> New Cases have stopped their recent growth spurt; 2nd consecutive day of decreasing new cases.          
 
-- <i class="fas fa-arrow-up" style="color: green;"> </i> Two consecutive days surpassing 250,000 tests.    
 
 
 
@@ -75,13 +74,13 @@ FYI:  [My list of Coronavirus Tracking sites and data sources.](#coronavirus-tra
 
 In terms of fatality, the number of lives lost is remains high (near 2,000), but hopefully we're about to start a new trend of decreasing numbers.  
 
-![New Death Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/new_death_20200503_1588531211.png){: .align-center}
+![New Death Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/new_death_20200504_1588616946.png){: .align-center}
 
 
 <!-- {% include state_death_treemap.html %}{: align="center"} -->
 
 
-![New Death Proportions]({{ site.url }}{{ site.baseurl }}/assets/images/covid/state_new_death_proportion_20200503_1588532636.png){: .align-center}
+![New Death Proportions]({{ site.url }}{{ site.baseurl }}/assets/images/covid/state_new_death_proportion_20200504_1588617866.png){: .align-center}
 
 
 
@@ -104,17 +103,17 @@ Influenza & Pneumonia is the 8th highest leading cause of death with 55,672 deat
 
 Given we are still in the early days of the outbreak, the rate of change is more telling then the cumulative totals.  To compare mortality, compute the average deaths per day for each leading cause and compare to the daily death count for COVID-19.
 
-![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/leading_causes_20200503_1588531260.png){: .align-center}
+![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/leading_causes_20200504_1588616980.png){: .align-center}
 
 ## Spread / Containment      
 
 
 The data shows physical distancing is working. The macro trend is that the daily growth rate is decreasing, and subsequently the number of days until the case count doubles is also improving, i.e. increasing.  
 
-The daily growth rate is now stabilizing around  3%, with the 3-day moving average currently at 2.9%.  
+The daily growth rate is now stabilizing well below 3%, with the 3-day moving average currently at 2.6%.  
 
 
-![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_update_20200503_1588531287.png){: .align-center}    
+![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_update_20200504_1588617004.png){: .align-center}    
 
 
 <br/>  
@@ -131,7 +130,7 @@ In a perfect world the growth factor would approach 0, meaning no new cases.
 _Growth Factor_[^4] is a ratio of new cases today compared to new cases yesterday.
 
 
-![Growth Factor Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/growth_factor_20200503_1588531305.png){: .align-center}
+![Growth Factor Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/growth_factor_20200504_1588617071.png){: .align-center}
 
 
 To get a better feel for growth factor, below is a basic logistic curve with different growth factor reference values plotted. Even though exponential growth ceases at growth factor = 1, the curve is still steep. In my opinion, the growth in total COVID-19 cases won't feel like it slowing until the growth factor is below 0.90.  
@@ -149,9 +148,9 @@ See notes[^9] [^10] for more details on logistic curve and growth factor.
 
 ## Testing Snapshot
 
-As of this writing, the US is nearing  7 million total tests.  
+As of this writing, the US has exceeded 7 million total tests.  
 
-![High Level Testing]({{ site.url }}{{ site.baseurl }}/assets/images/covid/high_level_testing_20200503_1588531329.png){: .align-center}
+![High Level Testing]({{ site.url }}{{ site.baseurl }}/assets/images/covid/high_level_testing_20200504_1588617103.png){: .align-center}
 
 Consecutive days of surpassing 250,000 tests.  
 <!-- It appears testing throughput has increased to approach the 200k test per day, up from the 150k per day plateau of the last few weeks.  -->
@@ -168,7 +167,7 @@ Thought experiment on testing:  There are roughly 17,000,000 health care workers
 One measure might be the proportion of positive tests as a share of total testing. We know that asymptomatic contagious individuals are making this outbreak particularly challenging to deal with. Any attempt to identify the asymptomatic carriers of the disease will require testing many healthy people, who are also asymptomatic. The impact of testing more asymptomatic people, would drive down the number of positive tests as more healthy people are tested.   
 
 The below graph shows the number of positive tests as a proportion of total testing.  
-![Positive Test Proportion]({{ site.url }}{{ site.baseurl }}/assets/images/covid/positive_test_proportion_20200503_1588531349.png){: .align-center}  
+![Positive Test Proportion]({{ site.url }}{{ site.baseurl }}/assets/images/covid/positive_test_proportion_20200504_1588617135.png){: .align-center}  
 
 
 
@@ -211,22 +210,25 @@ Ideally we will make progress on both strategies.
 
 Field definitions:  
 
+Generally a `*` means this metric is a moving-average.
+
 - `State` State code, followed by that state's contribution to the total number of new cases as a percent.
 - `Pop.` is state population in millions  
 - `Cases` is the total number of cases measured by positive test results  
 - `New.C` New Cases. Lower is better.
-- `DGR` Daily Growth Rate. This is 4-day, exponential moving average. Lower is better.
+- `DGR*` Daily Growth Rate. This is 4-day, exponential moving average. Lower is better.
 - `Tests per 1k` is number of tests per 1,000 in state's population. Higher is better.   
 - `T-Pos.` is the test-positivity percentage; ratio of positive tests to total tests.  Lower is better.     
 - `Fat.`  Total number of fatalities
 - `Fat./1M`  number of deaths per 1 million in population  
-- `GF-m.a.` Growth Factor, 4-day span, exponentially weighted moving average. Todays value has more weight, than the measure of 4 days ago.  Lower is better.    
-- `GF-7day`   Summation of GF-m.a. from last 7 days. The lower the better. Values below 7 indicate exponential has stopped.  
-- `GF-14day`   Summation of GF-m.a. from last 14 days. The lower the better. Values below 14 indicate exponential has stopped.   
+- `CFR*`  Case Fatality Rate. Exponential moving average with a 4-day span.
+- `GF*` Growth Factor, 4-day span, exponentially weighted moving average. Todays value has more weight, than the measure of 4 days ago.  Lower is better.    
+\- `GF-14day`   Summation of GF-m.a. from last 14 days. The lower the better. Values below 14 indicate exponential has stopped.   
 - `Dbl.Days`  Given the current daily growth rate, how many days until cases double.  Higher is better.    
+- `CDD` Consecutive days of declining new cases or new cases at or below a threshold of 5.[^12]   A value greater than 14, might signal preparedness to reopen. This may be too rigorous, see notes[^12] for more detail.     
 - `As-Of Date`  the date when the data was last modified
 
-- `SparkLines`  The embedded graphs in the table are a plot of the last 14-days of the metric in question. For example, in the `Cases` column, the sparkline shows visually how the total number of cases has changed over the last 14 days.
+- `SparkLines`  The embedded graphs in the table are a plot of the last 14-days of the metric in question. For example, in the `Cases` column, the sparkline shows visually how the total number of cases has changed over the last 14 days. Similar metrics share a color; metrics related to cases are gray, testing are brown, fatalities are blue, and (exponential) growth are black.  
 
 {%  include state_table.md  %}
 
@@ -235,7 +237,7 @@ Field definitions:
 
 **State's share of new cases today**  
 
-![New Case Proportions]({{ site.url }}{{ site.baseurl }}/assets/images/covid/state_new_case_proportion_20200503_1588532531.png){: .align-center}
+![New Case Proportions]({{ site.url }}{{ site.baseurl }}/assets/images/covid/state_new_case_proportion_20200504_1588617806.png){: .align-center}
 
 
 
@@ -261,7 +263,7 @@ The best tools we have today
 
   An increasing number of people recovered, means more people can help - a single person's blood plasma donation produces enough serum to treat 3 people.[^6]    
 
-  ![Recoveries]({{ site.url }}{{ site.baseurl }}/assets/images/covid/recoveries_20200503_1588531397.png){: .align-center}
+  ![Recoveries]({{ site.url }}{{ site.baseurl }}/assets/images/covid/recoveries_20200504_1588617203.png){: .align-center}
 
 
 <br/>
@@ -313,4 +315,6 @@ This is not an exhaustive list; anything missing is accidental.
 
 [^10]: The distance between time points on the plot is not fixed. The distance between t0 and t1, might be 30 days, while the distance between t6 and t7 might be 3 days. One complicating factor of epidemics is the feedback loop. We can influence what shape the outbreak takes. The total number of COVID-19 cases depends on us, and what we do.  How quickly we flatten the curve depends on us, and what we do. Therefore, the duration between t5 and t6 is not a fixed number of days, but instead, depends on us, and what we do.   
 
-[^11]: <cite>The tl;dr label is often used to point out excessive verbosity or to signify the presence of and location of a short summary in case the reader doesn't want to take the time to read the entire detail. [Wikipedia Entry](https://en.wikipedia.org/wiki/Wikipedia:Too_long;_didn%27t_read){: target="_blank"}  </cite>
+[^11]: <cite>The tl;dr label is often used to point out excessive verbosity or to signify the presence of and location of a short summary in case the reader doesn't want to take the time to read the entire detail. [Wikipedia Entry](https://en.wikipedia.org/wiki/Wikipedia:Too_long;_didn%27t_read){: target="_blank"}  </cite>  
+
+[^12]: The Whitehouse published guidelines for reopening calls for a  "14-day downward trajectory" of declining metrics. Since "downward trajectory" is not precisely defined, this metric counts the number of consecutive days for each state that have a new case count less than the day before or less than or equal to 5. That is, for states with small case number (MT, HI, AK, VT, etc), the metric treats new cases equal to or less than a threshold of 5, the same as a day with declining case count.  This metric is counting consecutive days, which may be more rigorous than actual <cite>[Whitehouse / CDC Guidelines](https://www.whitehouse.gov/openingamerica/#criteria){: target="_blank"}) </cite> as single day of increasing metrics will reset the consecutive day count back to 0, and the Whitehouse only calls for a "downward trajectory".
