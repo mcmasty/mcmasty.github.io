@@ -72,7 +72,6 @@ FYI:  [My list of Coronavirus Tracking sites and data sources.](#coronavirus-tra
 
 ## Impact in Lives Lost  
 
-In terms of fatality, the number of lives lost is remains high (near 2,000), but hopefully we're about to start a new trend of decreasing numbers.  
 
 ![New Death Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/new_death_20200505_1588706993.png){: .align-center}
 
