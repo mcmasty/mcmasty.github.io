@@ -196,7 +196,7 @@ Thought experiment on test-positivity: If we use 5% as a threshold for relaxing 
 
 Assuming no increase in testing capacity, our current capacity is around 225,000 test per day, 5% of that number is 11,250.  To reach 5% positive test proportion, we'd need to keep physical distancing guidelines in place until the number of new cases falls to 11,250 per day.  
 
-Alternatively, using 26,500 as the recent average number of new case, we'd need 530,000 total tests, with all additional tests negative, for the proportion of positives to be 5%.  
+Alternatively, using 26,500 as the recent average number of new cases, we'd need 530,000 total tests, with all additional tests negative, for the proportion of positives to be 5%.  
 
 Ideally we will make progress on both strategies.  
 {% endcapture %}  
