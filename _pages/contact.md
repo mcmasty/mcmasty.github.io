@@ -1,5 +1,5 @@
 ---
-title: Get in Touch
+title: I'd love to hear from you
 layout: splash
 permalink: /contact/
 header:
