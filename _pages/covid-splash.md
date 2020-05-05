@@ -236,7 +236,7 @@ Generally a `*` means this metric is a moving-average.
 <br>
 -  The 10 largest by total number cases are: NY(318,953), NJ(128,269), MA(69,087), IL(63,840), CA(54,937), PA(50,092), MI(43,754), FL(36,897), TX(32,332), LA(29,673)  
 
-- The 10 biggest number of new cases are: NY(2,538), IL(2,341), NJ(1,525), CA(1,321), MA(1,000), MD(946), PA(825), VA(821), FL(819), TX(784)  
+- The 10 largest number of new cases are: NY(2,538), IL(2,341), NJ(1,525), CA(1,321), MA(1,000), MD(946), PA(825), VA(821), FL(819), TX(784)  
 
 <br>
 
