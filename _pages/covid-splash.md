@@ -17,11 +17,11 @@ categories:
   - Post
 tags:
   - COVID-19
-last_modified_at:  2020-05-08 15:05:00 -0400
+last_modified_at:  2020-05-09 15:35:00 -0400
 ---
 
 
-{% include plotly.html %}
+<!-- {% include plotly.html %} -->
 
 {% include feature_row id="intro" type="center" %}
 
@@ -30,29 +30,29 @@ last_modified_at:  2020-05-08 15:05:00 -0400
 <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.last_modified_at | date: "%Y-%m-%d" }}">{{ page.last_modified_at | date: "%B %-d, %Y  %r  %Z %z" }}</time></p>
 
 
-**Data as of: 07-May-2020[^1]**  
+**Data as of: 08-May-2020[^1]**  
 
 ## tl;dr[^11] summary  
 
 **Just The Data:**   
-United States for 07-May-2020[^1]:  
+United States for 08-May-2020[^1]:  
 
 
-- Total Positive Tests: 1,248,137; Total Tests: 8,105,513; Average Test-Positivity: 15.4%  
+- Total Positive Tests: 1,275,916; Total Tests: 8,408,788; Average Test-Positivity: 15.2%  
 
-- New Positive Tests: 27,580; Peak New Positive Tests: 35,991 [on 25-Apr-2020]  
+- New Positive Tests: 27,779; Peak New Positive Tests: 35,991 [on 25-Apr-2020]  
 
-- Daily Test Total: 318,720; Daily Test-Positivity: 8.7%   
+- Daily Test Total: 303,275; Daily Test-Positivity: 9.2%   
 
-- Daily Tests, Trailing 7-Day Avg.: 264,249;  Test-Positivity, Trailing 7-Day Avg.: 10.1%   
+- Daily Tests, Trailing 7-Day Avg.: 265,169;  Test-Positivity, Trailing 7-Day Avg.: 9.8%   
 
-- Total Fatalities: 70,002;  Case Fatality Rate: 5.6%   
+- Total Fatalities: 71,762;  Case Fatality Rate: 5.6%   
 
-- New Fatalities: 2,746; Peak Fatalities: 2,746 [on 07-May-2020]   
+- New Fatalities: 1,760; Peak Fatalities: 2,746 [on 07-May-2020]   
 
 
-_FYI: Semantically, this site treats positive tests to be an approximation for cases, and may use cases and positive tests interchangably._  
-{: .notice--warning}    
+_FYI: This site treats positive tests to be an approximation for cases, and may use cases and positive tests interchangably._
+{: .notice--warning}   
 
 
 <br>  
@@ -69,13 +69,17 @@ It seems the path forward will be a roller coaster of progress and regression (t
 
 - <i class="fas fa-arrow-up" style="color: green;"> </i> March average doubling days of 2.6 days;  April average doubling days of 15 days.  
 
-
+<!--
 - <i class="fas fa-arrow-up" style="color: red;"> </i> New peak fatalities.    
 
 
 - <i class="fas fa-arrow-up" style="color: red;"> </i> 3rd day of increasing new cases increased, but remain lower than April peaks.           
 
+-->  
 
+-  Illinois surpassed New York as the state with highest number of new cases.  
+
+-  California surpassed New York as the state with highest number of daily tests.  
 
 
 <br>
@@ -88,7 +92,7 @@ FYI:  [My list of Coronavirus Tracking sites and data sources.](#coronavirus-tra
 ## Impact in Lives Lost  
 
 
-![New Death Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/new_death_20200508_1588972895.png){: .align-center}
+![New Death Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/new_death_20200509_1589065963.png){: .align-center}
 
 
 <!--
@@ -100,7 +104,7 @@ There is a clear spike in reported deaths every 6-8 days, (Sa. April-4, Sa. Apri
 <!-- {% include state_death_treemap.html %}{: align="center"} -->
 
 
-![New Death Proportions]({{ site.url }}{{ site.baseurl }}/assets/images/covid/state_new_death_proportion_20200508_1588974227.png){: .align-center}
+![New Death Proportions]({{ site.url }}{{ site.baseurl }}/assets/images/covid/state_new_death_proportion_20200509_1589066915.png){: .align-center}
 
 
 
@@ -123,7 +127,7 @@ Influenza & Pneumonia is the 8th highest leading cause of death with 55,672 deat
 
 Given we are still in the early days of the outbreak, the rate of change is more telling then the cumulative totals.  To compare mortality, compute the average deaths per day for each leading cause and compare to the daily death count for COVID-19.
 
-![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/leading_causes_20200508_1588972926.png){: .align-center}
+![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/leading_causes_20200509_1589065985.png){: .align-center}
 
 ## Spread / Containment      
 
@@ -133,7 +137,7 @@ The data shows physical distancing is working. The macro trend is that the daily
 The daily growth rate is now stabilizing well below 3%, with the 3-day moving average currently at 2.2%.  
 
 
-![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_update_20200508_1588972951.png){: .align-center}    
+![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_update_20200509_1589066010.png){: .align-center}    
 
 
 <br/>  
@@ -150,7 +154,7 @@ In a perfect world the growth factor would approach 0, meaning no new cases.
 _Growth Factor_[^4] is a ratio of new cases today compared to new cases yesterday.
 
 
-![Growth Factor Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/growth_factor_20200508_1588972968.png){: .align-center}
+![Growth Factor Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/growth_factor_20200509_1589066033.png){: .align-center}
 
 
 To get a better feel for growth factor, below is a basic logistic curve with different growth factor reference values plotted. Even though exponential growth ceases at growth factor = 1, the curve is still steep. In my opinion, the growth in total COVID-19 cases won't feel like it slowing until the growth factor is below 0.90.  
@@ -169,9 +173,8 @@ See notes[^9] [^10] for more details on logistic curve and growth factor.
 ## Testing Snapshot
 
 
-![High Level Testing]({{ site.url }}{{ site.baseurl }}/assets/images/covid/high_level_testing_20200508_1588972994.png){: .align-center}
+![High Level Testing]({{ site.url }}{{ site.baseurl }}/assets/images/covid/high_level_testing_20200509_1589066078.png){: .align-center}
 
-Trailing 7-Day Avg. Daily Test: 264,249;  Trailing 7-Day Avg. Test-Positivity: 10.1%  
 
 
 <!-- It appears testing throughput has increased to approach the 200k test per day, up from the 150k per day plateau of the last few weeks.  -->
@@ -188,7 +191,7 @@ Thought experiment on testing:  There are roughly 17,000,000 health care workers
 One measure might be the proportion of positive tests as a share of total testing. We know that asymptomatic contagious individuals are making this outbreak particularly challenging to deal with. Any attempt to identify the asymptomatic carriers of the disease will require testing many healthy people, who are also asymptomatic. The impact of testing more asymptomatic people, would drive down the number of positive tests as more healthy people are tested.   
 
 The below graph shows the number of positive tests as a proportion of total testing.  
-![Positive Test Proportion]({{ site.url }}{{ site.baseurl }}/assets/images/covid/positive_test_proportion_20200508_1588973063.png){: .align-center}  
+![Positive Test Proportion]({{ site.url }}{{ site.baseurl }}/assets/images/covid/positive_test_proportion_20200509_1589066103.png){: .align-center}  
 
 
 
@@ -262,9 +265,9 @@ Generally a `*` means this metric is a moving-average.
 
 **State's share of new cases today**  
 
-![New Case Proportions]({{ site.url }}{{ site.baseurl }}/assets/images/covid/state_new_case_proportion_20200508_1588974194.png){: .align-center}  
+![New Case Proportions]({{ site.url }}{{ site.baseurl }}/assets/images/covid/state_new_case_proportion_20200509_1589066875.png){: .align-center}  
 
-![New Tests Proportions]({{ site.url }}{{ site.baseurl }}/assets/images/covid/state_new_tests_proportion_20200508_1588974213.png){: .align-center}  
+![New Tests Proportions]({{ site.url }}{{ site.baseurl }}/assets/images/covid/state_new_tests_proportion_20200509_1589066899.png){: .align-center}  
 
 
 
@@ -290,7 +293,7 @@ The best tools we have today
 
   An increasing number of people recovered, means more people can help - a single person's blood plasma donation produces enough serum to treat 3 people.[^6]    
 
-  ![Recoveries]({{ site.url }}{{ site.baseurl }}/assets/images/covid/recoveries_20200508_1588973079.png){: .align-center}
+  ![Recoveries]({{ site.url }}{{ site.baseurl }}/assets/images/covid/recoveries_20200509_1589066124.png){: .align-center}
 
 
 <br/>
@@ -301,6 +304,32 @@ Hopefully coming soon, a number of vaccines and treatments.   [Summary of Vaccin
 
 
 This is not an exhaustive list; anything missing is accidental.  
+
+***   
+
+## Experimental Charts  
+
+I am experimenting. As a result, this section might be short-lived as I am not sure how this will be folded into the site, if at all. This section also may not be updated as frequently.
+
+Anyway, here is the result of a geometric analysis, in which the area under peak number of cases (orange line) is compared to the actual cases (blue line and shaded area). The percent of peak area, bounded by the peak cases line, that is covered by the actual cases area, is a metric I call "Peak Coverage".  The higher the percent, the closer the state is to average peak conditions.    
+
+
+The visual explanation is more straight forward: The greater the green area, the greater the distance between new cases and peak cases.  Simply:  Mo' green, mo' better; No green, no good.  
+
+
+The states are sorted in decreasing order of peak cover.
+
+
+### States seeming near peak number of cases  
+![Hot Zone States]({{ site.baseurl }}/assets/images/covid/hot_zone_areas_20200509_1589068322.pdf){: type="application/pdf" target="_blank" .align-center}
+
+### States "in the middle"  
+![Middle States]({{ site.baseurl }}/assets/images/covid/middle_areas_20200509_1589068328.pdf){: type="application/pdf" target="_blank" .align-center}
+
+
+### States whose new cases seem under control  
+![Control States]({{ site.baseurl }}/assets/images/covid/under_control_areas_20200509_1589068335.pdf){: type="application/pdf" target="_blank" .align-center}
+
 
 ***   
 
