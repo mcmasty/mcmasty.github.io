@@ -321,14 +321,14 @@ The states are sorted in decreasing order of peak cover.
 
 
 ### States seeming near peak number of cases  
-![Hot Zone States]({{ site.baseurl }}/assets/images/covid/hot_zone_areas_20200509_1589068322.pdf){: type="application/pdf" target="_blank" .align-center}
+![Hot Zone States]({{ site.baseurl }}/assets/images/covid/hot_zone_areas_20200509_1589076245.pdf){: type="application/pdf" target="_blank" .align-center}
 
 ### States "in the middle"  
-![Middle States]({{ site.baseurl }}/assets/images/covid/middle_areas_20200509_1589068328.pdf){: type="application/pdf" target="_blank" .align-center}
+![Middle States]({{ site.baseurl }}/assets/images/covid/middle_areas_20200509_1589076253.pdf){: type="application/pdf" target="_blank" .align-center}
 
 
 ### States whose new cases seem under control  
-![Control States]({{ site.baseurl }}/assets/images/covid/under_control_areas_20200509_1589068335.pdf){: type="application/pdf" target="_blank" .align-center}
+![Control States]({{ site.baseurl }}/assets/images/covid/under_control_areas_20200509_1589076260.pdf){: type="application/pdf" target="_blank" .align-center}
 
 
 ***   
