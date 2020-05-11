@@ -17,7 +17,24 @@ categories:
   - Post
 tags:
   - COVID-19
-last_modified_at:  2020-05-09 15:35:00 -0400
+last_modified_at:  2020-05-11 12:35:00 -0400  
+
+new_death_slug: new_death_20200511_1589227795
+leading_causes_slug: leading_causes_20200511_1589227820  
+daily_update_slug: daily_update_20200511_1589227839  
+growth_factor_slug: growth_factor_20200511_1589227857  
+testing_overiew_slug: high_level_testing_20200511_1589227882  
+test_positivity_slug:  positive_test_proportion_20200511_1589227905  
+recoveries_slug: recoveries_20200511_1589227932
+
+new_case_proportion_slug: state_new_case_proportion_20200511_1589228883  
+new_tests_proportion_slug: state_new_tests_proportion_20200511_1589228898
+new_death_proportion_slug: state_new_death_proportion_20200511_1589228919
+
+peak_cover_hot_slug: hot_zone_areas_20200511_1589228824
+peak_cover_middle_slug: middle_areas_20200511_1589228829
+peak_cover_control_slug: under_control_areas_20200511_1589228835
+
 ---
 
 
@@ -30,29 +47,29 @@ last_modified_at:  2020-05-09 15:35:00 -0400
 <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.last_modified_at | date: "%Y-%m-%d" }}">{{ page.last_modified_at | date: "%B %-d, %Y  %r  %Z %z" }}</time></p>
 
 
-**Data as of: 08-May-2020[^1]**  
+**Data as of: 10-May-2020[^1]**  
 
 ## tl;dr[^11] summary  
 
 **Just The Data:**   
-United States for 08-May-2020[^1]:  
+United States for 10-May-2020[^1]:  
 
 
-- Total Positive Tests: 1,275,916; Total Tests: 8,408,788; Average Test-Positivity: 15.2%  
+- Total Positive Tests: 1,322,807; Total Tests: 8,987,524; Average Test-Positivity: 14.7%  
 
-- New Positive Tests: 27,779; Peak New Positive Tests: 35,991 [on 25-Apr-2020]  
+- New Positive Tests: 21,712; Peak New Positive Tests: 35,991 [on 25-Apr-2020]  
 
-- Daily Test Total: 303,275; Daily Test-Positivity: 9.2%   
+- Daily Test Total: 277,894; Daily Test-Positivity: 7.8%   
 
-- Daily Tests, Trailing 7-Day Avg.: 265,169;  Test-Positivity, Trailing 7-Day Avg.: 9.8%   
+- Daily Tests, Trailing 7-Day Avg.: 276,308;  Test-Positivity, Trailing 7-Day Avg.: 8.9%   
 
-- Total Fatalities: 71,762;  Case Fatality Rate: 5.6%   
+- Total Fatalities: 74,270;  Case Fatality Rate: 5.6%   
 
-- New Fatalities: 1,760; Peak Fatalities: 2,746 [on 07-May-2020]   
+- New Fatalities: 979; Peak Fatalities: 2,746 [on 07-May-2020]   
 
 
 _FYI: This site treats positive tests to be an approximation for cases, and may use cases and positive tests interchangably._
-{: .notice--warning}   
+{: .notice--warning}    
 
 
 <br>  
@@ -69,17 +86,13 @@ It seems the path forward will be a roller coaster of progress and regression (t
 
 - <i class="fas fa-arrow-up" style="color: green;"> </i> March average doubling days of 2.6 days;  April average doubling days of 15 days.  
 
-<!--
-- <i class="fas fa-arrow-up" style="color: red;"> </i> New peak fatalities.    
+
+- <i class="fas fa-arrow-down" style="color: green;"> </i> New fatalities below 1,000.    
 
 
-- <i class="fas fa-arrow-up" style="color: red;"> </i> 3rd day of increasing new cases increased, but remain lower than April peaks.           
+- <i class="fas fa-arrow-down" style="color: green;"> </i> New Cases under 22,000.            
 
--->  
-
--  Illinois surpassed New York as the state with highest number of new cases.  
-
--  California surpassed New York as the state with highest number of daily tests.  
+  
 
 
 <br>
@@ -92,7 +105,7 @@ FYI:  [My list of Coronavirus Tracking sites and data sources.](#coronavirus-tra
 ## Impact in Lives Lost  
 
 
-![New Death Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/new_death_20200509_1589065963.png){: .align-center}
+![New Death Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/{{ page.new_death_slug }}.png){: .align-center}
 
 
 <!--
@@ -104,7 +117,7 @@ There is a clear spike in reported deaths every 6-8 days, (Sa. April-4, Sa. Apri
 <!-- {% include state_death_treemap.html %}{: align="center"} -->
 
 
-![New Death Proportions]({{ site.url }}{{ site.baseurl }}/assets/images/covid/state_new_death_proportion_20200509_1589066915.png){: .align-center}
+![New Death Proportions]({{ site.url }}{{ site.baseurl }}/assets/images/covid/{{ page.new_death_proportion_slug }}.png){: .align-center}
 
 
 
@@ -127,17 +140,17 @@ Influenza & Pneumonia is the 8th highest leading cause of death with 55,672 deat
 
 Given we are still in the early days of the outbreak, the rate of change is more telling then the cumulative totals.  To compare mortality, compute the average deaths per day for each leading cause and compare to the daily death count for COVID-19.
 
-![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/leading_causes_20200509_1589065985.png){: .align-center}
+![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/{{ page.leading_causes_slug }}.png){: .align-center}
 
 ## Spread / Containment      
 
 
 The data shows physical distancing is working. The macro trend is that the daily growth rate is decreasing, and subsequently the number of days until the case count doubles is also improving, i.e. increasing.  
 
-The daily growth rate is now stabilizing well below 3%, with the 3-day moving average currently at 2.2%.  
+The daily growth rate is now stabilizing well below 2%, with the 3-day moving average currently at 1.9%.  
 
 
-![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/daily_update_20200509_1589066010.png){: .align-center}    
+![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/{{ page.daily_update_slug }}.png){: .align-center}    
 
 
 <br/>  
@@ -154,7 +167,7 @@ In a perfect world the growth factor would approach 0, meaning no new cases.
 _Growth Factor_[^4] is a ratio of new cases today compared to new cases yesterday.
 
 
-![Growth Factor Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/growth_factor_20200509_1589066033.png){: .align-center}
+![Growth Factor Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/{{ page.growth_factor_slug }}.png){: .align-center}
 
 
 To get a better feel for growth factor, below is a basic logistic curve with different growth factor reference values plotted. Even though exponential growth ceases at growth factor = 1, the curve is still steep. In my opinion, the growth in total COVID-19 cases won't feel like it slowing until the growth factor is below 0.90.  
@@ -173,7 +186,7 @@ See notes[^9] [^10] for more details on logistic curve and growth factor.
 ## Testing Snapshot
 
 
-![High Level Testing]({{ site.url }}{{ site.baseurl }}/assets/images/covid/high_level_testing_20200509_1589066078.png){: .align-center}
+![High Level Testing]({{ site.url }}{{ site.baseurl }}/assets/images/covid/{{ page.testing_overiew_slug }}.png){: .align-center}
 
 
 
@@ -191,7 +204,7 @@ Thought experiment on testing:  There are roughly 17,000,000 health care workers
 One measure might be the proportion of positive tests as a share of total testing. We know that asymptomatic contagious individuals are making this outbreak particularly challenging to deal with. Any attempt to identify the asymptomatic carriers of the disease will require testing many healthy people, who are also asymptomatic. The impact of testing more asymptomatic people, would drive down the number of positive tests as more healthy people are tested.   
 
 The below graph shows the number of positive tests as a proportion of total testing.  
-![Positive Test Proportion]({{ site.url }}{{ site.baseurl }}/assets/images/covid/positive_test_proportion_20200509_1589066103.png){: .align-center}  
+![Positive Test Proportion]({{ site.url }}{{ site.baseurl }}/assets/images/covid/{{ page.test_positivity_slug }}.png){: .align-center}  
 
 
 
@@ -265,9 +278,9 @@ Generally a `*` means this metric is a moving-average.
 
 **State's share of new cases today**  
 
-![New Case Proportions]({{ site.url }}{{ site.baseurl }}/assets/images/covid/state_new_case_proportion_20200509_1589066875.png){: .align-center}  
+![New Case Proportions]({{ site.url }}{{ site.baseurl }}/assets/images/covid/{{ page.new_case_proportion_slug }}.png){: .align-center}  
 
-![New Tests Proportions]({{ site.url }}{{ site.baseurl }}/assets/images/covid/state_new_tests_proportion_20200509_1589066899.png){: .align-center}  
+![New Tests Proportions]({{ site.url }}{{ site.baseurl }}/assets/images/covid/{{ page.new_tests_proportion_slug }}.png){: .align-center}  
 
 
 
@@ -293,7 +306,7 @@ The best tools we have today
 
   An increasing number of people recovered, means more people can help - a single person's blood plasma donation produces enough serum to treat 3 people.[^6]    
 
-  ![Recoveries]({{ site.url }}{{ site.baseurl }}/assets/images/covid/recoveries_20200509_1589066124.png){: .align-center}
+  ![Recoveries]({{ site.url }}{{ site.baseurl }}/assets/images/covid/{{ page.recoveries_slug }}.png){: .align-center}
 
 
 <br/>
@@ -321,14 +334,29 @@ The states are sorted in decreasing order of peak cover.
 
 
 ### States seeming near peak number of cases  
-![Hot Zone States]({{ site.baseurl }}/assets/images/covid/hot_zone_areas_20200509_1589076245.pdf){: type="application/pdf" target="_blank" .align-center}
+<figure style="width: 850px" >
+  <img src="{{ site.baseurl }}/assets/images/covid/{{ page.peak_cover_hot_slug}}.png" alt="">
+  <figcaption>States whose actual cases cover more than 80% of the area bounded by peak cases line. </figcaption>
+</figure>{: .align-center}  
+
+
+
 
 ### States "in the middle"  
-![Middle States]({{ site.baseurl }}/assets/images/covid/middle_areas_20200509_1589076253.pdf){: type="application/pdf" target="_blank" .align-center}
+<figure style="width: 850px" >
+  <img src="{{ site.baseurl }}/assets/images/covid/{{ page.peak_cover_middle_slug}}.png" alt="">
+  <figcaption>States whose actual cases cover between 60% and 80% of the area bounded by peak cases line. </figcaption>
+</figure>{: .align-center}  
+
 
 
 ### States whose new cases seem under control  
-![Control States]({{ site.baseurl }}/assets/images/covid/under_control_areas_20200509_1589076260.pdf){: type="application/pdf" target="_blank" .align-center}
+<figure style="width: 850px" >
+  <img src="{{ site.baseurl }}/assets/images/covid/{{ page.peak_cover_control_slug}}.png" alt="">
+  <figcaption>States whose actual cases cover less than 60% of the area bounded by peak cases line. </figcaption>
+</figure>{: .align-center}  
+
+<br>
 
 
 ***   
