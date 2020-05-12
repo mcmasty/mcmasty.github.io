@@ -277,7 +277,7 @@ Generally a `*` means this metric is a moving-average.
 
 
 <br>
--  The 10 largest by total number cases are: NY(318,953), NJ(128,269), MA(69,087), IL(63,840), CA(54,937), PA(50,092), MI(43,754), FL(36,897), TX(32,332), LA(29,673)  
+The 10 largest by total number of cases are: NY(337,055), NJ(139,945), IL(79,007), MA(78,462), CA(67,939), PA(57,154), MI(47,552), FL(40,982), TX(39,869), GA(33,927)
 
 
 <br>
