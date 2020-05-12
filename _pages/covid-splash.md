@@ -17,23 +17,24 @@ categories:
   - Post
 tags:
   - COVID-19
-last_modified_at:  2020-05-11 12:35:00 -0400  
+last_modified_at:  2020-05-12 12:35:00 -0400  
 
-new_death_slug: new_death_20200511_1589227795
-leading_causes_slug: leading_causes_20200511_1589227820  
-daily_update_slug: daily_update_20200511_1589227839  
-growth_factor_slug: growth_factor_20200511_1589227857  
-testing_overiew_slug: high_level_testing_20200511_1589227882  
-test_positivity_slug:  positive_test_proportion_20200511_1589227905  
-recoveries_slug: recoveries_20200511_1589227932
+new_death_slug: new_death_20200512_1589314034
+leading_causes_slug: leading_causes_20200512_1589314035  
+daily_update_slug: daily_update_20200512_1589314078  
+growth_factor_slug: growth_factor_20200512_1589314116  
+logistic_curve_slug: logistic_curve_20200512_1589314131
+testing_overiew_slug: high_level_testing_20200512_1589314149  
+test_positivity_slug:  positive_test_proportion_20200512_1589315178  
+recoveries_slug: recoveries_20200512_1589314187
 
-new_case_proportion_slug: state_new_case_proportion_20200511_1589228883  
-new_tests_proportion_slug: state_new_tests_proportion_20200511_1589228898
-new_death_proportion_slug: state_new_death_proportion_20200511_1589228919
+new_case_proportion_slug: state_new_case_proportion_20200512_1589314428  
+new_tests_proportion_slug: state_new_tests_proportion_20200512_1589314669
+new_death_proportion_slug: state_new_death_proportion_20200512_1589314463
 
-peak_cover_hot_slug: hot_zone_areas_20200511_1589228824
-peak_cover_middle_slug: middle_areas_20200511_1589228829
-peak_cover_control_slug: under_control_areas_20200511_1589228835
+peak_cover_hot_slug: hot_zone_areas_20200512_1589314245
+peak_cover_middle_slug: middle_areas_20200512_1589314249
+peak_cover_control_slug: under_control_areas_20200512_1589314253
 
 ---
 
@@ -47,29 +48,30 @@ peak_cover_control_slug: under_control_areas_20200511_1589228835
 <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.last_modified_at | date: "%Y-%m-%d" }}">{{ page.last_modified_at | date: "%B %-d, %Y  %r  %Z %z" }}</time></p>
 
 
-**Data as of: 10-May-2020[^1]**  
+**Data as of: 11-May-2020[^1]**  
 
 ## tl;dr[^11] summary  
 
 **Just The Data:**   
-United States for 10-May-2020[^1]:  
+United States for 11-May-2020[^1]:  
 
 
-- Total Positive Tests: 1,322,807; Total Tests: 8,987,524; Average Test-Positivity: 14.7%  
+- Total Positive Tests: 1,340,412; Total Tests: 9,348,458; Average Test-Positivity: 14.3%; National Tests per 1k. pop: 28  
 
-- New Positive Tests: 21,712; Peak New Positive Tests: 35,991 [on 25-Apr-2020]  
+- New Positive Tests: 17,605; Peak New Positive Tests: 35,991 [on 25-Apr-2020]  
 
-- Daily Test Total: 277,894; Daily Test-Positivity: 7.8%   
+- Daily Test Total: 388,296; Daily Test-Positivity: 4.5%   
 
-- Daily Tests, Trailing 7-Day Avg.: 276,308;  Test-Positivity, Trailing 7-Day Avg.: 8.9%   
+- Daily Tests, Trailing 7-Day Avg.: 294,726;  Test-Positivity, Trailing 7-Day Avg.: 8.3%   
 
-- Total Fatalities: 74,270;  Case Fatality Rate: 5.6%   
+- Total Fatalities: 75,107;  Case Fatality Rate: 5.6%   
 
-- New Fatalities: 979; Peak Fatalities: 2,746 [on 07-May-2020]   
+- New Fatalities: 837; Peak Fatalities: 2,746 [on 07-May-2020]   
 
 
 _FYI: This site treats positive tests to be an approximation for cases, and may use cases and positive tests interchangably._
-{: .notice--warning}    
+{: .notice--warning}  
+
 
 
 <br>  
@@ -87,12 +89,14 @@ It seems the path forward will be a roller coaster of progress and regression (t
 - <i class="fas fa-arrow-up" style="color: green;"> </i> March average doubling days of 2.6 days;  April average doubling days of 15 days.  
 
 
-- <i class="fas fa-arrow-down" style="color: green;"> </i> New fatalities below 1,000.    
+- <i class="fas fa-arrow-down" style="color: green;"> </i> New fatalities below 900.    
 
 
-- <i class="fas fa-arrow-down" style="color: green;"> </i> New Cases under 22,000.            
+- <i class="fas fa-arrow-down" style="color: green;"> </i> New Cases under 18,000.            
 
-  
+- <i class="fas fa-arrow-down" style="color: green;"> </i> Daily tests total almost 100k above 7-day average -- New Jersey coming in hot; I hope this is a new normal for them.   
+
+- Change to the growth factor & logics curve charts.  The trailing 21-day max and min values for the 3-day moving average are now plotted; and, these max and min values are plotted on the logistic curve to demonstrate the relationship between these two plots with specific values.  
 
 
 <br>
@@ -175,7 +179,7 @@ To get a better feel for growth factor, below is a basic logistic curve with dif
 
 
 
-![Logistic Curve Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/logistic_curve_20200410_1586548277.png){: .align-center}  
+![Logistic Curve Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/{{ page.logistic_curve_slug }}.png){: .align-center}  
 
 > All models are wrong, but some are useful.  
 > <cite>George Box</cite>  
@@ -212,6 +216,8 @@ The below graph shows the number of positive tests as a proportion of total test
 
 
 **Comparison to other Countries[^7]:**   
+
+US National: Case Fatality Rate: 5.6%; Test-Positivity: 14.3%; Tests per 1k. pop: 28  
 
 | Country | Pop. | Cases | Test Positivity | Case Fatality Rate | Test Per 1k Pop
 | :--- |  ---: | ---: | ---: | ---: |  ---: |
