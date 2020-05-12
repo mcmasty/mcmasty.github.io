@@ -17,7 +17,7 @@ categories:
   - Post
 tags:
   - COVID-19
-last_modified_at:  2020-05-12 12:35:00 -0400  
+last_modified_at:  2020-05-12 14:35:00 -0400  
 
 new_death_slug: new_death_20200512_1589314034
 leading_causes_slug: leading_causes_20200512_1589314035  
@@ -96,7 +96,9 @@ It seems the path forward will be a roller coaster of progress and regression (t
 
 - <i class="fas fa-arrow-down" style="color: green;"> </i> Daily tests total almost 100k above 7-day average -- New Jersey coming in hot; I hope this is a new normal for them.   
 
-- Change to the growth factor & logics curve charts.  The trailing 21-day max and min values for the 3-day moving average are now plotted; and, these max and min values are plotted on the logistic curve to demonstrate the relationship between these two plots with specific values.  
+- Change to the growth factor & logics curve charts.  The trailing 21-day max and min values for the 3-day moving average are now plotted; and, these max and min values are plotted on the logistic curve to demonstrate the relationship between these two plots with specific values.    
+
+- Added new **recent trends** to experimental section of the page.  
 
 
 <br>
@@ -337,6 +339,33 @@ The visual explanation is more straight forward: The greater the green area, the
 
 
 The states are sorted in decreasing order of peak cover.
+
+
+
+
+**State Trends** 14-day slope, 7-day slope
+
+
+
+A measure of how a state is trending over the last 14 days and last 7 days, presented as two color coded arrows,
+one for each period. The 14 day period is the first arrow and the second arrow represents the 7 day period. The list is
+in order of decreasing severity (according to me); to me the ideal state is 0 new cases in last 14 days,
+which would show up in arrows as flat, flat, and thus is last on the list.  
+
+
+I think this assessment is lower order than peak coverage percentage. That is, peak cover percent is a better summary of
+the overall status and these arrows are just the recent trends.  
+
+
+
+- <i class="fas fa-arrow-up" style="color: red;"> </i>, <i class="fas fa-arrow-up" style="color: red;"> </i> : AR, CO, MD, NE, NH, SD, TX, VA
+- <i class="fas fa-arrow-up" style="color: red;"> </i>, <i class="fas fa-arrow-down" style="color: green;"></i> : AL, AZ, CA, MN, OR
+- <i class="fas fa-arrow-up" style="color: red;"> </i>, <i class="fas fa-arrows-alt-h" style="color: #ffbf00;"></i> : ME, WA
+- <i class="fas fa-arrow-down" style="color: green;"></i>, <i class="fas fa-arrow-up" style="color: red;"> </i> : OH, TN
+- <i class="fas fa-arrows-alt-h" style="color: #ffbf00;"></i>, <i class="fas fa-arrow-down" style="color: green;"></i> : DC, ID, KY, NC, ND, PR, WI, WV
+- <i class="fas fa-arrow-down" style="color: green;"></i>, <i class="fas fa-arrows-alt-h" style="color: #ffbf00;"></i> : WY
+- <i class="fas fa-arrow-down" style="color: green;"></i>, <i class="fas fa-arrow-down" style="color: green;"></i> : CT, DE, FL, GA, IA, IL, IN, KS, LA, MA, MI, MO, MS, NJ, NM, NV, NY, OK, PA, RI, SC
+- <i class="fas fa-arrows-alt-h" style="color: #ffbf00;"></i>, <i class="fas fa-arrows-alt-h" style="color: #ffbf00;"></i> : AK, AS, GU, HI, MP, MT, UT, VI, VT
 
 
 ### States seeming near peak number of cases  
