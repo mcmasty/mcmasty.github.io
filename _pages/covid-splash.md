@@ -17,7 +17,7 @@ categories:
   - Post
 tags:
   - COVID-19
-last_modified_at:  2020-05-18 12:05:00 -0400  
+last_modified_at:  2020-05-18 12:35:00 -0400  
 
 new_death_slug:                     new_death_20200518_1589828114           
 leading_causes_slug:                leading_causes_20200518_1589828114      
@@ -97,7 +97,7 @@ It seems the path forward will be a roller coaster of progress and regression (t
 -->  
 
 
-- <i class="fas fa-arrows-alt-h" style="color: #ffbf00;"></i> New Cases back over 25,000, you can see the regression of growth factor as we slide back down the (logistic) growth curve.            
+- <i class="fas fa-arrows-alt-h" style="color: #ffbf00;"></i> New Cases remain over 20,000, you can see the regression of growth factor as we slide back down the (logistic) growth curve.            
 
 
 <br>
