@@ -17,7 +17,7 @@ categories:
   - Post
 tags:
   - COVID-19
-last_modified_at:  2020-05-18 12:35:00 -0400  
+last_modified_at:  2020-05-18 13:05:00 -0400  
 
 new_death_slug:                     new_death_20200518_1589828114           
 leading_causes_slug:                leading_causes_20200518_1589828114      
@@ -30,7 +30,7 @@ positive_test_proportion_slug:      positive_test_proportion_20200518_1589828120
 
 
 state_new_case_proportion_slug: state_new_case_proportion_20200518_1589828178
-state_trail_14d_case_proportion_slug: state_trail_14d_case_proportion_20200518_1589834909 
+state_trail_14d_case_proportion_slug: state_trail_14d_case_proportion_20200518_1589835615
 state_new_tests_proportion_slug: state_new_tests_proportion_20200518_1589828178
 state_new_death_proportion_slug: state_new_death_proportion_20200518_1589828179
 
@@ -326,14 +326,6 @@ This is not an exhaustive list; anything missing is accidental.
 
 I am experimenting. As a result, this section might be short-lived as I am not sure how this will be folded into the site, if at all. This section also may not be updated as frequently.
 
-Anyway, here is the result of a geometric analysis, in which the area under peak number of cases (orange line) is compared to the actual cases (blue line and shaded area). The percent of peak area, bounded by the peak cases line, that is covered by the actual cases area, is a metric I call "Peak Coverage".  The higher the percent, the closer the state is to average peak conditions.    
-
-
-The visual explanation is more straight forward: The greater the green area, the greater the distance between new cases and peak cases.  Simply:  Mo' green, mo' better; No green, no good.  
-
-
-The states are sorted in decreasing order of peak cover.
-
 **State and U.S. Territory Trends** 14-day slope, 7-day slope  
 
 
@@ -364,6 +356,20 @@ the overall status and these arrows are just the recent trends.
 - <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>, <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>: 8 States: GA, IA, IL, KS, NH, OH, OR, SD
 - <i class="fa fa-chevron-left" aria-hidden="true" style="color: green;"></i>, <i class="fa fa-chevron-left" aria-hidden="true" style="color: green;"></i>: 8 States: AK, AS, GU, HI, MP, MT, VI, VT  
 
+
+**New Cases over the last 14 Days**  
+
+![Trailing 14d New Case Proportions]({{ site.url }}{{ site.baseurl }}/assets/images/covid/{{ page.state_trail_14d_case_proportion_slug }}.png){: .align-center}  
+
+### Proximity to peak cases  
+
+This section is a geometric analysis in which the area under peak number of cases (orange line) is compared to the actual cases (blue line and shaded area). The percent of peak area, bounded by the peak cases line, that is covered by the actual cases area, is a metric I call "Peak Coverage".  The higher the percent, the closer the state is to average peak conditions.    
+
+
+The visual explanation is more straight forward: The greater the green area, the greater the distance between new cases and peak cases.  Simply:  Mo' green, mo' better; No green, no good.  
+
+
+The states are sorted in decreasing order of peak cover.
 
 
 ### States seeming near peak number of cases  
