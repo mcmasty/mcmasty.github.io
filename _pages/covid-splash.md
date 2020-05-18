@@ -83,7 +83,7 @@ _FYI: This site treats positive tests to be an approximation for cases, and may 
 <!--  green down <i class="fas fa-arrow-down" style="color: green;"></i> -->
 
 **My take**  
-It seems the path forward will be a roller coaster of progress and regression (the growth factor moving average demonstrates this.)  However, the _big_ trends are positive (April was better than March), but the _small_ trends are  volatile (a single day may be better or worse than the day before).    
+It seems the path forward will be a roller coaster of progress and regression (the growth factor moving average demonstrates this), as result, my commentary will be less focused on day to day changes.  While the daily trends are variable, the _big_ trends are positive (April was better than March), but the _small_ trends are  volatile (a single day may be better or worse than the day before).    
 
 
 - <i class="fas fa-arrow-down" style="color: green;"> </i> March average daily growth rate: 29%;   April average daily growth rate 5.9%.  
@@ -96,9 +96,9 @@ It seems the path forward will be a roller coaster of progress and regression (t
 - <i class="fas fa-arrows-alt-h" style="color: #ffbf00;"></i> New fatalities remain above 1,600, but well below peak values.    
 -->  
 
-
+<!--
 - <i class="fas fa-arrows-alt-h" style="color: #ffbf00;"></i> New Cases remain over 20,000, you can see the regression of growth factor as we slide back down the (logistic) growth curve.            
-
+-->  
 
 <br>
 <!--http://localhost:5000/covid-page/#coronavirus-tracking-sites-and-data-sources -->
