@@ -17,26 +17,26 @@ categories:
   - Post
 tags:
   - COVID-19
-last_modified_at:  2020-05-17 12:05:00 -0400  
+last_modified_at:  2020-05-18 12:05:00 -0400  
 
-new_death_slug:                     new_death_20200517_1589743801           
-leading_causes_slug:                leading_causes_20200517_1589743801      
-daily_update_slug:                  daily_update_20200517_1589743802        
-growth_factor_slug:                 growth_factor_20200517_1589743803       
-logistic_curve_slug:                logistic_curve_20200517_1589743804      
-recoveries_slug:                    recoveries_20200517_1589743804          
-high_level_testing_slug:            high_level_testing_20200517_1589743805  
-positive_test_proportion_slug:      positive_test_proportion_20200517_1589743807
-
-
-state_new_case_proportion_slug:   state_new_case_proportion_20200517_1589743887
-state_new_tests_proportion_slug: state_new_tests_proportion_20200517_1589743888
-state_new_death_proportion_slug: state_new_death_proportion_20200517_1589743888
+new_death_slug:                     new_death_20200518_1589828114           
+leading_causes_slug:                leading_causes_20200518_1589828114      
+daily_update_slug:                  daily_update_20200518_1589828115        
+growth_factor_slug:                 growth_factor_20200518_1589828116       
+logistic_curve_slug:                logistic_curve_20200518_1589828117      
+recoveries_slug:                    recoveries_20200518_1589828117          
+high_level_testing_slug:            high_level_testing_20200518_1589828118  
+positive_test_proportion_slug:      positive_test_proportion_20200518_1589828120
 
 
-hot_zone_areas_slug: hot_zone_areas_20200517_1589744283  
-middle_areas_slug: middle_areas_20200517_1589744287  
-under_control_areas_slug: under_control_areas_20200517_1589744295
+state_new_case_proportion_slug: state_new_case_proportion_20200518_1589828178
+state_new_tests_proportion_slug: state_new_tests_proportion_20200518_1589828178
+state_new_death_proportion_slug: state_new_death_proportion_20200518_1589828179
+
+
+hot_zone_areas_slug: hot_zone_areas_20200518_1589828258  
+middle_areas_slug: middle_areas_20200518_1589828261  
+under_control_areas_slug: under_control_areas_20200518_1589828265
 
 
 ---
@@ -51,25 +51,25 @@ under_control_areas_slug: under_control_areas_20200517_1589744295
 <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.last_modified_at | date: "%Y-%m-%d" }}">{{ page.last_modified_at | date: "%B %-d, %Y  %r  %Z %z" }}</time></p>
 
 
-**Data as of: 16-May-2020[^1]**  
+**Data as of: 17-May-2020[^1]**  
 
 ## tl;dr[^11] summary  
 
 **Just The Data:**   
-United States for 16-May-2020[^1]:  
+United States for 17-May-2020[^1]:  
 
 
-- Total Positive Tests: 1,458,787; Total Tests: 11,077,179; Average Test-Positivity: 13.2%; National Tests per 1k. pop: 33  
+- Total Positive Tests: 1,479,856; Total Tests: 11,499,203; Average Test-Positivity: 12.9%; National Tests per 1k. pop: 35  
 
-- New Positive Tests: 25,091; Peak New Positive Tests: 35,991 [on 25-Apr-2020]  
+- New Positive Tests: 21,069; Peak New Positive Tests: 35,991 [on 25-Apr-2020]  
 
-- Daily Test Total: 356,994; Daily Test-Positivity: 7.0%   
+- Daily Test Total: 422,024; Daily Test-Positivity: 5.0%   
 
-- Daily Tests, Trailing 7-Day Avg.: 341,526;  Test-Positivity, Trailing 7-Day Avg.: 6.7%   
+- Daily Tests, Trailing 7-Day Avg.: 362,720;  Test-Positivity, Trailing 7-Day Avg.: 6.2%   
 
-- Total Fatalities: 83,015;  Case Fatality Rate: 5.7%   
+- Total Fatalities: 83,854;  Case Fatality Rate: 5.7%   
 
-- New Fatalities: 1,286; Peak Fatalities: 2,746 [on 07-May-2020]   
+- New Fatalities: 839; Peak Fatalities: 2,746 [on 07-May-2020]   
 
 
 _FYI: This site treats positive tests to be an approximation for cases, and may use cases and positive tests interchangeably._
@@ -90,6 +90,7 @@ It seems the path forward will be a roller coaster of progress and regression (t
 
 - <i class="fas fa-arrow-up" style="color: green;"> </i> March average doubling days of 2.6 days;  April average doubling days of 15 days.  
 
+- <i class="fas fa-arrow-up" style="color: green;"> </i> New peak in daily testing: 422k!   
 
 <!--
 - <i class="fas fa-arrows-alt-h" style="color: #ffbf00;"></i> New fatalities remain above 1,600, but well below peak values.    
@@ -98,7 +99,6 @@ It seems the path forward will be a roller coaster of progress and regression (t
 
 - <i class="fas fa-arrows-alt-h" style="color: #ffbf00;"></i> New Cases back over 25,000, you can see the regression of growth factor as we slide back down the (logistic) growth curve.            
 
-- Midwest seems near peak growth (according to peak coverage metric): 4 of the top 5 states nearest peak new cases are in the midwest: MN, IL, WI, IN.  
 
 <br>
 <!--http://localhost:5000/covid-page/#coronavirus-tracking-sites-and-data-sources -->
@@ -152,7 +152,7 @@ Given we are still in the early days of the outbreak, the rate of change is more
 
 The data shows physical distancing is working. The macro trend is that the daily growth rate is decreasing, and subsequently the number of days until the case count doubles is also improving, i.e. increasing.  
 
-The daily growth rate is now stabilizing well below 2%, with the 3-day moving average currently at 1.8%.  
+The daily growth rate is now stabilizing well below 2%, with the 3-day moving average currently at 1.6%.  
 
 
 ![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/{{ page.daily_update_slug }}.png){: .align-center}    
@@ -215,21 +215,20 @@ The below graph shows the number of positive tests as a proportion of total test
 
 **Comparison to other Countries[^7]:**   
 
-US National: Case Fatality Rate: 5.6%; Test-Positivity: 13.4%; Tests per 1k. pop: 32    
+US National: Case Fatality Rate: 5.6%; Test-Positivity: 13.4%; Tests per 1k. pop: 35      
 
 | Country | Pop. | Cases | Test Positivity | Case Fatality Rate | Test Per 1k Pop
 | :--- |  ---: | ---: | ---: | ---: |  ---: |
-| Taiwan     |     23.8 M |       429 |     0.7% |     1.4% |        3 |  
-| S. Korea   |     51.3 M |    10,765 |     1.7% |     2.3% |       12 |  
-| Russia     |    145.9 M |   106,498 |     3.1% |     1.0% |       24 |  
-| Iceland    |      0.3 M |     1,797 |     3.7% |     0.6% |      142 |  
-| India      |  1,379.1 M |    34,780 |     4.2% |     3.3% |        1 |  
-| Germany    |     83.8 M |   162,123 |     6.4% |     4.0% |       30 |  
-| Canada     |     37.7 M |    52,069 |     6.7% |     5.9% |       21 |  
-| Italy      |     60.5 M |   205,463 |    10.4% |    13.6% |       33 |  
-| Sweden     |     10.1 M |    21,092 |    17.7% |    12.3% |       12 |  
-| UK         |     67.9 M |   171,253 |    20.9% |    15.6% |       12 |   
-
+| Taiwan     |     23.8 M |       440 |     0.6% |     1.6% |        3 |  
+| S. Korea   |     51.3 M |    11,065 |     1.5% |     2.4% |       15 |  
+| Iceland    |      0.3 M |     1,802 |     3.2% |     0.6% |      167 |  
+| Russia     |    145.9 M |   290,678 |     4.1% |     0.9% |       49 |  
+| India      |  1,378.1 M |    97,577 |     4.2% |     3.1% |        2 |  
+| Germany    |     83.8 M |   176,933 |     5.6% |     4.6% |       38 |  
+| Canada     |     37.7 M |    77,002 |     5.9% |     7.5% |       34 |  
+| Italy      |     60.5 M |   225,435 |     7.5% |    14.2% |       50 |  
+| UK         |     67.8 M |   243,695 |     9.4% |    14.2% |       38 |  
+| Sweden     |     10.1 M |    30,377 |    17.1% |    12.2% |       18 |  
 
 Test positivity is measured with aggregate test data unless noted otherwise.
 
@@ -334,17 +333,20 @@ The visual explanation is more straight forward: The greater the green area, the
 
 The states are sorted in decreasing order of peak cover.
 
+**State and U.S. Territory Trends** 14-day slope, 7-day slope  
 
 
-
-**State Trends** 14-day slope, 7-day slope
-
-
-
-A measure of how a state is trending over the last 14 days and last 7 days, presented as two color coded arrows,
-one for each period. The 14 day period is the first arrow and the second arrow represents the 7 day period. The list is
-in order of decreasing severity (according to me); to me the ideal state is 0 new cases in last 14 days,
-which would show up in arrows as flat, flat, and thus is last on the list.  
+A measure of how a state is trending over the last 14 days and last 7 days, presented as color coded icons,
+one for each period. The 14 day period is the first icon and the second icon represents the 7 day period.
+A red up arrow <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>
+means the trendline is up (positive slope),
+a green down arrow <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>
+means the trendline is down (negative slope),
+a yellow horizontal arrow <i class="fas fa-arrows-alt-h" aria-hidden="true" style="color: #ffbf00;"></i>
+means the trendline is flat,
+a green chevron <i class="fa fa-chevron-left" aria-hidden="true" style="color: green;"></i>
+means the average daily new cases is below a threshold of 5 new cases per day; so 70 new cases in
+the last 14 days or 35 new cases in the last 7 days.
 
 
 I think this assessment is lower order than peak coverage percentage. That is, peak cover percent is a better summary of
@@ -352,16 +354,14 @@ the overall status and these arrows are just the recent trends.
 
 
 
-- <i class="fas fa-arrow-up" style="color: red;"> </i>, <i class="fas fa-arrow-up" style="color: red;"> </i>: 17 States: AR, AZ, CA, DE, FL, LA, MI, MN, MS, NC, ND, OK, PR, SC, TX, VA, WI
-- <i class="fas fa-arrow-up" style="color: red;"> </i>, <i class="fas fa-arrow-down" style="color: green;"></i>: 2 States: GA, TN
-- <i class="fas fa-arrows-alt-h" style="color: #ffbf00;"></i>, <i class="fas fa-arrow-up" style="color: red;"> </i>: 6 States: AL, CT, ID, KY, ME, OR
-- <i class="fas fa-arrow-down" style="color: green;"></i>, <i class="fas fa-arrow-up" style="color: red;"> </i>: 12 States: DC, IL, IN, MA, MD, MO, NE, NM, NY, OH, PA, UT
-- <i class="fas fa-arrows-alt-h" style="color: #ffbf00;"></i>, <i class="fas fa-arrow-down" style="color: green;"></i>: 1 States: SD
-- <i class="fas fa-arrow-down" style="color: green;"></i>, <i class="fas fa-arrow-down" style="color: green;"></i>: 7 States: CO, IA, KS, NH, NJ, RI, WA
-- <i class="fas fa-arrows-alt-h" style="color: #ffbf00;"></i>, <i class="fas fa-arrows-alt-h" style="color: #ffbf00;"></i>: 11 States: AK, AS, GU, HI, MP, MT, NV, VI, VT, WV, WY
-
-
-
+- <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>, <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>: 15 States: AZ, CA, CT, FL, LA, MI, NC, ND, NM, NV, OK, SC, TX, WA, WI
+- <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>, <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>: 2 States: AR, VA
+- <i class="fas fa-arrows-alt-h" aria-hidden="true" style="color: #ffbf00;"></i>, <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>: 7 States: ID, ME, MN, PR, UT, WV, WY
+- <i class="fas fa-arrows-alt-h" aria-hidden="true" style="color: #ffbf00;"></i>, <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>: 2 States: DE, TN
+- <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>, <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>: 13 States: CO, DC, IN, KY, MA, MD, MO, MS, NE, NJ, NY, PA, RI
+- <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>, <i class="fas fa-arrows-alt-h" aria-hidden="true" style="color: #ffbf00;"></i>: 1 States: AL
+- <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>, <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>: 8 States: GA, IA, IL, KS, NH, OH, OR, SD
+- <i class="fa fa-chevron-left" aria-hidden="true" style="color: green;"></i>, <i class="fa fa-chevron-left" aria-hidden="true" style="color: green;"></i>: 8 States: AK, AS, GU, HI, MP, MT, VI, VT  
 
 
 
