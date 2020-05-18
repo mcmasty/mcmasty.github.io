@@ -398,11 +398,6 @@ The states are sorted in decreasing order of peak cover.
 <br>
 
 
-### New Cases over the last 14 Days
-
-![Trailing 14d New Case Proportions]({{ site.url }}{{ site.baseurl }}/assets/images/covid/{{ page.state_trail_14d_case_proportion_slug }}.png){: .align-center}  
-
-
 
 ***   
 
