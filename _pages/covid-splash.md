@@ -30,6 +30,7 @@ positive_test_proportion_slug:      positive_test_proportion_20200518_1589828120
 
 
 state_new_case_proportion_slug: state_new_case_proportion_20200518_1589828178
+state_trail_14d_case_proportion_slug: state_trail_14d_case_proportion_20200518_1589834909 
 state_new_tests_proportion_slug: state_new_tests_proportion_20200518_1589828178
 state_new_death_proportion_slug: state_new_death_proportion_20200518_1589828179
 
@@ -389,6 +390,12 @@ the overall status and these arrows are just the recent trends.
 </figure>{: .align-center}  
 
 <br>
+
+
+### New Cases over the last 14 Days
+
+![Trailing 14d New Case Proportions]({{ site.url }}{{ site.baseurl }}/assets/images/covid/{{ page.state_trail_14d_case_proportion_slug }}.png){: .align-center}  
+
 
 
 ***   
