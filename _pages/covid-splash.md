@@ -17,28 +17,32 @@ categories:
   - Post
 tags:
   - COVID-19
-last_modified_at:  2020-05-18 13:05:00 -0400  
+last_modified_at:  2020-05-19 12:25:00 -0400  
 
-new_death_slug:                     new_death_20200518_1589828114           
-leading_causes_slug:                leading_causes_20200518_1589828114      
-daily_update_slug:                  daily_update_20200518_1589828115        
-growth_factor_slug:                 growth_factor_20200518_1589828116       
-logistic_curve_slug:                logistic_curve_20200518_1589828117      
-recoveries_slug:                    recoveries_20200518_1589828117          
-high_level_testing_slug:            high_level_testing_20200518_1589828118  
-positive_test_proportion_slug:      positive_test_proportion_20200518_1589828120
-
-
-state_new_case_proportion_slug: state_new_case_proportion_20200518_1589828178
-state_trail_14d_case_proportion_slug: state_trail_14d_case_proportion_20200518_1589835615
-state_new_tests_proportion_slug: state_new_tests_proportion_20200518_1589828178
-state_new_death_proportion_slug: state_new_death_proportion_20200518_1589828179
+new_death_slug:                     new_death_20200519_1589918966           
+leading_causes_slug:                leading_causes_20200519_1589918966      
+daily_update_slug:                  daily_update_20200519_1589918967        
+growth_factor_slug:                 growth_factor_20200519_1589918968       
+logistic_curve_slug:                logistic_curve_20200519_1589918968      
+recoveries_slug:                    recoveries_20200519_1589918969          
+high_level_testing_slug:            high_level_testing_20200519_1589918970  
+positive_test_proportion_slug:      positive_test_proportion_20200519_1589918972
 
 
-hot_zone_areas_slug: hot_zone_areas_20200518_1589828258  
-middle_areas_slug: middle_areas_20200518_1589828261  
-under_control_areas_slug: under_control_areas_20200518_1589828265
+state_new_case_proportion_slug: state_new_case_proportion_20200519_1589917408
+state_trail_14d_case_proportion_slug: state_trail_14d_case_proportion_20200519_1589917409
+state_new_tests_proportion_slug: state_new_tests_proportion_20200519_1589917409
+state_new_death_proportion_slug: state_new_death_proportion_20200519_1589917410
 
+
+hot_zone_areas_slug: hot_zone_areas_20200519_1589917471  
+middle_areas_slug: middle_areas_20200519_1589917475  
+under_control_areas_slug: under_control_areas_20200519_1589917479
+
+
+testing_snippet: "USA - Case Fatality Rate: 5.6%, Test-Positivity: 12.7%, Test per 1k pop: 36"
+
+gfac_msg: "Aiming at a daily target below 1,000 new cases and given the recent 4d average Growth Factor (daily multiplier) of 0.95, assuming this remains constant, it will take approximately **58.6 days** to get below 1,000 new cases daily. (For reference, a growth factor of 0.75 would reach the 1,000 new case threshold in 10.4 days).  "  
 
 ---
 
@@ -52,29 +56,29 @@ under_control_areas_slug: under_control_areas_20200518_1589828265
 <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.last_modified_at | date: "%Y-%m-%d" }}">{{ page.last_modified_at | date: "%B %-d, %Y  %r  %Z %z" }}</time></p>
 
 
-**Data as of: 17-May-2020[^1]**  
+**Data as of: 18-May-2020[^1]**  
 
 ## tl;dr[^11] summary  
 
 **Just The Data:**   
-United States for 17-May-2020[^1]:  
+United States for 18-May-2020[^1]:  
 
 
-- Total Positive Tests: 1,479,856; Total Tests: 11,499,203; Average Test-Positivity: 12.9%; National Tests per 1k. pop: 35  
+- Total Positive Tests: 1,499,722; Total Tests: 11,834,508; Average Test-Positivity: 12.7%; National Tests per 1k. pop: 36  
 
-- New Positive Tests: 21,069; Peak New Positive Tests: 35,991 [on 25-Apr-2020]  
+- New Positive Tests: 19,866; Peak New Positive Tests: 35,991 [on 25-Apr-2020]  
 
-- Daily Test Total: 422,024; Daily Test-Positivity: 5.0%   
+- Daily Test Total: 346,094; Daily Test-Positivity: 5.7%   
 
-- Daily Tests, Trailing 7-Day Avg.: 362,720;  Test-Positivity, Trailing 7-Day Avg.: 6.2%   
+- Daily Tests, Trailing 7-Day Avg.: 355,150;  Test-Positivity, Trailing 7-Day Avg.: 6.4%   
 
-- Total Fatalities: 83,854;  Case Fatality Rate: 5.7%   
+- Total Fatalities: 84,640;  Case Fatality Rate: 5.6%   
 
-- New Fatalities: 839; Peak Fatalities: 2,746 [on 07-May-2020]   
+- New Fatalities: 786; Peak Fatalities: 2,746 [on 07-May-2020]   
 
 
 _FYI: This site treats positive tests to be an approximation for cases, and may use cases and positive tests interchangeably._
-{: .notice--warning}
+{: .notice--warning}   
 
 
 <br>  
@@ -91,9 +95,9 @@ It seems the path forward will be a roller coaster of progress and regression (t
 
 - <i class="fas fa-arrow-up" style="color: green;"> </i> March average doubling days of 2.6 days;  April average doubling days of 15 days.  
 
+<!--
 - <i class="fas fa-arrow-up" style="color: green;"> </i> New peak in daily testing: 422k!   
 
-<!--
 - <i class="fas fa-arrows-alt-h" style="color: #ffbf00;"></i> New fatalities remain above 1,600, but well below peak values.    
 -->  
 
@@ -153,7 +157,7 @@ Given we are still in the early days of the outbreak, the rate of change is more
 
 The data shows physical distancing is working. The macro trend is that the daily growth rate is decreasing, and subsequently the number of days until the case count doubles is also improving, i.e. increasing.  
 
-The daily growth rate is now stabilizing well below 2%, with the 3-day moving average currently at 1.6%.  
+The daily growth rate is now stabilizing well below 2%, with the 3-day moving average currently at 1.5%.  
 
 
 ![Daily Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/{{ page.daily_update_slug }}.png){: .align-center}    
@@ -163,22 +167,19 @@ The daily growth rate is now stabilizing well below 2%, with the 3-day moving av
 
 ### Growth Factor    
 
-Growth factor is a measure of how quickly the infection is growing.  
-
-A growth factor < 1 (green area on chart), means there are fewer cases today then yesterday, and If we can keep that up long-enough, the outbreak will die down.
-
-In a perfect world the growth factor would approach 0, meaning no new cases.
+Growth factor is a measure of how quickly the infection (new cases daily) is growing. You can think of this as a *daily multiplier*, that is, what do you need to multiply yesterday's new case count by in order to reach today's new case count. For example, if yesterday's new case count were 437 and the growth factor were 1.2, then today's case count would be 524, and the infection would be spreading rapidly, or if the growth factor were 0.8 then todays case count would be 350, and the infection would be dying down.
 
 
-_Growth Factor_[^4] is a ratio of new cases today compared to new cases yesterday.
+A growth factor < 1 (green area on chart), means there are fewer cases today then yesterday, and If we can keep that up long-enough, the outbreak will die down. In a perfect world the growth factor would approach 0, meaning no new cases.  
+
+
+_Growth Factor_[^4] is calculated as a ratio of new cases today compared to new cases yesterday.  
 
 
 ![Growth Factor Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/{{ page.growth_factor_slug }}.png){: .align-center}
 
 
-To get a better feel for growth factor, below is a basic logistic curve with different growth factor reference values plotted. Even though exponential growth ceases at growth factor = 1, the curve is still steep. In my opinion, the growth in total COVID-19 cases won't feel like it slowing until the growth factor is below 0.85.  
-
-
+{{ page.gfac_msg }}
 
 
 ![Logistic Curve Summary]({{ site.url }}{{ site.baseurl }}/assets/images/covid/{{ page.logistic_curve_slug }}.png){: .align-center}  
@@ -216,7 +217,7 @@ The below graph shows the number of positive tests as a proportion of total test
 
 **Comparison to other Countries[^7]:**   
 
-US National: Case Fatality Rate: 5.6%; Test-Positivity: 13.4%; Tests per 1k. pop: 35      
+{{ page.testing_snippet }}     
 
 | Country | Pop. | Cases | Test Positivity | Case Fatality Rate | Test Per 1k Pop
 | :--- |  ---: | ---: | ---: | ---: |  ---: |
@@ -347,14 +348,17 @@ the overall status and these arrows are just the recent trends.
 
 
 
-- <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>, <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>: 15 States: AZ, CA, CT, FL, LA, MI, NC, ND, NM, NV, OK, SC, TX, WA, WI
-- <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>, <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>: 2 States: AR, VA
-- <i class="fas fa-arrows-alt-h" aria-hidden="true" style="color: #ffbf00;"></i>, <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>: 7 States: ID, ME, MN, PR, UT, WV, WY
-- <i class="fas fa-arrows-alt-h" aria-hidden="true" style="color: #ffbf00;"></i>, <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>: 2 States: DE, TN
-- <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>, <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>: 13 States: CO, DC, IN, KY, MA, MD, MO, MS, NE, NJ, NY, PA, RI
-- <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>, <i class="fas fa-arrows-alt-h" aria-hidden="true" style="color: #ffbf00;"></i>: 1 States: AL
-- <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>, <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>: 8 States: GA, IA, IL, KS, NH, OH, OR, SD
+- <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>, <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>: 5 States: AR, FL, MI, NC, SC
+- <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>, <i class="fas fa-arrows-alt-h" aria-hidden="true" style="color: #ffbf00;"></i>: 1 States: ND
+- <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>, <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>: 5 States: LA, OK, TN, TX, VA
+- <i class="fas fa-arrows-alt-h" aria-hidden="true" style="color: #ffbf00;"></i>, <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>: 6 States: ME, MN, NH, PR, UT, WI
+- <i class="fas fa-arrows-alt-h" aria-hidden="true" style="color: #ffbf00;"></i>, <i class="fas fa-arrows-alt-h" aria-hidden="true" style="color: #ffbf00;"></i>: 2 States: WV, WY
+- <i class="fas fa-arrows-alt-h" aria-hidden="true" style="color: #ffbf00;"></i>, <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>: 4 States: AL, AZ, ID, NV
+- <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>, <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>: 10 States: CA, CO, CT, DC, IN, KS, MD, MO, NE, NJ
+- <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>, <i class="fas fa-arrows-alt-h" aria-hidden="true" style="color: #ffbf00;"></i>: 2 States: OH, WA
+- <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>, <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>: 13 States: DE, GA, IA, IL, KY, MA, MS, NM, NY, OR, PA, RI, SD
 - <i class="fa fa-chevron-left" aria-hidden="true" style="color: green;"></i>, <i class="fa fa-chevron-left" aria-hidden="true" style="color: green;"></i>: 8 States: AK, AS, GU, HI, MP, MT, VI, VT  
+
 
 
 **New Cases over the last 14 Days**  
