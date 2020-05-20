@@ -14,7 +14,7 @@ First, what kind of site name is **tlm13?**
 
 Well, `tlm13` is my very first email handle \ username, assigned to me by my college way back in the fall of 1992. Over the years, I have occasionally used `tlm13` as a placeholder, and in this case, I decided to keep the monicker a bit longer. What can I say, I'm sentimental.  
 
-And about the site; I've found myself in a bit of a transition, and I'm not exactly sure what's next. This site is part of a learning, exploration, and demonstration process for me; a place to share what I am working on and what I am interested in.  
+And about the site; I've found myself in a bit of a transition, and I'm not exactly sure what's next. This site is part of a learning, exploration, and demonstration process for me. A place to share what I am working on, what I am interested in, how I think, how I use data, and how I approach problem solving.    
 
 
 ## About the Content  
@@ -42,4 +42,3 @@ There are a number of goals for content on this site. The first is to convey inf
 Feel free to [contact me](/contact/) if you want to discuss anything related to the site; or if you have a problem, project, or opportunity you would like to discuss. I do enjoy interesting work, interesting people, and talking shop.   
 
 If you would like a more formal review of my work experience and credentials, I suggest a review of my [LinkedIn profile.](https://www.linkedin.com/in/mcmasty/)  
-
