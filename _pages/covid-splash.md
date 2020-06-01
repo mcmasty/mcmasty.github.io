@@ -109,7 +109,7 @@ _You can find column heading definitions in the [state level snapshot](#state-le
 It seems the path forward will be a roller coaster of progress and regression (the growth factor moving average demonstrates this), as result, my commentary will be less focused on day to day changes.  While the daily trends are variable, the _big_ trends are positive (April was better than March), but the _small_ trends are  volatile (a single day may be better or worse than the day before).  I think the [growth factor moving average chart](#growth-factor) tells the story most succinctly.   
 
 
-- <i class="fas fa-arrow-up" style="color: red;"> </i> 37 states [have shown increasing cases](#experimental-charts) in the last 7d 
+- <i class="fas fa-arrow-up" style="color: red;"> </i> 37 states [have shown increasing cases](#experimental-charts) in the last 7d
 
 <!--
 - <i class="fas fa-arrow-down" style="color: green;"> </i> March average daily growth rate: 29%;   April average daily growth rate 5.9%.  
@@ -244,16 +244,17 @@ The below graph shows the number of positive tests as a proportion of total test
 
 | Country | Pop. | Cases | Test Positivity | Case Fatality Rate | Test Per 1k Pop
 | :--- |  ---: | ---: | ---: | ---: |  ---: |
-| Taiwan     |     23.8 M |       441 |     0.6% |     1.6% |        3 |  
-| S. Korea   |     51.3 M |    11,165 |     1.4% |     2.4% |       16 |  
-| Iceland    |      0.3 M |     1,804 |     3.1% |     0.6% |      171 |  
-| Russia     |    145.9 M |   335,882 |     4.0% |     1.0% |       58 |  
-| India      |  1,378.8 M |   127,358 |     4.5% |     3.0% |        2 |  
-| Germany    |     83.8 M |   179,768 |     5.0% |     4.6% |       43 |  
-| Canada     |     37.7 M |    82,480 |     5.9% |     7.6% |       37 |  
-| Italy      |     60.5 M |   228,658 |     6.9% |    14.3% |       55 |  
-| UK         |     67.8 M |   254,195 |     7.9% |    14.3% |       48 |  
-| Sweden     |     10.1 M |    33,188 |    15.8% |    12.0% |       21 |    
+| Taiwan     |     23.8 M |       443 |     0.6% |     1.6% |        3 |  
+| S. Korea   |     51.3 M |    11,503 |     1.2% |     2.4% |       18 |  
+| Iceland    |      0.3 M |     1,806 |     3.0% |     0.6% |      179 |  
+| Russia     |    145.9 M |   414,878 |     3.8% |     1.2% |       75 |  
+| Germany    |     83.8 M |   183,627 |     4.6% |     4.7% |       47 |  
+| India      |  1,378.8 M |   197,808 |     5.2% |     2.8% |        3 |  
+| Canada     |     37.7 M |    91,647 |     5.5% |     8.0% |       44 |  
+| Italy      |     60.5 M |   233,197 |     6.0% |    14.4% |       65 |  
+| UK         |     67.9 M |   274,762 |     6.4% |    14.0% |       63 |  
+| Sweden     |     10.1 M |    37,814 |    15.8% |    11.6% |       24 |  
+   
 
 Test positivity is measured with aggregate test data unless noted otherwise.
 
