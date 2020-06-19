@@ -241,19 +241,19 @@ The below graph shows the number of positive tests as a proportion of total test
 **Comparison to other Countries[^7]:**   
 
 {{ page.testing_snippet }}     
-
 | Country | Pop. | Cases | Test Positivity | Case Fatality Rate | Test Per 1k Pop
 | :--- |  ---: | ---: | ---: | ---: |  ---: |
-| Taiwan     |     23.8 M |       443 |     0.6% |     1.6% |        3 |  
-| S. Korea   |     51.3 M |    11,503 |     1.2% |     2.4% |       18 |  
-| Iceland    |      0.3 M |     1,806 |     3.0% |     0.6% |      179 |  
-| Russia     |    145.9 M |   414,878 |     3.8% |     1.2% |       75 |  
-| Germany    |     83.8 M |   183,627 |     4.6% |     4.7% |       47 |  
-| India      |  1,378.8 M |   197,808 |     5.2% |     2.8% |        3 |  
-| Canada     |     37.7 M |    91,647 |     5.5% |     8.0% |       44 |  
-| Italy      |     60.5 M |   233,197 |     6.0% |    14.4% |       65 |  
-| UK         |     67.9 M |   274,762 |     6.4% |    14.0% |       63 |  
-| Sweden     |     10.1 M |    37,814 |    15.8% |    11.6% |       24 |  
+| Taiwan     |     23.8 M |       446 |     0.6% |     1.6% |        3 |  
+| S. Korea   |     51.3 M |    12,306 |     1.1% |     2.3% |       23 |  
+| Iceland    |      0.3 M |     1,819 |     2.8% |     0.5% |      191 |  
+| Russia     |    145.9 M |   569,063 |     3.5% |     1.4% |      112 |  
+| Germany    |     83.8 M |   190,444 |     3.8% |     4.7% |       60 |  
+| UK         |     67.9 M |   301,815 |     4.1% |    14.1% |      110 |  
+| Canada     |     37.7 M |   100,565 |     4.4% |     8.3% |       61 |  
+| Italy      |     60.5 M |   238,159 |     4.9% |    14.5% |       80 |  
+| India      |  1,379.4 M |   388,640 |     6.0% |     3.3% |        5 |  
+| USA        |    330.9 M | 2,277,493 |     8.5% |     5.3% |       81 |  
+| Sweden     |     10.1 M |    56,043 |    14.5% |     9.0% |       38 |
 
 
 Test positivity is measured with aggregate test data unless noted otherwise.
