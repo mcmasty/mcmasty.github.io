@@ -240,7 +240,9 @@ The below graph shows the number of positive tests as a proportion of total test
 
 **Comparison to other Countries[^7]:**   
 
-{{ page.testing_snippet }}     
+{{ page.testing_snippet }}       
+
+
 | Country | Pop. | Cases | Test Positivity | Case Fatality Rate | Test Per 1k Pop
 | :--- |  ---: | ---: | ---: | ---: |  ---: |
 | Taiwan     |     23.8 M |       446 |     0.6% |     1.6% |        3 |  
@@ -253,7 +255,8 @@ The below graph shows the number of positive tests as a proportion of total test
 | Italy      |     60.5 M |   238,159 |     4.9% |    14.5% |       80 |  
 | India      |  1,379.4 M |   388,640 |     6.0% |     3.3% |        5 |  
 | USA        |    330.9 M | 2,277,493 |     8.5% |     5.3% |       81 |  
-| Sweden     |     10.1 M |    56,043 |    14.5% |     9.0% |       38 |
+| Sweden     |     10.1 M |    56,043 |    14.5% |     9.0% |       38 |  
+
 
 
 Test positivity is measured with aggregate test data unless noted otherwise.
