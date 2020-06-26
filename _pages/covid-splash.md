@@ -36,9 +36,9 @@ state_new_tests_proportion_slug: state_new_tests_proportion_20200626_1593155649
 state_new_death_proportion_slug: state_new_death_proportion_20200626_1593155650
 
 
-hot_zone_areas_slug: hot_zone_areas_20200625_1593061317  
-middle_areas_slug: middle_areas_20200625_1593061320  
-under_control_areas_slug: under_control_areas_20200625_1593061323
+hot_zone_areas_slug: hot_zone_areas_20200626_1593155682  
+middle_areas_slug: middle_areas_20200626_1593155685  
+under_control_areas_slug: under_control_areas_20200626_1593155689  
 
 testing_snippet: "USA - Case Fatality Rate: 4.9%, Test-Positivity: 8.3%, Test per 1k pop: 88"
 
