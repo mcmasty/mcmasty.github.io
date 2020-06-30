@@ -17,7 +17,7 @@ categories:
   - Post
 tags:
   - COVID-19
-last_modified_at:  2020-06-29 14:45:00 -0400   
+last_modified_at:  2020-06-29 22:45:00 -0400   
 
 new_death_slug:                     new_death_20200630_1593494924           
 leading_causes_slug:                leading_causes_20200630_1593494926      
