@@ -19,30 +19,30 @@ tags:
   - COVID-19
 last_modified_at:  2020-06-30 22:45:00 -0400   
 
-new_death_slug:                     new_death_20200701_1593586092           
-leading_causes_slug:                leading_causes_20200701_1593586094      
-daily_update_slug:                  daily_update_20200701_1593586095        
-growth_factor_slug:                 growth_factor_20200701_1593586098       
-logistic_curve_slug:                logistic_curve_20200701_1593586100      
-recoveries_slug:                    recoveries_20200701_1593586101          
-high_level_testing_slug:            high_level_testing_20200701_1593586103  
-positive_test_proportion_slug:      positive_test_proportion_20200701_1593586107
+new_death_slug:                     new_death_20200702_1593675773           
+leading_causes_slug:                leading_causes_20200702_1593675775      
+daily_update_slug:                  daily_update_20200702_1593675777        
+growth_factor_slug:                 growth_factor_20200702_1593675780       
+logistic_curve_slug:                logistic_curve_20200702_1593675782      
+recoveries_slug:                    recoveries_20200702_1593675783          
+high_level_testing_slug:            high_level_testing_20200702_1593675785  
+positive_test_proportion_slug:      positive_test_proportion_20200702_1593675790
 
 
-state_new_case_proportion_slug: state_new_case_proportion_20200701_1593586165
-state_trail_14d_case_proportion_slug: state_trail_14d_case_proportion_20200701_1593586166
-state_new_tests_proportion_slug: state_new_tests_proportion_20200701_1593586166
-state_new_death_proportion_slug: state_new_death_proportion_20200701_1593586166
+state_new_case_proportion_slug: state_new_case_proportion_20200702_1593675845
+state_trail_14d_case_proportion_slug: state_trail_14d_case_proportion_20200702_1593675846
+state_new_tests_proportion_slug: state_new_tests_proportion_20200702_1593675846
+state_new_death_proportion_slug: state_new_death_proportion_20200702_1593675846
 
 
-hot_zone_areas_slug: hot_zone_areas_20200701_1593586239  
-middle_areas_slug: middle_areas_20200701_1593586243  
-under_control_areas_slug: under_control_areas_20200701_1593586246  
+hot_zone_areas_slug: hot_zone_areas_20200702_1593675960  
+middle_areas_slug: middle_areas_20200702_1593675963  
+under_control_areas_slug: under_control_areas_20200702_1593675967
 
 
-testing_snippet: "USA - Case Fatality Rate: 4.6%, Test-Positivity: 8.1%, Test per 1k pop: 97"
+testing_snippet: "USA - Case Fatality Rate: 4.5%, Test-Positivity: 8.1%, Test per 1k pop: 99"
 
-gfac_msg: "Aiming at a daily target below 1,000 new cases and given the recent 4d average Growth Factor (daily multiplier) of **1.06**,  we will _never get below 1,000 new cases daily_. (For reference, a growth factor of 0.75 would reach the 1,000 new case threshold in 13.2 days).  "   
+gfac_msg: "Aiming at a daily target below 1,000 new cases and given the recent 4d average Growth Factor (daily multiplier) of **1.11**,  we will _never get below 1,000 new cases daily_. (For reference, a growth factor of 0.75 would reach the 1,000 new case threshold in 13.8 days).  "  
 
 
 ---
@@ -56,25 +56,25 @@ gfac_msg: "Aiming at a daily target below 1,000 new cases and given the recent 4
 <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.last_modified_at | date: "%Y-%m-%d" }}">{{ page.last_modified_at | date: "%B %-d, %Y  %r  %Z %z" }}</time></p>
 
 
-**Data as of: 30-June-2020[^1]**  
+**Data as of: 01-July-2020[^1]**  
 
 ## tl;dr[^11] summary  
 
 **Just The Data:**   
-United States for 30-June-2020[^1]:  
+United States for 01-July-2020[^1]:  
 
 
-- Total Positive Tests: 2,621,831; Total Tests: 32,206,245; Average Test-Positivity: 8.1%; National Tests per 1k. pop: 97  
+- Total Positive Tests: 2,674,813; Total Tests: 32,827,359; Average Test-Positivity: 8.1%; National Tests per 1k. pop: 99  
 
-- New Positive Tests: 44,358; Peak New Positive Tests: 44,373 [on 26-Jun-2020]  
+- New Positive Tests: 52,982; Peak New Positive Tests: 52,982 [on 01-Jul-2020]  
 
-- Daily Test Total: 648,838; Daily Test-Positivity: 6.8%   
+- Daily Test Total: 621,114; Daily Test-Positivity: 8.5%   
 
-- Daily Tests, Trailing 7-Day Avg.: 592,634;  Test-Positivity, Trailing 7-Day Avg.: 7.0%   
+- Daily Tests, Trailing 7-Day Avg.: 608,161;  Test-Positivity, Trailing 7-Day Avg.: 7.1%   
 
-- Total Fatalities: 120,336;  Case Fatality Rate: 4.6%   
+- Total Fatalities: 120,853;  Case Fatality Rate: 4.5%   
 
-- New Fatalities: 575; Peak Fatalities: 2,739 [on 07-May-2020]   
+- New Fatalities: 701; Peak Fatalities: 2,740 [on 07-May-2020]   
 
 
 _FYI: This site treats positive tests to be an approximation for cases, and may use cases and positive tests interchangeably._
@@ -91,8 +91,10 @@ _FYI: This site treats positive tests to be an approximation for cases, and may 
 | --- | ---: | :---: | :---: | ---: | :---: | :---: | ---: | :---: | :---: | ---: |  
 | Mar | 198,950 | 23.1% | 1.24 | 1,094,988 | 18.2% | 3.3 | 4,200 | 1.3 | 2.1% | 2,382 |  
 | Apr | 875,352 | 5.8% | 1.01 | 5,224,664 | 16.8% | 15.7 | 53,925 | 16.3 | 6.2% | 11,605 |  
-| May | 720,422 | 1.7% | 1.00 | 10,711,306 | 6.7% | 32.3 | 40,915 | 12.3 | 5.7% | 9,718 |  
-| Jun | 826,350 | 1.3% | 1.03 | 15,173,354 | 5.4% | 45.7 | 21,280 | 6.4 | 2.6% | 5,937 |  
+| May | 720,422 | 1.7% | 1.00 | 10,711,306 | 6.7% | 32.3 | 40,640 | 12.2 | 5.6% | 9,718 |  
+| Jun | 826,350 | 1.3% | 1.03 | 15,173,354 | 5.4% | 45.7 | 21,371 | 6.4 | 2.6% | 5,937 |  
+| Jul | 52,982 | 2.0% | 1.19 | 621,114 | 8.5% | 1.9 | 701 | 0.2 | 1.3% | 5,494 |  
+
 
 
 _You can find column heading definitions in the [state level snapshot](#state-level-snapshot) section below._  
