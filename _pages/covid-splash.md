@@ -89,13 +89,13 @@ _FYI: This site treats positive tests to be an approximation for cases, and may 
 
 **Monthly Data**  
 
-| Month | New Cases | DGR<br>avg | GF<br>avg | Total Tests | T-Pos<br>avg | T per 1k | Deaths | Death<br>per 100k | CFR<br>avg | In ICU<br>dly avg |  
-| --- | ---: | :---: | :---: | ---: | :---: | :---: | ---: | :---: | :---: | ---: |  
-| Mar | 199,029 | 23.1% | 1.24 | 1,095,131 | 18.2% | 3.3 | 4,200 | 1.3 | 2.1% | 2,382 |  
-| Apr | 875,668 | 5.8% | 1.01 | 5,219,923 | 16.8% | 15.7 | 53,925 | 16.3 | 6.2% | 12,033 |  
-| May | 720,087 | 1.7% | 1.00 | 10,735,607 | 6.7% | 32.4 | 40,640 | 12.2 | 5.6% | 10,315 |  
-| Jun | 832,203 | 1.3% | 1.03 | 15,257,953 | 5.5% | 46.0 | 21,371 | 6.4 | 2.6% | 5,947 |  
-| Jul | 1,530,597 | 1.9% | 1.02 | 18,325,132 | 8.4% | 55.2 | 18,540 | 5.6 | 1.2% | 6,727 |  
+| Month | New Cases<br>per month | New Cases<br>dly avg | DGR<br>avg | GF<br>avg | Total Tests<br>per month | T-Pos<br>avg | Tests<br>per 1k | Deaths | Death<br>per 100k | CFR<br>avg | In ICU<br>dly avg |  
+| --- | ---: | ---: | :---: | :---: | ---: | :---: | :---: | ---: | :---: | :---: | ---: |  
+| Mar | 199,029 | 7,371 |23.1% | 1.24 | 1,095,131 | 18.2% | 3.3 | 4,200 | 1.3 | 2.1% | 2,382 |  
+| Apr | 875,668 | 29,189 |5.8% | 1.01 | 5,219,923 | 16.8% | 15.7 | 53,925 | 16.3 | 6.2% | 12,033 |  
+| May | 720,087 | 23,229 |1.7% | 1.00 | 10,735,607 | 6.7% | 32.4 | 40,640 | 12.2 | 5.6% | 10,315 |  
+| Jun | 832,203 | 27,740 |1.3% | 1.03 | 15,257,953 | 5.5% | 46.0 | 21,371 | 6.4 | 2.6% | 5,947 |  
+| Jul | 1,530,597 | 61,224 |1.9% | 1.02 | 18,325,132 | 8.4% | 55.2 | 18,540 | 5.6 | 1.2% | 6,727 |  
 
 
 _You can find column heading definitions in the [state level snapshot](#state-level-snapshot) section below._  
