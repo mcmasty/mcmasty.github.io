@@ -17,34 +17,34 @@ categories:
   - Post
 tags:
   - COVID-19
-last_modified_at:  2020-08-04 23:45:00 -0400   
+last_modified_at:  2020-08-05 23:45:00 -0400   
 
-new_death_slug:                     new_death_20200805_1596613603           
-leading_causes_slug:                leading_causes_20200805_1596613603      
-daily_update_slug:                  daily_update_20200805_1596613605        
-growth_factor_slug:                 growth_factor_20200805_1596613607       
-logistic_curve_slug:                logistic_curve_20200805_1596613608      
-recoveries_slug:                    recoveries_20200805_1596613609          
-high_level_testing_slug:            high_level_testing_20200805_1596613611  
-positive_test_proportion_slug:      positive_test_proportion_20200805_1596613615
-
-
-state_new_case_proportion_slug: state_new_case_proportion_20200805_1596613739
-state_trail_14d_case_proportion_slug: state_trail_14d_case_proportion_20200805_1596613740
-state_total_case_proportion_slug: state_total_case_proportion_20200805_1596613740
-state_new_tests_proportion_slug: state_new_tests_proportion_20200805_1596613740
-state_new_death_proportion_slug: state_new_death_proportion_20200805_1596613740
+new_death_slug:                     new_death_20200806_1596698098           
+leading_causes_slug:                leading_causes_20200806_1596698100      
+daily_update_slug:                  daily_update_20200806_1596698102        
+growth_factor_slug:                 growth_factor_20200806_1596698105       
+logistic_curve_slug:                logistic_curve_20200806_1596698108      
+recoveries_slug:                    recoveries_20200806_1596698109          
+high_level_testing_slug:            high_level_testing_20200806_1596698111  
+positive_test_proportion_slug:      positive_test_proportion_20200806_1596698117
 
 
-hot_zone_areas_slug: hot_zone_areas_20200805_1596614229  
-middle_areas_slug: middle_areas_20200805_1596614233  
-under_control_areas_slug: under_control_areas_20200805_1596614237  
+state_new_case_proportion_slug: state_new_case_proportion_20200806_1596698163
+state_trail_14d_case_proportion_slug: state_trail_14d_case_proportion_20200806_1596698164
+state_total_case_proportion_slug: state_total_case_proportion_20200806_1596698164
+state_new_tests_proportion_slug: state_new_tests_proportion_20200806_1596698164
+state_new_death_proportion_slug: state_new_death_proportion_20200806_1596698164
 
-dgr_mvg_avg: 1.2  
 
-testing_snippet: "USA - Case Fatality Rate: 3.1%, Test-Positivity: 8.1%, Test per 1k pop: 176"
+hot_zone_areas_slug: hot_zone_areas_20200806_1596698204  
+middle_areas_slug: middle_areas_20200806_1596698207  
+under_control_areas_slug: under_control_areas_20200806_1596698212  
 
-gfac_msg: "Aiming at a daily target below 1,000 new cases and given the recent 4d average Growth Factor (daily multiplier) of **0.99**, assuming this remains constant, it will take approximately **276.6 days** to get below 1,000 new cases daily. (For reference, a growth factor of 0.75 would reach the 1,000 new case threshold in 13.7 days).  "
+dgr_mvg_avg: 1.1  
+
+testing_snippet: "USA - Case Fatality Rate: 3.1%, Test-Positivity: 8.1%, Test per 1k pop: 178"
+
+gfac_msg: "Aiming at a daily target below 1,000 new cases and given the recent 4d average Growth Factor (daily multiplier) of **1.00**, assuming this remains constant, it will take approximately **1543.6 days** to get below 1,000 new cases daily. (For reference, a growth factor of 0.75 would reach the 1,000 new case threshold in 13.8 days).  "
 
 
 ---
@@ -59,25 +59,25 @@ gfac_msg: "Aiming at a daily target below 1,000 new cases and given the recent 4
 
 
 
-**Data as of: 04-August-2020[^1]**  
+**Data as of: 05-August-2020[^1]**  
 
 ## tl;dr[^11] summary  
 
 **Just The Data:**   
-United States for 04-August-2020[^1]:  
+United States for 05-August-2020[^1]:  
 
 
-- Total Positive Tests: 4,745,694; Total Tests: 58,239,438; Average Test-Positivity: 8.1%; National Tests per 1k. pop: 176  
+- Total Positive Tests: 4,797,959; Total Tests: 58,920,975; Average Test-Positivity: 8.1%; National Tests per 1k. pop: 178  
 
-- New Positive Tests: 51,568; Peak New Positive Tests: 77,233 [on 17-Jul-2020]; 7-Day Average New Cases: 59,182  
+- New Positive Tests: 52,265; Peak New Positive Tests: 77,233 [on 17-Jul-2020]; 7-Day Average New Cases: 57,082  
 
-- Daily Test Total: 695,586; Daily Test-Positivity: 7.4%   
+- Daily Test Total: 681,537; Daily Test-Positivity: 7.7%   
 
-- Daily Tests, Trailing 7-Day Avg.: 750,231;  Test-Positivity, Trailing 7-Day Avg.: 7.9%   
+- Daily Tests, Trailing 7-Day Avg.: 725,690;  Test-Positivity, Trailing 7-Day Avg.: 7.8%   
 
-- Total Fatalities: 148,829;  Case Fatality Rate: 3.1%   
+- Total Fatalities: 150,232;  Case Fatality Rate: 3.1%   
 
-- New Fatalities: 1,176; Peak Fatalities: 2,740 [on 07-May-2020]   
+- New Fatalities: 1,403; Peak Fatalities: 2,740 [on 07-May-2020]   
 
 
 _FYI: This site treats positive tests to be an approximation for cases, and may use cases and positive tests interchangeably._
@@ -97,7 +97,7 @@ _FYI: This site treats positive tests to be an approximation for cases, and may 
 | May | 720,087 | 23,229 |1.7% | 1.00 | 10,735,607 | 6.7% | 32.4 | 40,640 | 12.2 | 5.6% | 10,315 |  
 | Jun | 832,203 | 27,740 |1.3% | 1.03 | 15,257,953 | 5.5% | 46.0 | 21,371 | 6.4 | 2.6% | 5,947 |  
 | Jul | 1,907,863 | 61,544 |1.8% | 1.02 | 23,062,432 | 8.3% | 69.5 | 25,295 | 7.6 | 1.3% | 7,446 |  
-| Aug | 210,087 | 52,522 |1.1% | 0.94 | 2,866,455 | 7.3% | 8.6 | 3,382 | 1.0 | 1.6% | 10,316 |  
+| Aug | 262,352 | 52,470 |1.1% | 0.95 | 3,547,992 | 7.4% | 10.7 | 4,785 | 1.4 | 1.8% | 10,245 |  
 
 
 _You can find column heading definitions in the [state level snapshot](#state-level-snapshot) section below._  
@@ -240,6 +240,8 @@ Thought experiment on testing:  There are roughly 17,000,000 health care workers
 **How much testing is enough?**   
 One measure might be the proportion of positive tests as a share of total testing. We know that asymptomatic contagious individuals are making this outbreak particularly challenging to deal with. Any attempt to identify the asymptomatic carriers of the disease will require testing many healthy people, who are also asymptomatic. The impact of testing more asymptomatic people, would drive down the number of positive tests as more healthy people are tested.   
 
+There is some guidance that indicates a **3% test-positivity rate** is necessary to control the pandemic.[^13]
+
 The below graph shows the number of positive tests as a proportion of total testing.  
 ![Positive Test Proportion]({{ site.url }}{{ site.baseurl }}/assets/images/covid/{{ page.positive_test_proportion_slug }}.png){: .align-center}  
 
@@ -269,11 +271,11 @@ The below graph shows the number of positive tests as a proportion of total test
 Test positivity is measured with aggregate test data unless noted otherwise.
 
 {% capture testing-example %}
-Thought experiment on test-positivity: If we use 4% as a threshold for relaxing physical distancing, there are two levers we can pull to reach it; (1) decrease the number of new positive tests ( aka continue with physical distancing measures), (2) increase the number tests completed each day.
+Thought experiment on test-positivity: If we use 3% as a threshold for relaxing physical distancing, there are two levers we can pull to reach it; (1) decrease the number of new positive tests ( aka continue with physical distancing measures), (2) increase the number tests completed each day.
 
-Assuming a testing capacity around 800,000 test per day, 4% of that number is 32,000.  To reach 4% positive test proportion, we'd need to keep physical distancing guidelines in place until the number of new cases falls to 32,000 per day.  
+Assuming a testing capacity around 800,000 test per day, 3% of that number is 24,000.  To reach 3% positive test proportion, we'd need to keep physical distancing guidelines in place until the number of new cases falls to 24,000 per day.  
 
-Alternatively, using 65,000 as the average number of new cases, we'd need 1,625,000 total daily tests, with all additional tests to be negative, for the proportion of positive results to be 4%.  
+Alternatively, using 60,000 as the average number of new cases, we'd need 2,000,000 total daily tests, with all additional tests to be negative, for the proportion of positive results to be 3%.  
 
 Ideally we will make progress on both strategies.  
 {% endcapture %}  
@@ -379,13 +381,17 @@ the last 14 days or 35 new cases in the last 7 days.
 I think this assessment is lower order than peak coverage percentage. That is, peak cover percent is a better summary of
 the overall status and these arrows are just the recent trends.  
 
-- <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>, <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>: 5 States: HI, MA, PR, RI, VA
-- <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>, <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>: 2 States: MD, MI
-- <i class="fas fa-arrows-alt-h" aria-hidden="true" style="color: #ffbf00;"></i>, <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>: 4 States: AR, DC, NH, VI
-- <i class="fas fa-arrows-alt-h" aria-hidden="true" style="color: #ffbf00;"></i>, <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>: 4 States: AK, ME, OR, SD
-- <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>, <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>: 3 States: LA, ND, NV
-- <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>, <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>: 34 States: AL, AZ, CA, CO, CT, DE, FL, GA, IA, ID, IL, IN, KS, KY, MN, MO, MS, MT, NC, NE, NJ, NM, NY, OH, OK, PA, SC, TN, TX, UT, WA, WI, WV, WY
-- <i class="fa fa-chevron-left" aria-hidden="true" style="color: green;"></i>, <i class="fa fa-chevron-left" aria-hidden="true" style="color: green;"></i>: 4 States: AS, GU, MP, VT
+- <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>, <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>: 5 States: HI, KS, LA, RI, TX
+- <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>, <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>: 3 States: IL, MA, PR
+- <i class="fas fa-arrows-alt-h" aria-hidden="true" style="color: #ffbf00;"></i>, <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>: 3 States: ND, SD, VI
+- <i class="fas fa-arrows-alt-h" aria-hidden="true" style="color: #ffbf00;"></i>, <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>: 3 States: DC, ME, MI
+- <i class="fas fa-arrows-alt-h" aria-hidden="true" style="color: #ffbf00;"></i>, <i class="fa fa-chevron-left" aria-hidden="true" style="color: green;"></i>: 1 States: VT
+- <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>, <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>: 3 States: AR, DE, VA
+- <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>, <i class="fas fa-arrows-alt-h" aria-hidden="true" style="color: #ffbf00;"></i>: 2 States: CT, NH
+- <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>, <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>: 33 States: AK, AL, AZ, CA, CO, FL, GA, IA, ID, IN, KY, MD, MN, MO, MS, MT, NC, NE, NJ, NM, NV, NY, OH, OK, OR, PA, SC, TN, UT, WA, WI, WV, WY
+- <i class="fa fa-chevron-left" aria-hidden="true" style="color: green;"></i>, <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>: 1 States: GU
+- <i class="fa fa-chevron-left" aria-hidden="true" style="color: green;"></i>, <i class="fa fa-chevron-left" aria-hidden="true" style="color: green;"></i>: 2 States: AS, MP  
+
 
 
 ### Proximity to peak cases  
@@ -459,9 +465,9 @@ The states are sorted in decreasing order of peak cover.
 
 [^6]:  <cite> Dr. Tatiana Prowell, a guest on [Radiolab](https://www.wnycstudios.org/podcasts/radiolab){: target="_blank"}, [Dispatch 3: Shared Immunity episode](https://www.wnycstudios.org/podcasts/radiolab/articles/dispatch-3-shared-immunity){: target="_blank"}</cite>
 
-[^7]: <cite>Country Level testing summary from [Wordodmeter Country Page](https://www.worldometers.info/coronavirus/){: target="_blank"}
+[^7]: <cite>Country Level testing summary from [Wordodmeter Country Page](https://www.worldometers.info/coronavirus/){: target="_blank"}  </cite>
 
-[^8]: <cite>Mortality following infection, [The Lancet](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30195-X/fulltext){: target="_blank"}  
+[^8]: <cite>Mortality following infection, [The Lancet](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30195-X/fulltext){: target="_blank"}    </cite>
 
 [^9]: The logistic curve above is not a measurement, it is a model, and therefore it is an approximation. The goal is to provide some context of where we might be on the curve, based on the actual measurement and calculation of growth factor.   
 
@@ -469,4 +475,6 @@ The states are sorted in decreasing order of peak cover.
 
 [^11]: <cite>The tl;dr label is often used to point out excessive verbosity or to signify the presence of and location of a short summary in case the reader doesn't want to take the time to read the entire detail. [Wikipedia Entry](https://en.wikipedia.org/wiki/Wikipedia:Too_long;_didn%27t_read){: target="_blank"}  </cite>  
 
-[^12]: The Whitehouse published guidelines for reopening calls for a  "14-day downward trajectory" of declining metrics. Since "downward trajectory" is not precisely defined, this metric counts the number of consecutive days for each state that have a new case count less than the day before or less than or equal to 5. That is, for states with small case number (MT, HI, AK, VT, etc), the metric treats new cases equal to or less than a threshold of 5, the same as a day with declining case count.  This metric is counting consecutive days, which may be more rigorous than actual <cite>[Whitehouse / CDC Guidelines](https://www.whitehouse.gov/openingamerica/#criteria){: target="_blank"}) </cite> as single day of increasing metrics will reset the consecutive day count back to 0, and the Whitehouse only calls for a "downward trajectory".  
+[^12]: The Whitehouse published guidelines for reopening calls for a  "14-day downward trajectory" of declining metrics. Since "downward trajectory" is not precisely defined, this metric counts the number of consecutive days for each state that have a new case count less than the day before or less than or equal to 5. That is, for states with small case number (MT, HI, AK, VT, etc), the metric treats new cases equal to or less than a threshold of 5, the same as a day with declining case count.  This metric is counting consecutive days, which may be more rigorous than actual <cite>[Whitehouse / CDC Guidelines](https://www.whitehouse.gov/openingamerica/#criteria){: target="_blank"}) </cite> as single day of increasing metrics will reset the consecutive day count back to 0, and the Whitehouse only calls for a "downward trajectory".   
+
+[^13]: <cite> [Evidence Roundup: Why positive test rates need to fall below 3%](https://globalepidemics.org/2020/05/29/evidence-roundup-why-positive-test-rates-need-to-fall-below-3/){: target="_blank"}   </cite>
