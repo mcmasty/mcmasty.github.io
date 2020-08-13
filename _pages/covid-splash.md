@@ -17,16 +17,16 @@ categories:
   - Post
 tags:
   - COVID-19
-last_modified_at:  2020-08-09 23:45:00 -0400   
+last_modified_at:  2020-08-12 22:45:00 -0400   
 
-new_death_slug:                     new_death_20200811_1597130315           
-leading_causes_slug:                leading_causes_20200811_1597130318      
-daily_update_slug:                  daily_update_20200811_1597130320        
-growth_factor_slug:                 growth_factor_20200811_1597130324       
-logistic_curve_slug:                logistic_curve_20200811_1597130327      
-recoveries_slug:                    recoveries_20200811_1597130328          
-high_level_testing_slug:            high_level_testing_20200811_1597130332  
-positive_test_proportion_slug:      positive_test_proportion_20200811_1597130340
+new_death_slug:                     new_death_20200813_1597300301           
+leading_causes_slug:                leading_causes_20200813_1597300303      
+daily_update_slug:                  daily_update_20200813_1597300306        
+growth_factor_slug:                 growth_factor_20200813_1597300309       
+logistic_curve_slug:                logistic_curve_20200813_1597300313      
+recoveries_slug:                    recoveries_20200813_1597300314          
+high_level_testing_slug:            high_level_testing_20200813_1597300322  
+positive_test_proportion_slug:      positive_test_proportion_20200813_1597300331
 
 
 state_new_case_proportion_slug: state_new_case_proportion_20200811_1597130403
@@ -36,17 +36,16 @@ state_new_tests_proportion_slug: state_new_tests_proportion_20200811_1597130404
 state_new_death_proportion_slug: state_new_death_proportion_20200811_1597130404
 
 
-hot_zone_areas_slug: hot_zone_areas_20200811_1597130507  
-middle_areas_slug: middle_areas_20200811_1597130512  
-under_control_areas_slug: under_control_areas_20200811_1597130517  
+hot_zone_areas_slug: hot_zone_areas_20200813_1597300490  
+middle_areas_slug: middle_areas_20200813_1597300495  
+under_control_areas_slug: under_control_areas_20200813_1597300500  
 
 
-dgr_mvg_avg: 1.0  
+dgr_mvg_avg: 1.1    
 
-testing_snippet: "USA - Case Fatality Rate: 3.1%, Test-Positivity: 8.1%, Test per 1k pop: 188"
+testing_snippet: "USA - Case Fatality Rate: 3.1%, Test-Positivity: 8.1%, Test per 1k pop: 192"
 
-gfac_msg: "Aiming at a daily target below 1,000 new cases and given the recent 4d average Growth Factor (daily multiplier) of **0.91**, assuming this remains constant, it will take approximately **39.4 days** to get below 1,000 new cases daily. (For reference, a growth factor of 0.75 would reach the 1,000 new case threshold in 13.0 days).  "  
-
+gfac_msg: "Aiming at a daily target below 1,000 new cases and given the recent 4d average Growth Factor (daily multiplier) of **1.05**,  we will _never get below 1,000 new cases daily_. (For reference, a growth factor of 0.75 would reach the 1,000 new case threshold in 14.0 days).  "
 
 ---
 
@@ -60,25 +59,25 @@ gfac_msg: "Aiming at a daily target below 1,000 new cases and given the recent 4
 
 
 
-**Data as of: 10-August-2020[^1]**  
+**Data as of: 12-August-2020[^1]**  
 
 ## tl;dr[^11] summary  
 
 **Just The Data:**   
-United States for 10-August-2020[^1]:  
+United States for 12-August-2020[^1]:  
 
 
-- Total Positive Tests: 5,060,880; Total Tests: 62,513,174; Average Test-Positivity: 8.1%; National Tests per 1k. pop: 188  
+- Total Positive Tests: 5,172,216; Total Tests: 63,715,548; Average Test-Positivity: 8.1%; National Tests per 1k. pop: 192  
 
-- New Positive Tests: 41,807; Peak New Positive Tests: 77,233 [on 17-Jul-2020]; 7-Day Average New Cases: 52,393  
+- New Positive Tests: 55,742; Peak New Positive Tests: 77,233 [on 17-Jul-2020]; 7-Day Average New Cases: 53,465  
 
-- Daily Test Total: 716,229; Daily Test-Positivity: 5.8%   
+- Daily Test Total: 463,291; Daily Test-Positivity: 12.0%   
 
-- Daily Tests, Trailing 7-Day Avg.: 709,903;  Test-Positivity, Trailing 7-Day Avg.: 7.4%   
+- Daily Tests, Trailing 7-Day Avg.: 684,939;  Test-Positivity, Trailing 7-Day Avg.: 8.0%   
 
-- Total Fatalities: 154,947;  Case Fatality Rate: 3.1%   
+- Total Fatalities: 157,758;  Case Fatality Rate: 3.1%   
 
-- New Fatalities: 426; Peak Fatalities: 2,754 [on 07-May-2020]   
+- New Fatalities: 1,485; Peak Fatalities: 2,754 [on 07-May-2020]   
 
 
 _FYI: This site treats positive tests to be an approximation for cases, and may use cases and positive tests interchangeably._
@@ -98,7 +97,7 @@ _FYI: This site treats positive tests to be an approximation for cases, and may 
 | May | 720,087 | 23,229 |1.7% | 1.00 | 10,735,607 | 6.7% | 32.4 | 40,947 | 12.3 | 5.7% | 10,315 |  
 | Jun | 832,203 | 27,740 |1.3% | 1.03 | 15,257,953 | 5.5% | 46.0 | 19,570 | 5.9 | 2.4% | 5,947 |  
 | Jul | 1,907,863 | 61,544 |1.8% | 1.02 | 23,062,432 | 8.3% | 69.5 | 25,279 | 7.6 | 1.3% | 7,446 |  
-| Aug | 525,273 | 52,527 |1.1% | 0.96 | 7,140,191 | 7.4% | 21.5 | 9,522 | 2.9 | 1.8% | 9,904 |   
+| Aug | 636,609 | 53,051 |1.1% | 0.99 | 8,342,565 | 7.6% | 25.1 | 12,333 | 3.7 | 1.9% | 9,812 |  
 
 
 
@@ -383,15 +382,16 @@ the last 14 days or 35 new cases in the last 7 days.
 I think this assessment is lower order than peak coverage percentage. That is, peak cover percent is a better summary of
 the overall status and these arrows are just the recent trends.  
 
-- <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>, <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>: 7 States: AL, HI, IN, KS, MN, PR, SD
-- <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>, <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>: 4 States: AR, IL, ND, VA
-- <i class="fas fa-arrows-alt-h" aria-hidden="true" style="color: #ffbf00;"></i>, <i class="fas fa-arrows-alt-h" aria-hidden="true" style="color: #ffbf00;"></i>: 2 States: DC, ME
-- <i class="fas fa-arrows-alt-h" aria-hidden="true" style="color: #ffbf00;"></i>, <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>: 3 States: GU, NH, VI
-- <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>, <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>: 8 States: AK, CA, CO, CT, MD, MO, NM, WA
-- <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>, <i class="fas fa-arrows-alt-h" aria-hidden="true" style="color: #ffbf00;"></i>: 1 States: WV
-- <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>, <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>: 28 States: AZ, DE, FL, GA, IA, ID, KY, LA, MA, MI, MS, MT, NC, NE, NJ, NV, NY, OH, OK, OR, PA, RI, SC, TN, TX, UT, WI, WY
-- <i class="fa fa-chevron-left" aria-hidden="true" style="color: green;"></i>, <i class="fas fa-arrows-alt-h" aria-hidden="true" style="color: #ffbf00;"></i>: 1 States: VT
+
+- <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>, <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>: 6 States: CA, HI, KS, KY, PR, VI
+- <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>, <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>: 2 States: ND, SD
+- <i class="fas fa-arrows-alt-h" aria-hidden="true" style="color: #ffbf00;"></i>, <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>: 2 States: GU, NJ
+- <i class="fas fa-arrows-alt-h" aria-hidden="true" style="color: #ffbf00;"></i>, <i class="fas fa-arrows-alt-h" aria-hidden="true" style="color: #ffbf00;"></i>: 3 States: DC, ME, VT
+- <i class="fas fa-arrows-alt-h" aria-hidden="true" style="color: #ffbf00;"></i>, <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>: 3 States: ID, MT, NH
+- <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>, <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>: 5 States: AK, CT, MO, OH, PA
+- <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>, <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>: 33 States: AL, AR, AZ, CO, DE, FL, GA, IA, IL, IN, LA, MA, MD, MI, MN, MS, NC, NE, NM, NV, NY, OK, OR, RI, SC, TN, TX, UT, VA, WA, WI, WV, WY
 - <i class="fa fa-chevron-left" aria-hidden="true" style="color: green;"></i>, <i class="fa fa-chevron-left" aria-hidden="true" style="color: green;"></i>: 2 States: AS, MP  
+
 
 ### Proximity to peak cases  
 
