@@ -379,16 +379,16 @@ I think this assessment is lower order than peak coverage percentage. That is, p
 the overall status and these arrows are just the recent trends.  
 
 
-- <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>, <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>: 9 States: AL, CT, GU, IA, IN, KS, MN, NC, SD
-- <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>, <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>: 4 States: AR, IL, MA, ND
-- <i class="fas fa-arrows-alt-h" aria-hidden="true" style="color: #ffbf00;"></i>, <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>: 1 States: NH
-- <i class="fas fa-arrows-alt-h" aria-hidden="true" style="color: #ffbf00;"></i>, <i class="fas fa-arrows-alt-h" aria-hidden="true" style="color: #ffbf00;"></i>: 4 States: AK, HI, ME, VT
-- <i class="fas fa-arrows-alt-h" aria-hidden="true" style="color: #ffbf00;"></i>, <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>: 2 States: RI, WY
-- <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>, <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>: 9 States: CA, CO, DC, MD, MI, NM, OR, VA, WA
-- <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>, <i class="fas fa-arrows-alt-h" aria-hidden="true" style="color: #ffbf00;"></i>: 2 States: DE, PR
-- <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>, <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>: 23 States: AZ, FL, GA, ID, KY, LA, MO, MS, MT, NE, NJ, NV, NY, OH, OK, PA, SC, TN, TX, UT, VI, WI, WV
-- <i class="fa fa-chevron-left" aria-hidden="true" style="color: green;"></i>, <i class="fa fa-chevron-left" aria-hidden="true" style="color: green;"></i>: 2 States: AS, MP
-
+- <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>, <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>: 32 States: AK, AL, AR, CO, DE, GA, IA, IL, IN, MA, MD, MN, MO, MS, MT, NC, ND, NE, NH, NJ, NM, NY, OH, OK, PA, SC, SD, TN, UT, VA, WI, WV
+- <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>, <i class="fas fa-arrows-alt-h" aria-hidden="true" style="color: #ffbf00;"></i>: 1 States: GU
+- <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>, <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>: 3 States: KS, KY, MI
+- <i class="fas fa-arrows-alt-h" aria-hidden="true" style="color: #ffbf00;"></i>, <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>: 5 States: DC, ID, ME, OR, VI
+- <i class="fas fa-arrows-alt-h" aria-hidden="true" style="color: #ffbf00;"></i>, <i class="fas fa-arrows-alt-h" aria-hidden="true" style="color: #ffbf00;"></i>: 1 States: VT
+- <i class="fas fa-arrows-alt-h" aria-hidden="true" style="color: #ffbf00;"></i>, <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>: 2 States: CT, HI
+- <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>, <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>: 6 States: AZ, FL, NV, PR, TX, WA
+- <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>, <i class="fas fa-arrows-alt-h" aria-hidden="true" style="color: #ffbf00;"></i>: 1 States: WY
+- <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>, <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>: 3 States: CA, LA, RI
+- <i class="fa fa-chevron-left" aria-hidden="true" style="color: green;"></i>, <i class="fa fa-chevron-left" aria-hidden="true" style="color: green;"></i>: 2 States: AS, MP  
 
 ### Proximity to peak cases  
 
