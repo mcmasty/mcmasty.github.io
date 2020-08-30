@@ -17,32 +17,32 @@ categories:
   - Post
 tags:
   - COVID-19
-last_modified_at:  2020-08-24 23:45:00 -0400   
+last_modified_at:  2020-08-29 23:45:00 -0400   
 
-new_death_slug:                     new_death_20200825_1598340161           
-leading_causes_slug:                leading_causes_20200825_1598340162      
-daily_update_slug:                  daily_update_20200825_1598340164        
-growth_factor_slug:                 growth_factor_20200825_1598340166       
-logistic_curve_slug:                logistic_curve_20200825_1598340168      
-recoveries_slug:                    recoveries_20200825_1598340172          
-high_level_testing_slug:            high_level_testing_20200825_1598340173  
-positive_test_proportion_slug:      positive_test_proportion_20200825_1598340176
+new_death_slug:                     new_death_20200830_1598823720           
+leading_causes_slug:                leading_causes_20200830_1598823720      
+daily_update_slug:                  daily_update_20200830_1598823722        
+growth_factor_slug:                 growth_factor_20200830_1598823723       
+logistic_curve_slug:                logistic_curve_20200830_1598823728      
+recoveries_slug:                    recoveries_20200830_1598823729          
+high_level_testing_slug:            high_level_testing_20200830_1598823730  
+positive_test_proportion_slug:      positive_test_proportion_20200830_1598823733
 
-state_new_case_proportion_slug: state_new_case_proportion_20200825_1598340240
-state_trail_14d_case_proportion_slug: state_trail_14d_case_proportion_20200825_1598340240
-state_total_case_proportion_slug: state_total_case_proportion_20200825_1598340241
-state_new_tests_proportion_slug: state_new_tests_proportion_20200825_1598340241
-state_new_death_proportion_slug: state_new_death_proportion_20200825_1598340241
+state_new_case_proportion_slug: state_new_case_proportion_20200830_1598823828
+state_trail_14d_case_proportion_slug: state_trail_14d_case_proportion_20200830_1598823828
+state_total_case_proportion_slug: state_total_case_proportion_20200830_1598823828
+state_new_tests_proportion_slug: state_new_tests_proportion_20200830_1598823829
+state_new_death_proportion_slug: state_new_death_proportion_20200830_1598823829
 
-hot_zone_areas_slug: hot_zone_areas_20200825_1598340292  
-middle_areas_slug: middle_areas_20200825_1598340296  
-under_control_areas_slug: under_control_areas_20200825_1598340300  
+hot_zone_areas_slug: hot_zone_areas_20200830_1598824050  
+middle_areas_slug: middle_areas_20200830_1598824053  
+under_control_areas_slug: under_control_areas_20200830_1598824057  
 
-dgr_mvg_avg: 0.7      
+dgr_mvg_avg: 0.8      
 
-testing_snippet: "USA - Case Fatality Rate: 3.0%, Test-Positivity: 7.9%, Test per 1k pop: 218"
+testing_snippet: "USA - Case Fatality Rate: 2.9%, Test-Positivity: 7.8%, Test per 1k pop: 230"
 
-gfac_msg: "Aiming at a daily target below 1,000 new cases and given the recent 4d average Growth Factor (daily multiplier) of **0.93**, assuming this remains constant, it will take approximately **48.5 days** to get below 1,000 new cases daily. (For reference, a growth factor of 0.75 would reach the 1,000 new case threshold in 12.4 days).  "
+gfac_msg: "Aiming at a daily target below 1,000 new cases and given the recent 4d average Growth Factor (daily multiplier) of **1.01**,  we will _never get below 1,000 new cases daily_. (For reference, a growth factor of 0.75 would reach the 1,000 new case threshold in 13.2 days).  "
 
 ---
 
@@ -56,25 +56,25 @@ gfac_msg: "Aiming at a daily target below 1,000 new cases and given the recent 4
 
 
 
-**Data as of: 24-August-2020[^1]**  
+**Data as of: 29-August-2020[^1]**  
 
 ## tl;dr[^11] summary  
 
 **Just The Data:**   
-United States for 24-August-2020[^1]:  
+United States for 29-August-2020[^1]:  
 
 
-- Total Positive Tests: 5,713,124; Total Tests: 72,382,318; Average Test-Positivity: 7.9%; National Tests per 1k. pop: 218  
+- Total Positive Tests: 5,928,381; Total Tests: 76,325,567; Average Test-Positivity: 7.8%; National Tests per 1k. pop: 230  
 
-- New Positive Tests: 35,036; Peak New Positive Tests: 77,233 [on 17-Jul-2020]; 7-Day Average New Cases: 42,251  
+- New Positive Tests: 44,328; Peak New Positive Tests: 76,844 [on 17-Jul-2020]; 7-Day Average New Cases: 40,971  
 
-- Daily Test Total: 682,054; Daily Test-Positivity: 5.1%   
+- Daily Test Total: 760,818; Daily Test-Positivity: 5.8%   
 
-- Daily Tests, Trailing 7-Day Avg.: 680,171;  Test-Positivity, Trailing 7-Day Avg.: 6.2%   
+- Daily Tests, Trailing 7-Day Avg.: 697,498;  Test-Positivity, Trailing 7-Day Avg.: 5.9%   
 
-- Total Fatalities: 169,206;  Case Fatality Rate: 3.0%   
+- Total Fatalities: 174,768;  Case Fatality Rate: 2.9%   
 
-- New Fatalities: 343; Peak Fatalities: 2,754 [on 07-May-2020]   
+- New Fatalities: 1,014; Peak Fatalities: 2,752 [on 07-May-2020]   
 
 
 _FYI: This site treats positive tests to be an approximation for cases, and may use cases and positive tests interchangeably._
@@ -89,12 +89,12 @@ _FYI: This site treats positive tests to be an approximation for cases, and may 
 
 | Month | New Cases<br>per month | New Cases<br>dly avg | DGR<br>avg | GF<br>avg | Total Tests<br>per month | T-Pos<br>avg | Tests<br>per 1k | Deaths | Death<br>per 100k | CFR<br>avg | In ICU<br>dly avg |  
 | --- | ---: | ---: | :---: | :---: | ---: | :---: | :---: | ---: | :---: | :---: | ---: |  
-| Mar | 199,029 | 7,371 |23.1% | 1.24 | 1,095,131 | 18.2% | 3.3 | 4,298 | 1.3 | 2.2% | 2,382 |  
-| Apr | 875,668 | 29,189 |5.8% | 1.01 | 5,219,923 | 16.8% | 15.7 | 55,290 | 16.7 | 6.3% | 12,033 |  
-| May | 720,087 | 23,229 |1.7% | 1.00 | 10,735,607 | 6.7% | 32.4 | 40,944 | 12.3 | 5.7% | 10,315 |  
-| Jun | 832,203 | 27,740 |1.3% | 1.03 | 15,257,953 | 5.5% | 46.0 | 19,570 | 5.9 | 2.4% | 5,947 |  
-| Jul | 1,907,863 | 61,544 |1.8% | 1.02 | 23,062,432 | 8.3% | 69.5 | 25,282 | 7.6 | 1.3% | 7,446 |  
-| Aug | 1,177,517 | 49,063 |1.0% | 0.98 | 17,009,335 | 6.9% | 51.3 | 23,806 | 7.2 | 2.0% | 9,245 |  
+| Mar | 198,045 | 7,335 |28.2% | 1.27 | 1,098,136 | 18.0% | 3.3 | 4,298 | 1.3 | 2.2% | 2,382 |  
+| Apr | 876,460 | 29,215 |5.8% | 1.01 | 5,231,473 | 16.8% | 15.8 | 55,266 | 16.7 | 6.3% | 12,033 |  
+| May | 720,199 | 23,232 |1.7% | 1.00 | 10,767,068 | 6.7% | 32.4 | 40,921 | 12.3 | 5.7% | 10,315 |  
+| Jun | 836,970 | 27,899 |1.3% | 1.03 | 15,343,762 | 5.5% | 46.2 | 19,566 | 5.9 | 2.3% | 5,947 |  
+| Jul | 1,907,821 | 61,543 |1.8% | 1.02 | 23,053,516 | 8.3% | 69.5 | 25,283 | 7.6 | 1.3% | 7,446 |  
+| Aug | 1,388,627 | 47,884 |0.9% | 0.99 | 20,829,936 | 6.7% | 62.8 | 29,418 | 8.9 | 2.1% | 8,972 |  
 
 
 _You can find column heading definitions in the [state level snapshot](#state-level-snapshot) section below._  
@@ -388,7 +388,7 @@ the overall status and these arrows are just the recent trends.
 - <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>, <i class="fas fa-arrows-alt-h" aria-hidden="true" style="color: #ffbf00;"></i>: 2 States: DE, PR
 - <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>, <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>: 23 States: AZ, FL, GA, ID, KY, LA, MO, MS, MT, NE, NJ, NV, NY, OH, OK, PA, SC, TN, TX, UT, VI, WI, WV
 - <i class="fa fa-chevron-left" aria-hidden="true" style="color: green;"></i>, <i class="fa fa-chevron-left" aria-hidden="true" style="color: green;"></i>: 2 States: AS, MP
-    
+
 
 ### Proximity to peak cases  
 
