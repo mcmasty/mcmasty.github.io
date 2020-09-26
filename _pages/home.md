@@ -48,11 +48,21 @@ feature_row4:
     url: "/covid-page/"
 
     btn_label: "Read More"
-    btn_class: "btn--primary"
+    btn_class: "btn--primary"  
+feature_row3:
+  - image_path: https://cdn.filestackcontent.com/resize=w:500,h:334,fit:max/auto_image/compress/ib1qtaRqTuCK6LODDb9S
+    alt: "placeholder image 2"
+    title: "Coaching Beyond The Data"
+    excerpt: 'There are no silver bullets in coaching. I don’t believe there is a substitute for actually knowing your athletes...'
+    url: /2020/post/Coaching-Beyond-The-Data/
+    btn_label: "Read More"
+    btn_class: "btn--primary"    
 ---
 
 <!-- {% include feature_row id="intro" type="center" %} -->
 
 {% include feature_row %}
 
-{% include feature_row id="feature_row4" type="center" %}
+{% include feature_row id="feature_row4" type="left" %}  
+
+{% include feature_row id="feature_row3" type="right" %}   
