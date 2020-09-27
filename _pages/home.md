@@ -17,12 +17,20 @@ excerpt: 'Following my curiosity, learning along the way, hopefully creating use
 intro:
   - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
 feature_row:
+  - image_path:   "https://cdn.filestackcontent.com/resize=w:500,h:300,fit:crop/auto_image/compress/ib1qtaRqTuCK6LODDb9S"
+#    image_caption: "Photo by Fabian Blank on Unsplash"
+    alt: Compass
+    title: Coaching Beyond The Data  
+    excerpt: 'There are no silver bullets in coaching. I don’t believe there is a substitute for actually knowing your athletes...'
+    url: /2020/post/lending-club-part-one/
+    btn_label: "Read More"  
+    btn_class: "btn--primary"
   - image_path:   "https://cdn.filestackcontent.com/resize=w:500,h:300,fit:crop/auto_image/compress/3vLHQUvRxyMfKDpkJD8N"
 #    image_caption: "Photo by Fabian Blank on Unsplash"
     alt: Piggy Bank
     title: Investing in Peer-to-Peer Notes
     excerpt: "Analysis of my investment performance on Lending Club"
-    url: /2020/post/lending-club-part-one/
+    url: /2020/post/Coaching-Beyond-The-Data/
     btn_label: "Read More"  
     btn_class: "btn--primary"
   - image_path:  https://cdn.filestackcontent.com/resize=w:500,h:300,fit:crop/auto_image/compress/2lRnaBCVRRmnvYby4tsk
@@ -33,10 +41,7 @@ feature_row:
     url: "/projects/"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/2019-Chain-Ornaments_500x300_v2.png  
-    title: "DIY Christmas Ornaments"
-#    image_caption: ""    
-    excerpt: "Star ornaments from old bike chains."
+
 feature_row4:
   - image_path: https://cdn.filestackcontent.com/resize=h:300,fit:crop/auto_image/compress/zZHxJaBNT1ab9jSlVeXl
     alt: "COVID-19 Image"
@@ -50,19 +55,20 @@ feature_row4:
     btn_label: "Read More"
     btn_class: "btn--primary"  
 feature_row3:
-  - image_path: https://cdn.filestackcontent.com/resize=w:500,h:334,fit:max/auto_image/compress/ib1qtaRqTuCK6LODDb9S
-    alt: "placeholder image 2"
-    title: "Coaching Beyond The Data"
-    excerpt: 'There are no silver bullets in coaching. I don’t believe there is a substitute for actually knowing your athletes...'
-    url: /2020/post/Coaching-Beyond-The-Data/
-    btn_label: "Read More"
-    btn_class: "btn--primary"    
+  - image_path: /assets/images/2019-Chain-Ornaments_500x300_v2.png
+    alt: "Bike Chain"
+    title: "DIY Christmas Ornaments"
+    excerpt: 'I go through about one chain a year, a little project to recycle the chains.'
+    #url: /2020/post/Coaching-Beyond-The-Data/
+    # btn_label: "Read More"
+    #btn_class: "btn--primary"    
 ---
 
 <!-- {% include feature_row id="intro" type="center" %} -->
 
 {% include feature_row %}
 
-{% include feature_row id="feature_row3" type="left" %}   
 
-{% include feature_row id="feature_row4" type="right" %}  
+{% include feature_row id="feature_row4" type="left" %}  
+
+{% include feature_row id="feature_row3" type="right" %}   
