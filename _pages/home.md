@@ -21,8 +21,8 @@ feature_row:
 #    image_caption: "Photo by Fabian Blank on Unsplash"
     alt: Compass
     title: Coaching Beyond The Data  
-    excerpt: 'There are no silver bullets in coaching. I don’t believe there is a substitute for actually knowing your athletes...'
-    url: /2020/post/lending-club-part-one/
+    excerpt: 'Using story to counterbalance to the data and metric obsession in endurance sports'
+    url: /2020/post/Coaching-Beyond-The-Data/
     btn_label: "Read More"  
     btn_class: "btn--primary"
   - image_path:   "https://cdn.filestackcontent.com/resize=w:500,h:300,fit:crop/auto_image/compress/3vLHQUvRxyMfKDpkJD8N"
@@ -30,7 +30,7 @@ feature_row:
     alt: Piggy Bank
     title: Investing in Peer-to-Peer Notes
     excerpt: "Analysis of my investment performance on Lending Club"
-    url: /2020/post/Coaching-Beyond-The-Data/
+    url: /2020/post/lending-club-part-one/
     btn_label: "Read More"  
     btn_class: "btn--primary"
   - image_path:  https://cdn.filestackcontent.com/resize=w:500,h:300,fit:crop/auto_image/compress/2lRnaBCVRRmnvYby4tsk
