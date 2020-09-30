@@ -296,13 +296,13 @@ Generally a `*` means this metric is a moving-average.
 - `Pop.` is state population in millions  
 - `Cases` is the total number of cases measured by positive test results  
 - `New.C` New Cases. Lower is better.
-- `DGR*` Daily Growth Rate. This is 4-day, exponential moving average. Lower is better.
+- `DGR*` Daily Growth Rate. This is 7-day, exponential moving average. Lower is better.
 - `Tests per 1k` is number of tests per 1,000 in state's population. Higher is better.   
 - `T-Pos.` is the test-positivity percentage; ratio of positive tests to total tests.  Lower is better.     
 - `Fat.`  Total number of fatalities
 - `Fat./1M`  number of deaths per 1 million in population  
-- `CFR*`  Case Fatality Rate. Exponential moving average with a 4-day span.
-- `GF*` Growth Factor, 4-day span, exponentially weighted moving average. Todays value has more weight, than the measure of 4 days ago.  Lower is better.    
+- `CFR*`  Case Fatality Rate. Exponential moving average with a 7-day span.
+- `GF*` Growth Factor, 7-day span, exponentially weighted moving average. Todays value has more weight, than the measure of 4 days ago.  Lower is better.    
 \- `GF-14day`   Summation of GF-m.a. from last 14 days. The lower the better. Values below 14 indicate exponential has stopped.   
 - `Dbl.Days`  Given the current daily growth rate, how many days until cases double.  Higher is better.    
 - `CDD` Consecutive days of declining new cases or new cases at or below a threshold of 5.[^12]   A value greater than 14, might signal preparedness to reopen. This may be too rigorous, see notes[^12] for more detail.     
