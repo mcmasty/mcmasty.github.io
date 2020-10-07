@@ -30,3 +30,5 @@ I am not aware of a well-known term that signifies the non-workout elements outl
 
 
 ####  [Read full article on Medium](https://medium.com/@tylermcmaster/coaching-beyond-the-data-b2184aedabd2?sk=7c47e8d1154ed4cee737708e7b3fbd40)  
+
+{% include outcast_newsletter.html %}  
