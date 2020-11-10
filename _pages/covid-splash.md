@@ -17,7 +17,7 @@ categories:
   - Post
 tags:
   - COVID-19
-last_modified_at:  2020-11-09 22:45:00 -0500   
+last_modified_at:  2020-11-09 22:45:00 -0400   
 
 
 new_death_slug:                     new_death_20201110_1604978956           
