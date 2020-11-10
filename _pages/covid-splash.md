@@ -19,6 +19,7 @@ tags:
   - COVID-19
 last_modified_at:  2020-11-09 22:45:00 -0400   
 
+
 new_death_slug:                     new_death_20201110_1604978956           
 leading_causes_slug:                leading_causes_20201110_1604978958      
 daily_update_slug:                  daily_update_20201110_1604978960        
@@ -387,7 +388,7 @@ the overall status and these arrows are just the recent trends.
 - <i class="fas fa-arrows-alt-h" aria-hidden="true" style="color: #ffbf00;"></i>, <i class="fas fa-arrow-up" aria-hidden="true" style="color: red;"> </i>: 1 States: DC
 - <i class="fas fa-arrows-alt-h" aria-hidden="true" style="color: #ffbf00;"></i>, <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>: 1 States: KY
 - <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>, <i class="fas fa-arrow-down" aria-hidden="true" style="color: green;"></i>: 4 States: GA, LA, MT, NC
-- <i class="fa fa-chevron-left" aria-hidden="true" style="color: green;"></i>, <i class="fa fa-chevron-left" aria-hidden="true" style="color: green;"></i>: 3 States: AS, MP, VI 
+- <i class="fa fa-chevron-left" aria-hidden="true" style="color: green;"></i>, <i class="fa fa-chevron-left" aria-hidden="true" style="color: green;"></i>: 3 States: AS, MP, VI
 
 
 ### Proximity to peak cases  
