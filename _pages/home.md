@@ -49,7 +49,7 @@ feature_row4:
     excerpt: "Looking at the coronavirus data tracking websites left me with questions. This is my attempt to satisfy my own curiosity.   
     <br/><br/>
 
-    _The analysis page will be updated frequently._"
+    _Since reliable data is now freely available, updates are no longer being made._"
     url: "/covid-page/"
 
     btn_label: "Read More"
