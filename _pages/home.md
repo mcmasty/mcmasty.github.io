@@ -6,7 +6,7 @@ author_profile: false
 permalink: /
 date: 2016-03-23T11:48:41-04:00
 header:
-  overlay_image:  https://cdn.filestackcontent.com/resize=w:1280,h:380,fit:crop,align:bottom/auto_image/compress/FGoq5EQ0SzCk2KRx5OOr
+  overlay_image:  https://ik.imagekit.io/oi1opj8xo/tr:w-1280,h-380,fo-bottom/tlm13/kelly-sikkema-JRVxgAkzIsM-unsplash.jpg
   # kelly-sikkema-cXkrqY2wFyc-unsplash
   # kelly-sikkema-JRVxgAkzIsM-unsplash  
   overlay_color: "#5e616c"
@@ -17,7 +17,7 @@ excerpt: 'Following my curiosity, learning along the way, hopefully creating use
 intro:
   - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
 feature_row:
-  - image_path:   "https://cdn.filestackcontent.com/resize=w:500,h:300,fit:crop/auto_image/compress/ib1qtaRqTuCK6LODDb9S"
+  - image_path:   "https://ik.imagekit.io/oi1opj8xo/tr:w-500,h-300/tlm13/heidi-fin-M2Kxb80gqcc-unsplash.jpg"
 #    image_caption: "Photo by Fabian Blank on Unsplash"
     alt: Compass
     title: Coaching Beyond The Data  
@@ -25,7 +25,7 @@ feature_row:
     url: /2020/post/Coaching-Beyond-The-Data/
     btn_label: "Read More"  
     btn_class: "btn--primary"
-  - image_path:   "https://cdn.filestackcontent.com/resize=w:500,h:300,fit:crop/auto_image/compress/3vLHQUvRxyMfKDpkJD8N"
+  - image_path:   "https://ik.imagekit.io/oi1opj8xo/tr:w-500,h-300/tlm13/fabian-blank-pElSkGRA2NU-unsplash.jpg"
 #    image_caption: "Photo by Fabian Blank on Unsplash"
     alt: Piggy Bank
     title: Investing in Peer-to-Peer Notes
@@ -33,7 +33,7 @@ feature_row:
     url: /2020/post/lending-club-part-one/
     btn_label: "Read More"  
     btn_class: "btn--primary"
-  - image_path:  https://cdn.filestackcontent.com/resize=w:500,h:300,fit:crop/auto_image/compress/2lRnaBCVRRmnvYby4tsk
+  - image_path:  https://ik.imagekit.io/oi1opj8xo/tr:w-500,h-300/tlm13/hitesh-choudhary-D9Zow2REm8U-unsplash.jpg
 #    image_caption: Photo by Hitesh Choudhary on [Unsplash](https://unsplash.com/)"
     alt: Technical Projects
     title: "Data, Python, and other technical projects"
@@ -43,7 +43,7 @@ feature_row:
     btn_class: "btn--primary"
 
 feature_row4:
-  - image_path: https://cdn.filestackcontent.com/resize=h:300,fit:crop/auto_image/compress/zZHxJaBNT1ab9jSlVeXl
+  - image_path: https://ik.imagekit.io/oi1opj8xo/tr:h-300/tlm13/cdc-w9KEokhajKw-unsplash_2048.png
     alt: "COVID-19 Image"
     title: "Coronavirus Analysis"
     excerpt: "Looking at the coronavirus data tracking websites left me with questions. This is my attempt to satisfy my own curiosity.   

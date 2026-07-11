@@ -2,7 +2,7 @@
 title: Coaching Beyond The Data
 date: 2020-09-25 19:34:30 Z
 header:
-  overlay_image: "https://cdn.filestackcontent.com/crop=dim:[0,1040,4065,1200]/resize=w:1280,h:380,fit:max/auto_image/compress/ib1qtaRqTuCK6LODDb9S"   
+  overlay_image: "https://ik.imagekit.io/oi1opj8xo/tr:cm-extract,w-4065,h-1200,x-0,y-1040:w-1280,h-380,c-at_max/tlm13/heidi-fin-M2Kxb80gqcc-unsplash.jpg"   
   overlay_filter: 0.5
   caption: "Photo by Heidi Fin on Unsplash"  
 excerpt: Using story to counterbalance to the data and metric obsession.  

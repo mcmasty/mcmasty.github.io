@@ -2,10 +2,10 @@
 title: Lending Club Analysis
 date: 2020-03-02 19:34:30 Z
 header:
-  overlay_image: "https://cdn.filestackcontent.com/resize=w:1280,h:380,fit:crop/auto_image/compress/WWsYBBGRnaIYRjfhXk4T"
+  overlay_image: "https://ik.imagekit.io/oi1opj8xo/tr:w-1280,h-380/tlm13/mika-baumeister-Wpnoqo2plFA-unsplash.jpg"
   overlay_filter: 0.65
   caption: Photo by Mika Baumeister on Unsplash
-  teaser: https://cdn.filestackcontent.com/resize=w:600,h:400,fit:crop/auto_image/compress/WWsYBBGRnaIYRjfhXk4T
+  teaser: https://ik.imagekit.io/oi1opj8xo/tr:w-600,h-400/tlm13/mika-baumeister-Wpnoqo2plFA-unsplash.jpg
 categories:
 - Project
 tags:

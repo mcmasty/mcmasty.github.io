@@ -3,7 +3,7 @@ title: "  "
 permalink: /about/
 layout: single
 header:
-  image: "https://cdn.filestackcontent.com/resize=w:1280/crop=dim:[0,155,1280,380]/compress/pTQqXXWOQuWmvDyLMC0n"
+  image: "https://ik.imagekit.io/oi1opj8xo/tr:w-1280:cm-extract,w-1280,h-380,x-0,y-155/tlm13/kelly-sikkema-mdADGzyXCVE-unsplash.jpg"
   caption: Photo by Kelly Sikkema on Unsplash
 
 classes: wide

@@ -3,7 +3,7 @@ title: Lending Club Investing Performance, Part 1
 date: 2020-03-15 19:34:30 Z
 excerpt: This is the first in a series of posts analyzing my investing performance in peer-to-peer lending notes.
 header:
-  overlay_image: "https://cdn.filestackcontent.com/resize=w:1280,h:380,fit:crop/auto_image/compress/3vLHQUvRxyMfKDpkJD8N"   
+  overlay_image: "https://ik.imagekit.io/oi1opj8xo/tr:w-1280,h-380/tlm13/fabian-blank-pElSkGRA2NU-unsplash.jpg"   
   overlay_filter: 0.5
   caption: "Photo by Fabian Blank on Unsplash"  
 
