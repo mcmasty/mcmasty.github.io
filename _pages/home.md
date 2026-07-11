@@ -43,14 +43,11 @@ feature_row:
     btn_class: "btn--primary"
 
 feature_row4:
-  - image_path: https://ik.imagekit.io/oi1opj8xo/tr:h-300/tlm13/cdc-w9KEokhajKw-unsplash_2048.png
-    alt: "COVID-19 Image"
-    title: "Coronavirus Analysis"
-    excerpt: "Looking at the coronavirus data tracking websites left me with questions. This is my attempt to satisfy my own curiosity.   
-    <br/><br/>
-
-    _Since reliable data is now freely available, updates are no longer being made._"
-    url: "/covid-page/"
+  - image_path: https://ik.imagekit.io/oi1opj8xo/tr:w-600,h-400/tlm13/juan-rumimpunu-nLXOatvTaLo-unsplash.jpg
+    alt: "Pondering monkey"
+    title: "KnackSleuth"
+    excerpt: "Detective work for your Knack apps. A Python CLI and library that finds where objects, fields, and connections are used throughout your application — before you rename, refactor, or delete something you shouldn't."
+    url: "/2026/post/Meet-KnackSleuth/"
 
     btn_label: "Read More"
     btn_class: "btn--primary"  
